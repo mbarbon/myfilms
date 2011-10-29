@@ -90,10 +90,7 @@
     <property name="scala.library.jars"
               location="${scala.dir}/lib/scala-library.jar" />
 
-    <target name="-post-compile">
-        <taskdef name="proguard"
-                 classname="proguard.ant.ProGuardTask"
-                 classpath="${android.tools.dir}/proguard/lib/proguard.jar" />
+    <target name="-scala-compile">
         <taskdef resource="scala/tools/ant/antlib.xml"
                  classpathref="scala.jars" />
 
@@ -106,6 +103,12 @@
                 <path location="${out.classes.absolute.dir}" />
             </classpath>
         </scalac>
+    </target>
+
+    <target name="-post-compile" depends="-scala-compile">
+        <taskdef name="proguard"
+                 classname="proguard.ant.ProGuardTask"
+                 classpath="${android.tools.dir}/proguard/lib/proguard.jar" />
 
         <proguard>
             -injars ${out.classes.absolute.dir}:${scala.library.jars}(!META-INF/MANIFEST.MF,!library.properties)
@@ -131,4 +134,9 @@
             <fileset file="${out.absolute.dir}/classes.min.jar" />
         </dex>
     </target>
+
+    <target name="debug-compile"
+            depends="-set-debug-files, -set-debug-mode, -compile, -scala-compile" />
+    <target name="release-compile"
+            depends="-set-release-mode, -compile, -scala-compile" />
 </project>
