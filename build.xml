@@ -130,13 +130,5 @@
              buildType="${build.target}">
             <fileset file="${out.absolute.dir}/classes.min.jar" />
         </dex>
-<!--
-        <apply executable="${dx}" failonerror="true" parallel="true">
-            <arg value="- -dex" />
-            <arg value="- -output=${intermediate.dex.file}" />
-            <arg line="${verbose}" />
-            <fileset file="${out.absolute.dir}/classes.min.jar" />
-        </apply>
--->
     </target>
 </project>
