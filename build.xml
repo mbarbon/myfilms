@@ -101,6 +101,7 @@
             <classpath>
                 <path refid="scala.jars" />
                 <path location="${out.classes.absolute.dir}" />
+                <path refid="jar.libs.ref" />
             </classpath>
         </scalac>
     </target>
@@ -113,7 +114,7 @@
         <proguard>
             -injars ${out.classes.absolute.dir}:${scala.library.jars}(!META-INF/MANIFEST.MF,!library.properties)
             -outjars ${out.absolute.dir}/classes.min.jar
-            -libraryjars ${android.jar}
+            -libraryjars ${android.jar}:${jar.libs.absolute.dir}
             -dontnote
             -dontwarn
             -dontoptimize
