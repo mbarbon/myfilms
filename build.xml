@@ -111,7 +111,10 @@
                  classname="proguard.ant.ProGuardTask"
                  classpath="${android.tools.dir}/proguard/lib/proguard.jar" />
 
-        <proguard>
+        <xpath input="AndroidManifest.xml" expression="/manifest/@package"
+                output="manifest.package" />
+
+        <proguard configuration="proguard.cfg">
             -injars ${out.classes.absolute.dir}:${scala.library.jars}(!META-INF/MANIFEST.MF,!library.properties)
             -outjars ${out.absolute.dir}/classes.min.jar
             -libraryjars ${android.jar}:${jar.libs.absolute.dir}
@@ -119,7 +122,7 @@
             -dontwarn
             -dontoptimize
             -dontobfuscate
-            -keep public class * extends android.app.Activity
+            -keep public class ${manifest.package}.**
         </proguard>
     </target>
 
@@ -133,6 +136,7 @@
              previousBuildType="${build.last.target}"
              buildType="${build.target}">
             <fileset file="${out.absolute.dir}/classes.min.jar" />
+            <path refid="jar.libs.ref" />
         </dex>
     </target>
 
