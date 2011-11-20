@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MyFilms</string>
+
+    <!-- main activity menu -->
+    <string name="update_film_list">Update</string>
+
+    <!-- main activity notifications -->
+    <string name="update_film_list_success">Update complete</string>
+    <string name="update_film_list_failure">Update failed</string>
 </resources>
