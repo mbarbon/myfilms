@@ -1,0 +1,1503 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta name="description" content="Il sito sul campo del cinema con tutte le anteprime, le recensioni ed i trailers, il mercato home video in VHS e quello in continuo sviluppo del DVD, con un occhio anche alle pi&ugrave; interessanti proposte televisive.">
+<meta name="keywords" content="film, cinema, trailer, recensione, homevideo, home video, dvd, vhs, tv, televisione, ciak, provino, anteprime, box office">
+    <title>FilmUP - Scheda: Underworld</title>
+	 
+     
+	 
+	 
+    <!-- scripts filmup -->	 
+    <!-- chiudi scripts filmup -->
+	
+	
+	<!-- ### CSS GENERALE ### -->
+	<link rel="stylesheet" type="text/css" href="/includes/template/css/general.css" />
+	<link rel="stylesheet" type="text/css" href="/includes/template/css/telecomando.css" />
+	<link rel="stylesheet" type="text/css" href="/includes/template/css/contenuti.css" />
+	<link rel="stylesheet" type="text/css" href="/includes/template/css/vetrina.css" />
+	<!-- ### CSS CANALE ### -->
+	<link rel="stylesheet" type="text/css" href="/includes/template/css/www/contenuti-www.css" />
+	<link rel="stylesheet" type="text/css" href="/includes/template/css/filmup.css" />
+	
+</head>
+<body>
+
+
+
+<!-- START // background ADV -->
+<!-- END // background ADV -->
+
+<!-- HEADER LEO / START -->
+<link rel="stylesheet" href="/img3/_TEST_leo.css" type="text/css" media="screen" />
+<div id="Leonardo_Navigation">
+ <div id="Leonardo_Navigation-Wrapper">
+<a id="Leonardo_Navigation-Logo1" rel="nofollow" href="http://www.leonardo.it" title="Visita Leonardo.it"><h1>Leonardo.it</h1></a>
+<!-- <a id="Leonardo_Navigation-Logo2" href="http://filmup.leonardo.it/" title="Visita FilmUP.com"><h1>FilmUP.com</h1></a> -->
+
+<div style="display:block; float:right; width:60px; height:40px;"><a href="http://www.facebook.com/filmup" target="_blank" title="Seguici su Facebook"><img src="/img3/social_facebook.png" alt="" width="20" height="40" border="0"></a>&nbsp;&nbsp;<a href="http://twitter.com/filmup" target="_blank" title="Seguici su Twitter"><img src="/img3/social_twitter.png" alt="" width="20" height="40" border="0"></a></div>
+
+  <ul>
+   <li><A class="menu" href="http://filmup.leonardo.it/contatti/index.php"><font class="stilemenu">C</font>ontatti</A></li>
+   <li class="separa"><A class="menu" href="http://filmup.leonardo.it/e-list/"><font class="stilemenu">N</font>ewsletter</A></li>
+   <li>&nbsp;&nbsp;&nbsp;<a href="#" class="menu" style="text-decoration: none;">Seguici su:</a></li>
+  </ul>
+  
+ </div>
+</div>
+<!-- HEADER LEO / END -->
+
+<!-- START // click background -->
+<div id="background-adv"></div>
+<div id="container">
+<!-- END // click background -->
+
+
+	<link rel="stylesheet" type="text/css" href="/img3/menu_fup3.css" />
+	<!--[if IE]>
+        <link rel="stylesheet" href="/img3/menu_fup3_IE.css" type="text/css" />
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="/img3/newhp.css" />	
+    <script type="text/javascript" src="/img3/jquery.js"></script>
+	<script type="text/javascript" src="/img3/list_news.js"></script>	
+	<script type="text/javascript" src="/img3/scroll_news.js"></script>
+	<script type="text/javascript" src="/img3/rollover_ms.js"></script>
+	<script type="text/javascript" src="/img3/menu_fup3.js"></script>
+
+<!-- !!!!!!!! WIDESPOT / START !!!!!!!! -->
+<!-- !!!!!!!! WIDESPOT / END !!!!!!!! -->
+
+<br />
+
+<TABLE height="98" cellSpacing=0 cellPadding=0 width="980" align="center" border=0>
+<TR>
+<td width="252" height="98" align="left" valign="bottom"><a class="filmup" href="/"><img src="/img3/logo_filmup_com.png" width="209" height="90" alt="" border="0" /></a></td>
+<td width="728" valign="middle" align="right" style="padding-bottom: 4px;">
+
+<script language="JavaScript" type="text/javascript">
+if(typeof(v_randomnumber)=="undefined"){var v_randomnumber=Math.floor(Math.random()*10000000000)}
+if(typeof(v_tile)=="undefined"){var v_tile=1}else{v_tile++}
+document.write('<scr'+'ipt src="http://ad.it.doubleclick.net/adj/filmup/genr;dcopt=ist;tile='+v_tile+';sz=728x90;ord='+v_randomnumber+'?" type="text/javascript"><\/script>');
+</script>
+
+</td>
+</TR></TABLE>
+
+<TABLE cellSpacing=0 cellPadding=0 width="980" align="center" border=0>
+<TR>
+<td height="22" width="3" align="left" valign="top"><img src="/img3/scroll_news_sx.png" width="3" height="22" alt="" border="0" /></td>
+<td align="left" valign="middle" style="background-image: url(/img3/scroll_news_bg.png); background-repeat: repeat-x;" height="22" width="30">&nbsp;&nbsp;<b>NEWS:</b>&nbsp;</td>
+<td align="left" valign="middle" style="background-image: url(/img3/scroll_news_bg.png); background-repeat: repeat-x;" height="22" width="944">
+
+<script type="text/javascript">
+//new pausescroller(name_of_message_array, CSS_ID, CSS_classname, pause_in_miliseconds)
+new pausescroller(pausecontent2, "pscroller2", "someclass", 2000)
+</script>
+
+</td>
+<td height="22" width="3" align="right" valign="top"><img src="/img3/scroll_news_dx.png" width="3" height="22" alt="" border="0" /></td>
+</TR></TABLE>
+
+<TABLE cellSpacing=0 cellPadding=0 width="980" align="center" border=0>
+<TR>
+<td align="left" width="980">
+
+<div style="padding-bottom: 5px; padding-top: 4px;" id="mainmenu" onmouseover="menuOnIn()" onmouseout="menuOnOut()">
+
+<FORM METHOD=GET ACTION="/cgi-bin/search.cgi">
+	<input type="hidden" name="ps" value="10">
+	<input type="hidden" name="fmt" value="long">
+	<input type="hidden" name="sy" value="0">
+
+<ul id="tablist">
+<li>&nbsp;</li>
+<li><a  class="" href="/">HOME</a></li>
+<li><a  class="" href="/schede/" onMouseover="expandcontent('sc1', this)">FILM</a></li>
+<li><a  class="" href="/dvd/dvd_sett.htm" onMouseover="expandcontent('sc2', this)">HOMEVIDEO</a></li>
+<li><a  class="" href="/tv/" onMouseover="expandcontent('sc3', this)">TV</a></li>
+<li><a  class="" href="/personaggi/" onMouseover="expandcontent('sc4', this)">CELEBRITA'</a></li>
+<li><a  class="" href="/curiosita/" onMouseover="expandcontent('sc5', this)">NEWS</a></li>
+<li><a  class="" href="/speciale/anteprime/" onMouseover="expandcontent('sc6', this)">CRITICA</a></li>
+<li><a  class="" href="/posters/" onMouseover="expandcontent('sc7', this)">POSTER</a></li>
+<li><a  class="" href="#" onMouseover="expandcontent('sc8', this)">PHOTO</a></li>
+<li><a  class="" href="/trailers/index.htm" onMouseover="expandcontent('sc9', this)">VIDEO</a></li>
+<li><a  class="" href="/vinci-cinema/" onMouseover="expandcontent('sc10', this)">GIOCHI</a></li>
+<li><a  class="" href="/opinioni/" onMouseover="expandcontent('sc11', this)">COMMUNITY</a></li>
+
+<li>&nbsp;</li>
+
+<li class="menu_cerca">CERCA&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="q" size="40" style="width: 120px; font-size: 12px; border: 0px solid;" />&nbsp;<input type="image" src="/img3/search_go.png" align="top" width="19" height="16" hspace="0" vspace="0" border="0"></li>
+
+</ul>
+</form>
+
+<div id="tabcontentcontainer">
+
+<div id="sc1" style="margin-left: 5px;" class="tabcontent">
+<ul>
+<li><a href="/schede/" id="sc1-7">SCHEDE FILM</a></li>
+<li><a href="/cerca-cinema/" id="sc1-1">CERCA CINEMA</a></li>
+<li><a href="/cinema_ant.htm" id="sc1-2">PROSSIMAMENTE</a></li>
+<li><a href="/speciale/anteprime/" id="sc1-3">ANTEPRIME</a></li>
+<li><a href="/cinema_prime.htm" id="sc1-4">PRIME VISIONI</a></li>
+<li><a href="/speciale/anteprime/archivio.htm" id="sc1-5">RECENSIONI</a></li>
+<li><a href="/boxoffice/" id="sc1-6">BOX OFFICE</a></li>
+</ul>
+</div>
+
+<div id="sc2" style="margin-left: 50px;" class="tabcontent">
+<ul>
+<li><a href="/dvd/dvd_sett.htm" id="sc2-1">QUESTO MESE</a></li>
+<li><a href="/dvd/dvd_pross.htm" id="sc2-2">PROSSIMAMENTE</a></li>
+<!-- <li><a rel="nofollow" href="http://www.internetbookshop.it/dvd/fat/fatpge.asp?shop=851" id="sc2-3">CLASSIFICHE</a></li> -->
+<li><a target="_blank" rel="nofollow" href="http://www.internetbookshop.it/dvd/hme/hmepge.asp?shop=851" id="sc2-4">ACQUISTA</a></li>
+<!-- <li><a rel="nofollow" href="http://www.internetbookshop.it/dvd/spe/spepge.asp?shop=851" id="sc2-5">OFFERTE</a></li> -->
+<!-- <li><a rel="nofollow" href="http://www.internetbookshop.it/dvd/ser/serpge.asp?shop=851" id="sc2-6">RICERCA</a></li> -->
+</ul>
+</div>
+
+<div id="sc3" style="margin-left: 136px;" class="tabcontent">
+<ul>
+<li><a href="/tv/" id="sc13-1">GUIDA TV</a></li>
+<li><a href="/tv/film_oggi.php" id="sc13-2">I FILM DI OGGI</a></li>
+<li><a href="/tv/film_domani.php" id="sc13-3">I FILM DI DOMANI</a></li>
+</ul>
+</div>
+
+<div id="sc4" style="margin-left: 170px;" class="tabcontent">
+<ul>
+<li><a href="/personaggi/" id="sc4-1">PERSONAGGI</a></li>
+</ul>
+</div>
+
+
+<div id="sc5" style="margin-left: 250px;" class="tabcontent">
+<ul>
+<li><a href="/curiosita/" id="sc5-1">CURIOSITA'</a></li>
+<li><a href="/speciale/" id="sc5-2">SPECIALI</a></li>
+<li><a href="/speciale/" id="sc5-3">INTERVISTE</a></li>
+<li><a href="/news/press/" id="sc5-4">COMUNICATI STAMPA</a></li>
+<li><a href="/boxoffice/" id="sc5-5">BOX OFFICE</a></li>
+</ul>
+</div>
+
+<div id="sc6" style="margin-left: 300px;" class="tabcontent">
+<ul>
+<li><a href="/speciale/anteprime/" id="sc6-1">ANTEPRIME</a></li>
+<li><a href="/speciale/anteprime/archivio.htm" id="sc6-2">RECENSIONI</a></li>
+<li><a href="/opinioni/" id="sc6-3">OPINIONI DEGLI UTENTI</a></li>
+<li><a href="/soundtrack/" id="sc6-4">SOUNDTRACK</a></li>
+</ul>
+</div>
+
+<div id="sc7" style="margin-left: 360px;" class="tabcontent">
+<ul>
+<li><a href="/posters/" id="sc7-1">LE LOCANDINE DEI FILM</a></li>
+<li><a href="/posters/elenco.htm" id="sc7-2">ARCHIVIO</a></li>
+<li><a href="/posters/shop.htm" id="sc7-3">ACQUISTA</a></li>
+</ul>
+</div>
+
+<div id="sc8" style="margin-left: 420px;" class="tabcontent">
+<ul>
+<li><a href="/personaggi/" id="sc8-1">PERSONAGGI</a></li>
+</ul>
+</div>
+
+<div id="sc9" style="margin-left: 380px;" class="tabcontent">
+<ul>
+<li><a href="/trailers/index.htm" id="sc9-1">TRAILERS ADESSO AL CINEMA</a></li>
+<li><a href="/trailers/pross.htm" id="sc9-2">TRAILERS PROSSIMAMENTE</a></li>
+<li><a href="/trailers/elenco.htm" id="sc9-3">ARCHIVIO</a></li>
+</ul>
+</div>
+
+<div id="sc10" style="margin-left: 530px;" class="tabcontent">
+<ul>
+<li><a href="/vinci-cinema/" id="sc10-1">VINCI-CINEMA</a></li>
+</ul>
+</div>
+
+<div id="sc11" style="margin-left: 200px;" class="tabcontent">
+<ul>
+<li><a href="/community/" id="sc11-1">REGISTRATI</a></li>
+<li><a href="/forum/" id="sc11-2">FORUM</a></li>
+<li><a href="/e-list/" id="sc11-3">NEWSLETTER</a></li>
+<li><a href="/opinioni/" id="sc11-4">OPINIONI DEGLI UTENTI</a></li>
+<li><a href="/e-card/" id="sc11-5">E-CARDS</a></li>
+<li><a href="/sondaggi/" id="sc11-6">SONDAGGI</a></li>
+</ul>
+</div>
+
+
+</div>
+</div>
+</td>
+</TR></TABLE>
+
+<div style="padding-bottom: 5px; padding-top: 0px;" align="center"><script language="JavaScript" type="text/javascript">
+if(typeof(v_randomnumber)=="undefined"){var v_randomnumber=Math.floor(Math.random()*10000000000)}
+if(typeof(v_tile)=="undefined"){var v_tile=1}else{v_tile++}
+document.write('<scr'+'ipt src="http://ad.it.doubleclick.net/adj/filmup/genr;tile='+v_tile+';sz=980x30;ord='+v_randomnumber+'?" type="text/javascript"><\/script>');
+</script></div>
+
+<TABLE cellSpacing=0 cellPadding=0 width="980" align="center" border=0>
+<TR>
+<td width="670" align="left" valign="top">
+
+<!-- ### INIZIO ANNUNCI GOOGLE ### -->
+
+<style>
+.leogoo_by
+{
+	font-family:Verdana;
+	font-size:9px;
+	font-weight:bold;
+	color:#CA0003;
+	padding:5px 0px 0px 0px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:-moz-use-text-color;
+}
+
+.leogoo_title
+{
+	font-family:Verdana;
+	font-size:11px;
+	font-weight:bold;
+	color:#000000;
+	padding:0px 2px 0px 5px;
+}
+
+.leogoo_description
+{
+	font-family:Verdana;
+	font-size:10px;
+	color: #000000;
+	padding:0px 2px 0px 5px;
+	line-height:18px;
+}
+
+.leogoo_url
+{
+	font-family:Verdana;
+	font-size:10px;
+	font-style:italic;
+	color:#CA0003;
+	padding:0px 2px 0px 5px;
+}
+
+.leogoo_link:hover
+{
+	background-color:#FFFFFF;
+}
+</style>
+
+<script language="JavaScript">
+<!--
+	var google_adnum = typeof(google_adnum) == 'undefined' ? 0 : google_adnum;			
+  function google_ad_request_done(google_ads) {
+    var s = '';
+    var i;
+    if (google_ads.length == 0)
+      return;
+		if (google_ads[0].type == "text") {
+      s += '<div class="boxTitoloGOOGLE_TOP_fup3"></div><div class="boxContentGOOGLE_fup3"><div style="float: right; font-size: 8px; margin-top: 0px;"><a target="_blank" href="' + google_info.feedback_url + '"><img src="/img3/annunci-google.png" alt="Annunci Google" width="84" height="9" border="0"></a></div>';
+			for(i=0; i < google_ads.length; ++i) {
+				s += '<a class="leogoo_link" target="_blank" href="' + google_ads[i].url + '" ' +
+				'onmouseout="window.status=\'\'" ' +
+				'onmouseover="window.status=\'' +
+				google_ads[i].visible_url + '\';return true;" ' +
+				'style="text-decoration:none">' +
+				'<span class="leogoo_title">' +
+				google_ads[i].line1 + '<br></span></a>' +
+				//description
+				'<span class="leogoo_description">' +
+				google_ads[i].line2 + '&nbsp;' +
+				google_ads[i].line3 + '<br></span>' +
+				//url
+				'<a class="leogoo_link" target="_blank" href="' + google_ads[i].url + '" ' +
+				'onmouseout="window.status=\'\'" ' +
+				'onmouseover="window.status=\'' +
+				google_ads[i].visible_url + '\';return true;" ' +
+				'style="text-decoration:none"><span class="leogoo_url">' +
+				google_ads[i].visible_url + '</span></a><br>';
+			}
+			if (google_ads[0].bidtype == "CPC")
+			{
+				google_adnum = google_adnum + google_ads.length;
+			}
+			s += '</div><div class="boxCloseGOOGLE_TOP_fup3"></div>';
+		}
+    document.write(s);
+    return;
+  }
+  google_ad_client = 'ca-leonardo_js';
+  google_ad_channel = 'filmup';
+  google_ad_output = 'js';
+  google_max_num_ads = '1';
+  google_ad_type = 'text';
+  google_language = 'it';
+  google_encoding = 'utf8';
+  google_skip = google_adnum;
+// -->
+</script>
+<script language="JavaScript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+
+<!-- ### FINE ANNUNCI GOOGLE ### -->
+<div class="boxTitoloTMP_fup3"></div>
+<div class="boxContent_fup3">
+
+<!-- NEW HEADER / START -->
+<!-- NEW HEADER / START -->
+
+
+
+
+<!-- ### CONTENT ### filmup -->
+
+ <!-- PATH -->
+ <div id="path"><a href="/"><b>FilmUP.com</b></a></div>
+ <!-- PATH -->
+
+<!-- contenuto FilmUP.com start -->
+
+
+
+<table width=100% cellpadding=0 cellspacing=0 border=0>
+<tr valign=top>
+<td width="100%" align="LEFT" nowrap bgcolor="#D3D3D3"><img src="img/null.gif" width=1 height=1 border=0></td>
+</tr>
+</table>
+
+<img src="img/null.gif" width=1 height=10 border=0><br>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#E65A2B">
+<tr>
+<td width="100%">
+<table width=100% cellpadding=0 cellspacing=0 border=0>
+<tr>
+<td colspan="2" width="100%" height="2" align="LEFT" nowrap bgcolor="#000000"><img src="img/null.gif" width=1 height=2 border=0></td>
+</tr><tr>
+<td width="3" height="5" align="LEFT" nowrap bgcolor="#000000"><img src="img/null.gif" width=3 height=5 border=0></td>
+<td width="100%" nowrap bgcolor="#F9F2F7"><img src="img/null.gif" width=3 height=5 border=0></td>
+</tr>
+</table>
+</td>
+</tr><tr>
+<td width="100%" align="LEFT" valign="TOP" bgcolor="#F9F2F7">
+<table width=100% cellpadding=2 cellspacing=0 border=0>
+<tr>
+<td width="100%" valign="top" align="LEFT">
+
+<font face="arial, helvetica" size="3"><b>Underworld</b></font><br><br>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top" nowrap><font face="arial, helvetica" size="2">Titolo originale:&nbsp;</font></td>
+<td valign="top"><font face="arial, helvetica" size="2">Underworld</font></td>
+</tr><tr>
+<td valign="top" nowrap><font face="arial, helvetica" size="2">Nazione:&nbsp;</font></td>
+<td valign="top"><font face="arial, helvetica" size="2">Usa/Germania/GB/Ungheria/</font></td>
+</tr><tr>
+<td valign="top" nowrap><font face="arial, helvetica" size="2">Anno:&nbsp;</font></td>
+<td valign="top"><font face="arial, helvetica" size="2">2003</font></td>
+</tr><tr>
+<td valign="top" nowrap><font face="arial, helvetica" size="2">Genere:&nbsp;</font></td>
+<td valign="top"><font face="arial, helvetica" size="2">Fantastico</font></td>
+</tr><tr>
+<td valign="top" nowrap><font face="arial, helvetica" size="2">Durata:&nbsp;</font></td>
+<td valign="top"><font face="arial, helvetica" size="2">121'</font></td>
+</tr><tr>
+<td valign="top" nowrap><font face="arial, helvetica" size="2">Regia:&nbsp;</font></td>
+<td valign="top"><font face="arial, helvetica" size="2">Len Wiseman</font></td>
+</tr><tr>
+<td valign="top" nowrap><font face="arial, helvetica" size="2">Sito ufficiale:&nbsp;</font></td>
+<td valign="top"><font face="arial, helvetica" size="2"><a class="filmup" href="http://www.entertheunderworld.com/" target="link">www.entertheunderworld.com</a></td>
+</tr><tr>
+<td valign="top" nowrap><font face="arial, helvetica" size="2">Sito italiano:&nbsp;</font></td>
+<td valign="top"><font face="arial, helvetica" size="2"><a class="filmup" href="http://www.underworld.it/" target="link">www.underworld.it</a></td>
+</tr><tr>
+<td valign="top" colspan="2"><br></td>
+</tr><tr>
+<td valign="top" nowrap><font face="arial, helvetica" size="2">Cast:&nbsp;</font></td>
+<td valign="top"><font face="arial, helvetica" size="2"><a class="filmup" href="personaggi/katebeckinsale/index.htm" target="_blank">Kate Beckinsale</a>, Scott Speedman, Bill Nighy, Michael Sheen, Shane Brolly, <a class="filmup" href="personaggi/sophiamyles/index.htm" target="_blank">Sophia Myles</a></font></td>
+</tr>
+<tr>
+<td valign="top" nowrap><font face="arial, helvetica" size="2">Produzione:&nbsp;</font></td>
+<td valign="top"><font face="arial, helvetica" size="2">Gary Lucchesi, Tom Rosenberg, Richard S. Wright</font></td>
+</tr><tr>
+<td valign="top" nowrap><font face="arial, helvetica" size="2">Distribuzione:&nbsp;</font></td>
+<td valign="top"><font face="arial, helvetica" size="2"><a class="filmup" href="distribuzione/index.htm" target="_blank">Columbia Tristar</a></font></td>
+</tr><tr>
+<td valign="top" nowrap><font face="arial, helvetica" size="2">Data di uscita:&nbsp;</font></td>
+<td valign="top"><font face="arial, helvetica" size="2">30 Gennaio 2004 (cinema)</font></td>
+</tr>
+</table>
+<br>
+<font face="arial, helvetica" size="2">Trama:<br>In un'atmosfera gotica di una metropoli sospesa nel tempo, l'amore impossibile di una bella vampira (Kate Beckinsale) e di un umano (Scott Speedman), fa da contorno all'eterna lotta che contrappone da secoli due razze diverse: i vampiri e i licantropi.</font><br>
+
+
+<br><font face="arial, helvetica" size="2">Film correlati: <br />
+<ul>
+<li><a class="filmup" href="/sc_underworld2.htm" target="_blank">Underworld: Evolution</a><br>
+<li><a class="filmup" href="/sc_underworldriseofthelycans.htm" target="_blank">Underworld: la ribellione dei Lycans</a><br>
+</ul>
+
+<br>
+<img src="img/logo_50.gif" width=50 height=16 border=0 alt="FilmUP"><br>
+<table width=100% cellpadding=0 cellspacing=0 border=0>
+<tr valign=top>
+<td width="100%" align="LEFT" nowrap bgcolor="#D3D3D3"><img src="img/null.gif" width=1 height=1 border=0></td>
+</tr>
+</table>
+<font face="arial, helvetica" size="2"><a class="filmup" href="/trailers/underworld.shtml">Trailer</a>, <b>Scheda</b>, <a class="filmup" href="/underworld.htm">Recensione</a>, <a class="filmup" href="/opinioni/op.php?uid=2450">Opinioni</a>, <a class="filmup" href="/soundtrack/sc/underworld.htm">Soundtrack</a>, Speciale.</font><br><br>
+
+
+</td>
+<td width="178" align="CENTER" valign="TOP" nowrap background="img/fondo_ph.gif"><img src="img/null.gif" width=178 height=5 border=0><br>
+<font face="tahoma, arial, helvetica" size="1" color="#ffffff"><b>La locandina</b></font><br>
+<img src="img/null.gif" width=178 height=5 border=0><br>
+<img src="locand/underworld.jpg" width="150" height="222" border="1" alt=""><br>
+<img src="img/null.gif" width=172 height=2 border=0><br>
+
+<table width=150 cellpadding=0 cellspacing=0 border=0 align="center">
+<form method="POST" action="/cgi-bin/e-card/hamcards.cgi" target="_blank">
+<tr valign="top">
+<td align="left"><a class="filmup" href="posters/locp/underworld.htm" target="_blank"><img src="img/loc_zoom.gif" width="52" height="18" border="0" alt="Ingrandisci"></a></td>
+<td align="right"><input type="hidden" name="Do" value="passvar">
+<input type="hidden" name="NextPage" value="step2.html">
+<input type="Hidden" name="Picture" value="/locand/underworld.jpg">
+<input type="Image" src="img/loc_ecard.gif" alt="Invia come cartolina" width="92" height="18" name="Submit" border=0></td>
+</tr>
+</form>
+</table>
+
+<!-- start / net-movie -->
+<!-- end / net-movie -->
+
+
+<!-- shop start -->
+<img src="/img/null.gif" width=1 height=5 border=0><br>
+<table width=150 cellpadding=0 cellspacing=0 border=0 align="center"><tr valign="top">
+<td align="center"><a class="filmup" href="http://www.internetbookshop.it/video/ser/serdsp.asp?shop=851&e=8013123752321" target="_blank"><img src="/img/ibs/acq_vhs.gif" width="75" height="34" border="0" alt="ACQUISTA IN VHS"></a></td>
+<td align="center"><a class="filmup" href="http://www.internetbookshop.it/dvd/ser/serdsp.asp?shop=851&e=8013123794208" target="_blank"><img src="/img/ibs/acq_dvd.gif" width="75" height="34" border="0" alt="ACQUISTA IN DVD"></a></td>
+</tr></table>
+<!-- shop end -->
+
+
+<font face="tahoma, arial, helvetica" size="1" color="#ffff00"><b>Extended cut</b></font>
+<!-- shop start -->
+<img src="/img/null.gif" width=1 height=5 border=0><br>
+<table width=150 cellpadding=0 cellspacing=0 border=0 align="center"><tr valign="top">
+<td align="center"><img src="/img/null.gif" width="75" height="34" border="0" alt="ACQUISTA IN VHS"></td>
+<td align="center"><a class="filmup" href="http://www.internetbookshop.it/dvd/ser/serdsp.asp?shop=851&e=8013123005472" target="_blank"><img src="/img/ibs/acq_dvd.gif" width="75" height="34" border="0" alt="ACQUISTA IN DVD"></a></td>
+</tr></table>
+<!-- shop end -->
+
+</td>
+</tr>
+</table>
+  
+</td>
+</tr><tr>
+<td width="100%">
+<table width=100% cellpadding=0 cellspacing=0 border=0>
+<tr>
+<td colspan="2" width="100%" height="2" align="LEFT" nowrap bgcolor="#F9F2F7"><img src="img/null.gif" width=1 height=2 border=0></td>
+</tr><tr>
+<td width="100%" nowrap bgcolor="#F9F2F7"><img src="img/null.gif" width=3 height=5 border=0></td>
+<td width="3" height="5" align="LEFT" nowrap bgcolor="#000000"><img src="img/null.gif" width=3 height=5 border=0></td>
+</tr><tr>
+<td colspan="2" width="100%" height="2" align="LEFT" nowrap bgcolor="#000000"><img src="img/null.gif" width=1 height=2 border=0></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+
+<!-- contenuto FilmUP.com end -->
+<!-- ### FINE ### CONTENT ### filmup -->
+
+
+<br>
+</div>
+<div class="boxClose_fup3"></div>
+
+<style type="text/css"> <!-- #htmltagcloud{ font-family:verdana,arial,helvetica,sans-serif; word-spacing:normal; letter-spacing:normal; text-decoration:none; text-transform:none; text-align:justify; text-indent:0ex; padding:0,5em}#htmltagcloud a:link{text-decoration:none}#htmltagcloud a:visited{text-decoration:none}#htmltagcloud a:hover{text-decoration:underline;background-color:#f3f0ea}#htmltagcloud a:active{text-decoration:none;background-color:#f3f0ea}span.tagcloud0{font-size:1.0em;padding:0em;color:#9B5051;z-index:10;position:relative}span.tagcloud0 a{text-decoration:none; color:#A5383A}span.tagcloud1{font-size:1.2em;padding:0em;color:#A5383A;z-index:9;position:relative}span.tagcloud1 a{text-decoration:none;color:#A5383A}span.tagcloud2{font-size:1.3em;padding:0em;color:#BD2F31;z-index:8;position:relative}span.tagcloud2 a{text-decoration:none;color:#BD2F31}span.tagcloud3{font-size:1.4em;padding:0em;color:#CE181B;z-index:7;position:relative}span.tagcloud3 a{text-decoration:none;color:#CE181B}span.tagcloud4{font-size:1.5em;padding:0em;color:#E60E11;z-index:6;position:relative}span.tagcloud4 a{text-decoration:none;color:#E60E11}span.tagcloud5{font-size:1.6em;padding:0em;color:#D30F12;z-index:5;position:relative}span.tagcloud5 a{text-decoration:none;color:#D30F12}span.tagcloud6{font-size:1.7em;padding:0em;color:#C00205;z-index:4;position:relative}span.tagcloud6 a{text-decoration:none;color:#C00205}span.tagcloud7{font-size:1.8em;padding:0em;color:#B60B0D;z-index:3;position:relative}span.tagcloud7 a{text-decoration:none;color:#B60B0D}span.tagcloud8{font-size:1.9em;padding:0em;color:#A30E10;z-index:2;position:relative}span.tagcloud8 a{text-decoration:none;color:#A30E10}span.tagcloud9{font-size:2.0em;padding:0em;color:#92070A;z-index:1;position:relative}span.tagcloud9 a{text-decoration:none;color:#92070A}span.tagcloud10{font-size:2.1em;padding:0em;color:#92070A;z-index:0;position:relative}span.tagcloud10 a{text-decoration:none;color:#7B0305}span.freq{font-size:10pt !important;color:#bbb}#credit{text-align:center; font-size:0.7em; color:#333; margin-bottom:0.6em; font-family:'lucida grande',trebuchet,'trebuchet ms',verdana,arial,helvetica,sans-serif;}#credit a:link{color:#777; text-decoration:none;}#credit a:visited{color:#777; text-decoration:none;}#credit a:hover{text-decoration:none; color:white; background-color:#05f;}#credit a:active{text-decoration:underline;}// --> </style> <div class=boxTitolo_fup3>I FILM OGGI IN PROGRAMMAZIONE:</div><div class=boxContent_fup3><table border=0 cellspacing=0 cellpadding=0 class=layoutTableOLD><tr><td class=layoutTD100><div id="htmltagcloud">
+
+<span class="tagcloud0"><a href="/sc_lalbadelpianetadellescimmie.htm">L'alba del pianeta delle scimmie</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_cars2.htm">Cars 2</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_baciatodallafortuna.htm">Baciato dalla fortuna</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_cosedellaltromondo.htm">Cose dell'altro mondo</a></span>&nbsp;|
+<span class="tagcloud1"><a href="/sc_melancholia_2011.htm">Melancholia (2011)</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_ipuffi.htm">I Puffi (NO 3D)</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_lamicodifamiglia.htm">L'amico di famiglia</a></span>&nbsp;|
+<span class="tagcloud1"><a href="/sc_thearrietty.htm">Arrietty - Il mondo segreto sotto il pavimento</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_restless.htm">L'amore che resta</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_ruggine.htm">Ruggine</a></span>&nbsp;|
+<span class="tagcloud2"><a href="/sc_quandolanotte.htm">Quando la notte</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_kungfupandathekaboomofdoom.htm">Kung Fu Panda 2</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_xmenfirstclass.htm">X-Men: L'Inizio</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_ilmattinohaloroinbocca.htm">Il mattino ha l'oro in bocca</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_leregoledellatruffa.htm">Le regole della truffa</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_ilgiuramentodiippocrate.htm">La vita facile</a></span>&nbsp;|
+<span class="tagcloud8"><a href="/sc_leavventureditintinilsegretodellunicorno.htm">Le avventure di Tintin: il segreto dell'unicorno</a></span>&nbsp;|
+<span class="tagcloud1"><a href="/sc_paranormalactivity3.htm">Paranormal Activity 3</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_anatalemisposo.htm">A Natale mi sposo</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_oneday.htm">One Day</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_hop.htm">Hop</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_theadjustmentbureau.htm">I guardiani del destino</a></span>&nbsp;|
+<span class="tagcloud2"><a href="/sc_magamartina2viaggioinindia.htm">Maga Martina 2 - Viaggio in India</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_tuttiperuno.htm">Tutti per uno (2011)</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_mrpopperspenguins.htm">I pinguini di Mr. Popper</a></span>&nbsp;|
+<span class="tagcloud4"><a href="/sc_larrycrowne.htm">L'amore all'improvviso - Larry Crowne</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_cowboysandaliens.htm">Cowboys e Aliens</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_jodaeiyenaderazsimin.htm">Una separazione - Nader and Simin: A Separation</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_kadosh.htm">Kadosh</a></span>&nbsp;|
+<span class="tagcloud3"><a href="/sc_warrior.htm">Warrior</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_machebellagiornata.htm">Che bella giornata</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_terraferma.htm">Terraferma</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_melancholia.htm">Melancholia</a></span>&nbsp;|
+<span class="tagcloud3"><a href="/sc_barsport.htm">Bar Sport</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_johnnyenglishlarinascita.htm">Johnny English la rinascita (NO 3D)</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_super8_2011.htm">Super 8</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_lillusionista.htm">L'illusionista</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_tremoschettieriin3d.htm">I tre moschettieri in 3D (NO 3D)</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_lanternaverde.htm">Lanterna Verde</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_palombellarossa.htm">Palombella rossa</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_ilvillaggiodicartone.htm">Il villaggio di cartone</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_solopervendetta.htm">Solo per vendetta</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_ilmiodomani.htm">Il mio domani</a></span>&nbsp;|
+<span class="tagcloud1"><a href="/sc_tremoschettieriin3d.htm">I tre moschettieri in 3D</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_tomboy.htm">Tomboy</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_janeeyre.htm">Jane Eyre</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_drive.htm">Drive</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_gakenouenoponyo.htm">Ponyo sulla scogliera</a></span>&nbsp;|
+<span class="tagcloud4"><a href="/sc_thismustbetheplace.htm">This Must Be the Place</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_seseicositidicodisi.htm">Se sei cosi', ti dico di si'</a></span>&nbsp;|
+<span class="tagcloud1"><a href="/sc_pina3d.htm">Pina 3D</a></span>&nbsp;|
+<span class="tagcloud4"><a href="/sc_insidious.htm">Insidious</a></span>&nbsp;|
+<span class="tagcloud2"><a href="/sc_ipuffi.htm">I Puffi</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_macomefaafartutto.htm">Ma come fa a far tutto?</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_abduction.htm">Abduction - Riprenditi la tua vita</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_faust.htm">Faust</a></span>&nbsp;|
+<span class="tagcloud3"><a href="/sc_lakryptonitenellaborsa.htm">La kryptonite nella borsa</a></span>&nbsp;|
+<span class="tagcloud1"><a href="/sc_adangerousmethod.htm">A dangerous method</a></span>&nbsp;|
+<span class="tagcloud7"><a href="/sc_johnnyenglishlarinascita.htm">Johnny English la rinascita</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_lapielquehabito.htm">La pelle che abito</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_winniethephooh.htm">Winnie the Pooh - Nuove avventure nel Bosco dei 100 Acri</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_ledonnedel6piano.htm">Le donne del 6° piano</a></span>&nbsp;|
+<span class="tagcloud10"><a href="/sc_lapeggioresettimanadellamiavita.htm">La peggior settimana della mia vita</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_finaldestination5.htm">Final Destination 5</a></span>&nbsp;|
+<span class="tagcloud1"><a href="/sc_leavventureditintinilsegretodellunicorno.htm">Le avventure di Tintin: il segreto dell'unicorno (NO 3D)</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_carnage.htm">Carnage</a></span>&nbsp;|
+<span class="tagcloud1"><a href="/sc_examicicomeprima.htm">Ex: amici come prima</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_crazystupidlove.htm">Crazy, Stupid, Love</a></span>&nbsp;|
+<span class="tagcloud4"><a href="/sc_thetomorrowseries.htm">The Tomorrow Series: il domani che verrà</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_nientedadichiarare.htm">Niente da dichiarare</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_unpoliziottodahappyhour.htm">Un poliziotto da happy hour</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_harrypotter8.htm">Harry Potter e i doni della morte: Parte II</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_whatsyournumber.htm">Sex list</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_harrypotter7.htm">Harry Potter e i doni della morte: Parte I</a></span>&nbsp;|
+<span class="tagcloud5"><a href="/sc_matrimonioaparigi.htm">Matrimonio a Parigi</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_isolitiignoti.htm">I Soliti Ignoti</a></span>&nbsp;|
+<span class="tagcloud9"><a href="/sc_isolitiidioti.htm">I soliti idioti</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_buongiornonotte.htm">Buongiorno, notte</a></span>&nbsp;|
+<span class="tagcloud1"><a href="/sc_amicidilettoistruzioniperluso.htm">Amici di letto</a></span>&nbsp;|
+<span class="tagcloud0"><a href="/sc_rango.htm">Rango</a></span>&nbsp;|
+</div></td></tr></table></div><div class=boxClose_fup3></div>
+<!-- ### INIZIO ANNUNCI GOOGLE 2 ### -->
+
+<style>
+.leogoo_by
+{
+	font-family:Verdana;
+	font-size:9px;
+	font-weight:bold;
+	color:#CA0003;
+	padding:5px 0px 0px 0px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:-moz-use-text-color;
+}
+
+.leogoo_title
+{
+	font-family:Verdana;
+	font-size:11px;
+	font-weight:bold;
+	color:#000000;
+	padding:0px 2px 0px 5px;
+}
+
+.leogoo_description
+{
+	font-family:Verdana;
+	font-size:10px;
+	color: #000000;
+	padding:0px 2px 0px 5px;
+	line-height:18px;
+}
+
+.leogoo_url
+{
+	font-family:Verdana;
+	font-size:10px;
+	font-style:italic;
+	color:#CA0003;
+	padding:0px 2px 0px 5px;
+}
+
+.leogoo_link:hover
+{
+	background-color:#FFFFFF;
+}
+</style>
+
+<script language="JavaScript">
+<!--
+	var google_adnum = typeof(google_adnum) == 'undefined' ? 0 : google_adnum;			
+  function google_ad_request_done(google_ads) {
+    var s = '';
+    var i;
+    if (google_ads.length == 0)
+      return;
+		if (google_ads[0].type == "text") {
+      s += '<div class="boxTitoloGOOGLE_fup3"></div><div class="boxContentGOOGLE_fup3"><div style="float: right; font-size: 8px; margin-top: 0px;"><a target="_blank" href="' + google_info.feedback_url + '"><img src="/img3/annunci-google.png" alt="Annunci Google" width="84" height="9" border="0"></a></div>';
+			for(i=0; i < google_ads.length; ++i) {
+				s += '<a class="leogoo_link" target="_blank" href="' + google_ads[i].url + '" ' +
+				'onmouseout="window.status=\'\'" ' +
+				'onmouseover="window.status=\'' +
+				google_ads[i].visible_url + '\';return true;" ' +
+				'style="text-decoration:none">' +
+				'<span class="leogoo_title">' +
+				google_ads[i].line1 + '<br></span></a>' +
+				//description
+				'<span class="leogoo_description">' +
+				google_ads[i].line2 + '&nbsp;' +
+				google_ads[i].line3 + '<br></span>' +
+				//url
+				'<a class="leogoo_link" target="_blank" href="' + google_ads[i].url + '" ' +
+				'onmouseout="window.status=\'\'" ' +
+				'onmouseover="window.status=\'' +
+				google_ads[i].visible_url + '\';return true;" ' +
+				'style="text-decoration:none"><span class="leogoo_url">' +
+				google_ads[i].visible_url + '</span></a><br><img src=/img/null.gif width=1 height=10><br>';
+			}
+			if (google_ads[0].bidtype == "CPC")
+			{
+				google_adnum = google_adnum + google_ads.length;
+			}
+			s += '</div><div class="boxClose_fup3"></div>';
+		}
+    document.write(s);
+    return;
+  }
+  google_ad_client = 'ca-leonardo_js';
+  google_ad_channel = 'filmup';
+  google_ad_output = 'js';
+  google_max_num_ads = '4';
+  google_ad_type = 'text';
+  google_language = 'it';
+  google_encoding = 'utf8';
+  google_skip = google_adnum;
+// -->
+</script>
+<script language="JavaScript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+
+<!-- ### FINE ANNUNCI GOOGLE 2 ### -->
+<!-- start ultime curiosit -->
+
+<div class="boxTitolo_fup3">In evidenza - Dal mondo del Cinema e della Televisione.</div><div class="boxContent_fup3">
+
+<table border="0" cellspacing="0" cellpadding="0" class="layoutTableOLD">
+
+  <tr>
+
+      <td class="layoutTD50">
+
+	 <a class="filmup" href="/curiosita/20111105a.shtml"><img src="/curiosita/img/m2_20111105a.jpg" border="0" alt="" width="50" height="56" class="left" /></a>    <a class="filmup" href="/curiosita/20111105a.shtml"><div class="titoloSmall">Festival di Roma: vince Un cuento chino, italia a bocca asciutta.</div></a>    <div class="testoSmall">Dopo un lunghissimo red carpet che ha visto protagonista indiscusso un divo del cinema del calibro di Richard Gere, che ha ricevuto il Marc'Aurelio alla carriera, è iniziata la cerimonia di premiazione della sesta edizione del Festival internazionale </b></b><a class="filmup" href="/curiosita/20111105a.shtml"><span class="continua">[..]</span></a></div>	
+
+	
+
+	</td>
+
+	 <td class="layoutTD50">
+
+<a class="filmup" href="/tv"><img src="/photo/tv/m2_independenceday.jpg" border="0" alt="" width="50" height="56" class="left" /></a>
+    <a class="filmup" href="/tv"><div class="titoloSmall">In TV: "Independence Day"</div></a>
+    <div class="testoSmall">Oggi in TV, l'America sarà attaccata dagli alieni il quattro di luglio, giorno dell'indipendenza. Toccherà al Capitano Steven Hiller portare gli americani verso la salvezza  <a class="filmup" href="/tv"><spanclass="continua">[..]</span></a></div>
+
+<div class="testoSmall"><b>Links:</b> <b><a class="filmup" href="/cgi-bin/tv/pf.cgi?DATE_FROM_FormF=oggi&DATE_TO_FormF=oggi&KIND006_FormF=Film&TIME_CHK_FormF=02&ALL_TIME_FormF=Yes&TIME_ZONES_FormF=04&CERCA=CERCA">I film di oggi in TV</a></div>
+	</td>
+
+  </tr>
+
+</table>
+
+</div><div class="boxClose_fup3"></div>
+
+<!-- end ultime curiosit -->
+
+
+<br>
+
+</td>
+<td width="10" align="left" valign="bottom"><img src="/img/null.gif" width="10" height="1" alt="" /></td>
+<td width="300" valign="top">
+
+<div align="center"><script language="JavaScript" type="text/javascript">
+if(typeof(v_randomnumber)=="undefined"){var v_randomnumber=Math.floor(Math.random()*10000000000)}
+if(typeof(v_tile)=="undefined"){var v_tile=1}else{v_tile++}
+document.write('<scr'+'ipt src="http://ad.it.doubleclick.net/adj/filmup/genr;tile='+v_tile+';sz=300x250,300x600;ord='+v_randomnumber+'?" type="text/javascript"><\/script>');
+</script></div><br>
+
+<div align="center">
+<table width="300" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="112" align="left"><a class="filmup" href="/speciale/roma2011/"><img src="/adv/112x90/romabanner_112x90.jpg" width="112" height="90" alt="Speciale Roma 2011" border="0"></a></td>
+<td width="188" align="right"><script language="JavaScript" type="text/javascript">
+if(typeof(v_randomnumber)=="undefined"){var v_randomnumber=Math.floor(Math.random()*10000000000)}
+if(typeof(v_tile)=="undefined"){var v_tile=1}else{v_tile++}
+document.write('<scr'+'ipt src="http://ad.it.doubleclick.net/adj/filmup/genr;tile='+v_tile+';sz=178x90;ord='+v_randomnumber+'?" type="text/javascript"><\/script>');
+</script></td>
+</tr>
+</table>
+</div>
+
+<!-- SOCIAL NETWORK / START -->
+<!-- SOCIAL NETWORK / END -->
+
+<!-- CERCACINEMA / START -->
+
+
+<div class="box300Titolo_fup3">Cerca CINEMA</div><div class="box300Content_fup3">
+<FORM METHOD="GET" ACTION="http://filmup.leonardo.it/cerca-cinema/index.php" NAME="MainForm">
+<input type="hidden" name="conf" value="1">
+<input type="hidden" name="data" value="oggi">
+<table class=layoutTableOLD border="0" cellspacing="0" cellpadding="2">
+<tr align="left">
+
+<td width="100"><div class="testoSmall">Film:</div></td>
+<td width="100" colspan="2"><select name="titolo" size="1" style="background: #FFFFFF; font-family: Arial, Helvetica, sans-serif; border: 1px; font-size: 11px; width: 170px; height: 20px; margin: 0px 0px 0px 0px;">
+		<option value="-1" >tutti i film</option>
+		<option value="7923" >A dangerous method</option>
+<option value="7660" >A Natale mi sposo</option>
+<option value="8147" >Abduction - Riprenditi la tua vita</option>
+<option value="8142" >Amici di letto</option>
+<option value="3766" >Anna</option>
+<option value="8143" >Arrietty - Il mondo segreto sotto il pavimento</option>
+<option value="8135" >Baciato dalla fortuna</option>
+<option value="8155" >Bar Sport</option>
+<option value="3362" >Belli e dannati</option>
+<option value="2307" >Buongiorno, notte</option>
+<option value="7932" >Carnage</option>
+<option value="7854" >Cars 2</option>
+<option value="7693" >Che bella giornata</option>
+<option value="6569" >Chiuso per manutenzione</option>
+<option value="2475" >Chiusura Invernale</option>
+<option value="2891" >Cineforum</option>
+<option value="7431" >Cirkus Columbia</option>
+<option value="7809" >Come l'acqua per gli elefanti</option>
+<option value="3139" >Conferenza</option>
+<option value="7831" >Corpo celeste</option>
+<option value="7911" >Cose dell'altro mondo</option>
+<option value="8151" >Cowboys e Aliens</option>
+<option value="8125" >Crazy, Stupid, Love</option>
+<option value="8137" >Drive</option>
+<option value="8145" >Ex: amici come prima</option>
+<option value="7934" >Faust</option>
+<option value="7904" >Final Destination 5</option>
+<option value="1058" >Gli amanti del Pont-Neuf</option>
+<option value="7633" >Harry Potter e i doni della morte: Parte I</option>
+<option value="7865" >Harry Potter e i doni della morte: Parte II</option>
+<option value="7751" >Holy Water</option>
+<option value="7767" >Hop</option>
+<option value="7848" >I guardiani del destino</option>
+<option value="7898" >I pinguini di Mr. Popper</option>
+<option value="8124" >I Puffi</option>
+<option value="8169" >I Puffi (NO 3D)</option>
+<option value="7523" >I ragazzi stanno bene - The Kids Are All Right</option>
+<option value="8176" >I soliti idioti</option>
+<option value="1968" >I Soliti Ignoti</option>
+<option value="8140" >I tre moschettieri in 3D</option>
+<option value="8168" >I tre moschettieri in 3D (NO 3D)</option>
+<option value="8126" >Il Debito</option>
+<option value="7740" >Il gioiellino</option>
+<option value="3750" >Il mattino ha l'oro in bocca</option>
+<option value="8174" >Il mio domani</option>
+<option value="8042" >Il villaggio di cartone</option>
+<option value="8163" >Insidious</option>
+<option value="8111" >Io sono Li</option>
+<option value="8146" >Jane Eyre</option>
+<option value="8164" >Johnny English la rinascita</option>
+<option value="8188" >Johnny English la rinascita (NO 3D)</option>
+<option value="7783" >Ju tarramutu</option>
+<option value="884" >Kadosh</option>
+<option value="7893" >Kung Fu Panda 2</option>
+<option value="2040" >L' inquilino del terzo piano</option>
+<option value="8128" >L'alba del pianeta delle scimmie</option>
+<option value="1190" >L'amico di famiglia</option>
+<option value="8166" >L'amore all'improvviso - Larry Crowne</option>
+<option value="8150" >L'amore che resta</option>
+<option value="7634" >L'illusionista</option>
+<option value="681" >L'uomo senza passato</option>
+<option value="7766" >La fine e' il mio inizio</option>
+<option value="8189" >La kryptonite nella borsa</option>
+<option value="8167" >La peggior settimana della mia vita</option>
+<option value="8134" >La pelle che abito</option>
+<option value="7743" >La vita facile</option>
+<option value="7912" >Lanterna Verde</option>
+<option value="8162" >Le avventure di Tintin: il segreto dell'unicorno</option>
+<option value="8186" >Le avventure di Tintin: il segreto dell'unicorno (NO 3D)</option>
+<option value="7843" >Le donne del 6° piano</option>
+<option value="7908" >Le regole della truffa</option>
+<option value="8181" >Lezioni di cioccolato 2</option>
+<option value="8129" >Ma come fa a far tutto?</option>
+<option value="3723" >Madame Butterfly</option>
+<option value="8156" >Maga Martina 2 - Viaggio in India</option>
+<option value="8157" >Matrimonio a Parigi</option>
+<option value="4758" >Melancholia</option>
+<option value="8144" >Melancholia (2011)</option>
+<option value="8088" >Missione di pace</option>
+<option value="320" >Morte a Venezia</option>
+<option value="8131" >Niente da dichiarare</option>
+<option value="8184" >One Day</option>
+<option value="578" >Palombella rossa</option>
+<option value="8158" >Paranormal Activity 3</option>
+<option value="8064" >Piazza Garibaldi</option>
+<option value="8173" >Pina 3D</option>
+<option value="7770" >Poetry</option>
+<option value="6300" >Ponyo sulla scogliera</option>
+<option value="1173" >Programmazione Non Pervenuta</option>
+<option value="683" >Prossima Apertura</option>
+<option value="7921" >Quando la notte</option>
+<option value="7724" >Rango</option>
+<option value="91" >Rassegna Cinematografica</option>
+<option value="536" >Rassegna di Cortometraggi</option>
+<option value="5685" >Repulsion</option>
+<option value="1" >Riposo</option>
+<option value="7913" >Ruggine</option>
+<option value="66" >Sala Riservata</option>
+<option value="7794" >Se sei cosi', ti dico di si'</option>
+<option value="8175" >Sex list</option>
+<option value="7914" >Solo per vendetta</option>
+<option value="260" >Spettacolo Musicale</option>
+<option value="1137" >Spettacolo per Bambini</option>
+<option value="73" >Spettacolo Teatrale</option>
+<option value="2553" >Stagione Lirica</option>
+<option value="8121" >Super 8</option>
+<option value="7687" >Tamara Drewe - Tradimenti all'inglese</option>
+<option value="7922" >Terraferma</option>
+<option value="5770" >The Commitments</option>
+<option value="7742" >The Fighter</option>
+<option value="7815" >The Housemaid</option>
+<option value="7598" >The Social Network</option>
+<option value="8177" >The Tomorrow Series: il domani che verrà</option>
+<option value="7825" >The Tree of Life</option>
+<option value="7829" >This Must Be the Place</option>
+<option value="8132" >Tomboy</option>
+<option value="7840" >Tutti per uno (2011)</option>
+<option value="7732" >Un gelido inverno</option>
+<option value="8160" >Un poliziotto da happy hour</option>
+<option value="2653" >Un Re a New York</option>
+<option value="8159" >Una separazione - Nader and Simin: A Separation</option>
+<option value="8172" >Warrior</option>
+<option value="7799" >Winnie the Pooh - Nuove avventure nel Bosco dei 100 Acri</option>
+<option value="7845" >X-Men: L'Inizio</option>
+</select></td></tr><tr>
+
+
+<td width="100"><div class="testoSmall">Città:</div></td>
+<td width="100" align="right"><select name="citta" size="1" style="background: #FFFFFF; font-family: Arial, Helvetica, sans-serif; border: 1px; font-size: 11px; width: 100px; height: 20px; margin: 0px 0px 0px 0px;">
+		
+		
+		<option value="-1" >scegli la citta'</option>
+		<option value="22543" >AGRIGENTO</option>
+<option value="20703" >ALESSANDRIA</option>
+<option value="20320" >ANCONA</option>
+<option value="21914" >ANDRIA</option>
+<option value="23653" >AOSTA</option>
+<option value="23273" >AREZZO</option>
+<option value="20374" >ASCOLI PICENO</option>
+<option value="20895" >ASTI</option>
+<option value="17057" >AVELLINO</option>
+<option value="21915" >BARI</option>
+<option value="21916" >BARLETTA</option>
+<option value="23730" >BELLUNO</option>
+<option value="17176" >BENEVENTO</option>
+<option value="18797" >BERGAMO</option>
+<option value="21014" >BIELLA</option>
+<option value="17606" >BOLOGNA</option>
+<option value="22940" >BOLZANO</option>
+<option value="19045" >BRESCIA</option>
+<option value="21958" >BRINDISI</option>
+<option value="22175" >CAGLIARI</option>
+<option value="22589" >CALTANISSETTA</option>
+<option value="20570" >CAMPOBASSO</option>
+<option value="22178" >CARBONIA</option>
+<option value="23440" >CARRARA</option>
+<option value="17269" >CASERTA</option>
+<option value="22622" >CATANIA</option>
+<option value="16808" >CATANZARO</option>
+<option value="17665" >CESENA</option>
+<option value="16333" >CHIETI</option>
+<option value="19275" >COMO</option>
+<option value="16685" >COSENZA</option>
+<option value="19421" >CREMONA</option>
+<option value="16885" >CROTONE</option>
+<option value="21171" >CUNEO</option>
+<option value="22674" >ENNA</option>
+<option value="20386" >FERMO</option>
+<option value="17698" >FERRARA</option>
+<option value="23325" >FIRENZE</option>
+<option value="22001" >FOGGIA</option>
+<option value="17669" >FORLI'</option>
+<option value="18198" >FROSINONE</option>
+<option value="18562" >GENOVA</option>
+<option value="17948" >GORIZIA</option>
+<option value="23365" >GROSSETO</option>
+<option value="22201" >IGLESIAS</option>
+<option value="18635" >IMPERIA</option>
+<option value="20671" >ISERNIA</option>
+<option value="16253" >L'AQUILA</option>
+<option value="18686" >LA SPEZIA</option>
+<option value="22312" >LANUSEI</option>
+<option value="18262" >LATINA</option>
+<option value="22077" >LECCE</option>
+<option value="19542" >LECCO</option>
+<option value="23391" >LIVORNO</option>
+<option value="19621" >LODI</option>
+<option value="23419" >LUCCA</option>
+<option value="20463" >MACERATA</option>
+<option value="19869" >MANTOVA</option>
+<option value="23447" >MASSA</option>
+<option value="16523" >MATERA</option>
+<option value="22734" >MESSINA</option>
+<option value="19758" >MILANO</option>
+<option value="17739" >MODENA</option>
+<option value="19760" >MONZA</option>
+<option value="17401" >NAPOLI</option>
+<option value="21401" >NOVARA</option>
+<option value="22327" >NUORO</option>
+<option value="22505" >OLBIA</option>
+<option value="22414" >ORISTANO</option>
+<option value="23853" >PADOVA</option>
+<option value="22847" >PALERMO</option>
+<option value="17838" >PARMA</option>
+<option value="20019" >PAVIA</option>
+<option value="23597" >PERUGIA</option>
+<option value="20541" >PESARO</option>
+<option value="16444" >PESCARA</option>
+<option value="17795" >PIACENZA</option>
+<option value="23480" >PISA</option>
+<option value="23515" >PISTOIA</option>
+<option value="17998" >PORDENONE</option>
+<option value="16604" >POTENZA</option>
+<option value="23498" >PRATO</option>
+<option value="22884" >RAGUSA</option>
+<option value="17872" >RAVENNA</option>
+<option value="16965" >REGGIO CALABRIA</option>
+<option value="17908" >REGGIO EMILIA</option>
+<option value="18343" >RIETI</option>
+<option value="17935" >RIMINI</option>
+<option value="18453" >ROMA</option>
+<option value="23939" >ROVIGO</option>
+<option value="17559" >SALERNO</option>
+<option value="22232" >SANLURI</option>
+<option value="22523" >SASSARI</option>
+<option value="18759" >SAVONA</option>
+<option value="23554" >SIENA</option>
+<option value="22906" >SIRACUSA</option>
+<option value="20160" >SONDRIO</option>
+<option value="22165" >TARANTO</option>
+<option value="22531" >TEMPIO PAUSANIA</option>
+<option value="16504" >TERAMO</option>
+<option value="23650" >TERNI</option>
+<option value="21703" >TORINO</option>
+<option value="22369" >TORTOLI'</option>
+<option value="21954" >TRANI</option>
+<option value="22930" >TRAPANI</option>
+<option value="23250" >TRENTO</option>
+<option value="24035" >TREVISO</option>
+<option value="18023" >TRIESTE</option>
+<option value="18153" >UDINE</option>
+<option value="20564" >URBINO</option>
+<option value="20311" >VARESE</option>
+<option value="24086" >VENEZIA</option>
+<option value="21818" >VERBANIA</option>
+<option value="21906" >VERCELLI</option>
+<option value="24299" >VERONA</option>
+<option value="17046" >VIBO VALENTIA</option>
+<option value="24202" >VICENZA</option>
+<option value="22265" >VILLACIDRO</option>
+<option value="18536" >VITERBO</option>
+
+</select></td>
+	<td width="100">&nbsp;</td>
+</tr><tr align="left" valign=center>
+<td><div class="testoSmall">Provincia:</div></td>
+<td align="right"><select name="provincia" size="1" style="background: #FFFFFF; font-family: Arial, Helvetica, sans-serif; border: 1px; font-size: 11px; width: 100px; height: 20px; margin: 0px 0px 0px 0px; border-color: Gray;">
+		<option value="1" selected >includi</option>
+		<option value="-1"  >escludi</option>
+</select></td>
+	<td align="center"><input type="image" align="middle" name="CERCACINEMA" value="CERCACINEMA" width="50" height="18" src="/fup/tmp/vai_bottone.gif"></td>
+</tr>
+</table>
+</FORM>
+
+<div align="right"><a href="/cerca-cinema/" class="filmup">&gt; ricerca avanzata</a></div>
+
+<hr width="100%" size="1" noshade>
+
+I film al cinema nelle sale di: 
+<a href="http://filmup.leonardo.it/cerca-cinema/index.php?conf=1&data=oggi&titolo=-1&citta=18453&provincia=1" class="filmup">Roma</a>, 
+<a href="http://filmup.leonardo.it/cerca-cinema/index.php?conf=1&data=oggi&citta=19758&provincia=1&titolo=-1" class="filmup">Milano</a>, 
+<a href="http://filmup.leonardo.it/cerca-cinema/index.php?conf=1&data=oggi&citta=21703&provincia=1&titolo=-1" class="filmup">Torino</a>, 
+<a href="http://filmup.leonardo.it/cerca-cinema/index.php?conf=1&data=oggi&citta=17401&provincia=1&titolo=-1" class="filmup">Napoli</a>, 
+<a href="http://filmup.leonardo.it/cerca-cinema/index.php?conf=1&data=oggi&citta=22847&provincia=1&titolo=-1" class="filmup">Palermo</a>, 
+<a href="http://filmup.leonardo.it/cerca-cinema/index.php?conf=1&data=oggi&citta=21915&provincia=1&titolo=-1" class="filmup">Bari</a>, 
+<a href="http://filmup.leonardo.it/cerca-cinema/index.php?conf=1&data=oggi&citta=18562&provincia=1&titolo=-1" class="filmup">Genova</a>, 
+<a href="http://filmup.leonardo.it/cerca-cinema/index.php?conf=1&data=oggi&citta=23325&provincia=1&titolo=-1" class="filmup">Firenze</a>
+<a href="http://filmup.leonardo.it/cerca-cinema/index.php?conf=1&data=oggi&citta=17606&provincia=1&titolo=-1" class="filmup">Bologna</a>, 
+<a href="http://filmup.leonardo.it/cerca-cinema/index.php?conf=1&data=oggi&citta=22175&provincia=1&titolo=-1" class="filmup">Cagliari</a>, 
+<a href="/cerca-cinema/" class="filmup">tutte le altre città...</a><br>
+
+</div><div class="box300Close_fup3"></div><!-- CERCACINEMA / END -->
+
+<!-- TV RICERCA / START -->
+<div class="box300Titolo_fup3">Oggi in TV</div><div class="box300Content_fup3">
+<form action="http://www.filmup.com/cgi-bin/tv/pf.cgi" name="TVForm1_FormF">
+<input type="hidden" name="TIME_CHK_FormF" value="02">
+<input type="hidden" name="DATE_FROM_FormF" value="oggi">
+<input type="hidden" name="DATE_TO_FormF" value="oggi">
+<table class=layoutTableOLD border="0" cellspacing="0" cellpadding="2">
+<tr align="left">
+<td width="100"><div class="testoSmall">Canale:</div></td>
+<td width="100" colspan="2"><select name="CHAN001_FormF" style="background: #FFFFFF; font-family: Arial, Helvetica, sans-serif; border: 1px; font-size: 11px; width: 170px; height: 20px; margin: 0px 0px 0px 0px;">
+	<option value="">tutti</option>
+	<option value="RAI 1">Rai Uno</option>
+	<option value="RAI 2">Rai Due</option>
+	<option value="RAI 3">Rai Tre</option>
+	<option value="RET 4">Rete 4</option>
+	<option value="CAN 5">Canale 5</option>
+	<option value="ITA 1">Italia 1</option>
+	<option value="TMC">La 7</option>
+	<option value="TMC 2">MTV</option>
+	<option value="All Music">Deejay TV</option>
+	<option value="Sky Cinema 1">Sky Cinema 1 HD</option>
+	<option value="Sky Cinema 24">Sky Cinema +24</option>
+	<option value="Sky Cinema Family">Sky Cinema Family</option>
+	<option value="Sky Cinema 16/9">Sky Cinema Hits</option>
+	<option value="Sky Cinema MAX">Sky Cinema MAX HD</option>
+	<option value="Sky Cinema Mania">Sky Cinema Mania</option>
+	<option value="Sky Cinema Italia">Sky Cinema Italia</option>
+	<option value="Sky Cinema Classics">Sky Cinema Classics</option>
+	<option value="Mgm">Mgm Channel</option>
+	<option value="Cult Network Italia">Cult</option>
+	<option value="Sky Uno">Sky Uno</option>
+	<option value="FOX">FOX</option>
+	<option value="FOX Life">FOX Life</option>
+	<option value="FOX Crime">FOX Crime</option>
+	<option value="Comedy Central">Comedy Central</option>
+	<option value="Discovery Real Time">Discovery Real Time</option>
+	<option value="FX">FX</option>
+	<option value="Axn">Axn</option>
+	<option value="E!">E!</option>
+	<option value="Lei">Lei</option>
+	<option value="Hallmark">Hallmark</option>
+	<option value="Fantasy">Fantasy</option>
+	<option value="Jimmy">Jimmy</option>
+	<option value="Gxt">GXT</option>
+	<option value="Dea Kids">Dea Kids</option>
+	<option value="JimJam">JimJam</option>
+	<option value="Nickelodeon">Nickelodeon</option>
+	<option value="Cartoon Network">Cartoon Network</option>
+	<option value="Boomerang">Boomerang</option>
+	<option value="Playhouse Disney">Playhouse Disney</option>
+	<option value="Disney Channel">Disney Channel</option>
+	<option value="Toon Disney">Toon Disney</option>
+	<option value="Discovery Channel">Discovery Channel</option>
+	<option value="National Geographic Channel">National Geographic Channel</option>
+	<option value="National Geographic Adventure">National Geographic Adventure</option>
+	<option value="National Geographic Wild">National Geographic Wild</option>
+	<option value="History Channel">History Channel</option>
+	<option value="RaiSat Gambero Rosso">Gambero Rosso</option>
+	<option value="Marco Polo">Marco Polo</option>
+	<option value="Alice">Alice</option>
+	<option value="Leonardo">Leonardo</option>
+	<option value="Animal Planet">Animal Planet</option>
+	<option value="Discovery Science">Discovery Science</option>
+	<option value="Discovery Travel Living">Discovery Travel Living</option>
+	<option value="SkySport 24">Sky Sport 24</option>
+	<option value="Sky Sport 1">Sky Sport 1</option>
+	<option value="Sky Sport Extra">Sky Sport Extra</option>
+	</select></td>
+</tr><tr align="left" valign=center>
+<td width="100"><div class="testoSmall">Orario:</div></td>
+<td width="100" align="right"><select name="TIME_ZONES_FormF" style="background: #FFFFFF; font-family: Arial, Helvetica, sans-serif; border: 1px; font-size: 11px; width: 100px; height: 20px; margin: 0px 0px 0px 0px;">
+<option value="99">Tutte</option>
+<option value="01">06:00-12:00</option>
+<option value="02">12:00-18:00</option>
+<option value="03">18:00-20:30</option>
+<option value="04" selected>20:30-22:30</option>
+<option value="05">22.30-24:00</option>
+<option value="06">24:00-06:00</option>
+	</select></td>
+	<td width="100">&nbsp;</td>
+</tr><tr align="left" valign=center>
+<td width="100"><div class="testoSmall">Genere:</div></td>
+<td width="100" align="right"><select name="KIND001_FormF" style="background: #FFFFFF; font-family: Arial, Helvetica, sans-serif; border: 1px; font-size: 11px; width: 100px; height: 20px; margin: 0px 0px 0px 0px;">
+	<option value="" selected>Tutti</option>
+	<option value="Cartoni Animati">Cartoni Animati</option>
+	<option value="Documentario">Documentario</option>
+	<option value="Eventi Speciali">Eventi Speciali</option>
+	<option value="Fiction">Fiction</option>
+	<option value="Film">Film</option>
+	<option value="Film TV">Film TV</option>
+	<option value="Informazione">Informazione</option>
+	<option value="Intrattenimento">Intrattenimento</option>
+	<option value="Intrattenimento Bambini">Intrattenimento Bambini</option>
+	<option value="Miniserie">Miniserie</option>
+	<option value="Musicale">Musicale</option>
+	<option value="Rubrica">Rubrica</option>
+	<option value="Serie">Serie</option>
+	<option value="Show">Show</option>
+	<option value="SitCom">SitCom</option>
+	<option value="Sport">Sport</option>
+	<option value="Talk Show">Talk Show</option>
+	<option value="Teatro">Teatro</option>
+	<option value="Telefilm">Telefilm</option>
+	<option value="Televendita">Televendita</option>
+	<option value="Altri Programmi">Altri Programmi</option>
+	</select></td>
+	<td align="center"><input type="image" align="middle" name="CERCA" value="CERCA" width="50" height="18" src="/fup/tmp/vai_bottone.gif"></td>
+</tr>
+</table>
+</FORM>
+
+<div align="right"><a href="/tv/" class="filmup">&gt; ricerca avanzata</a></div>
+</div><div class="box300Close_fup3"></div><!-- TV RICERCA / END -->
+
+<!-- BOX OFFICE / START -->
+<div class="box300Titolo_fup3">Box Office</div><div class="box300Content_fup3">
+<table class=layoutTableOLD border="0" cellspacing="0" cellpadding="2">
+<tr align="left" class="testoSmall">
+<td width="20%" valign="top" align="center"><a class="filmup" href="/sc_lapeggioresettimanadellamiavita.htm" target="_blank"><img src="/locand/lapeggioresettimanadellamiavita_small.jpg" width="70" height="100" border="0" alt=""></a><br>
+<a class="filmup" href="/sc_lapeggioresettimanadellamiavita.htm" target="_blank">La peggior settimana della mia vita</a><br>
+€ 2.303.390<br></td>
+<td width="20%" valign="top" align="center"><a class="filmup" href="/sc_leavventureditintinilsegretodellunicorno.htm" target="_blank"><img src="/locand/leavventureditintinilsegretodellunicorno_small.jpg" width="70" height="100" border="0" alt=""></a><br>
+<a class="filmup" href="/sc_leavventureditintinilsegretodellunicorno.htm" target="_blank">Le avventure di Tintin – Il segreto dell'Unicorno</a><br>
+€ 984.776<br></td>
+<td width="20%" valign="top" align="center"><a class="filmup" href="/sc_johnnyenglishlarinascita.htm" target="_blank"><img src="/locand/johnnyenglishlarinascita_small.jpg" width="70" height="100" border="0" alt=""></a><br>
+<a class="filmup" href="/sc_johnnyenglishlarinascita.htm" target="_blank">Johnny English la rinascita</a><br>
+€ 953.830<br></td>
+</tr>
+</table>
+
+<div align="right"><a href="/boxoffice/" class="filmup">&gt; consulta tutta la classifica</a></div>
+</div><div class="box300Close_fup3"></div><!-- BOX OFFICE / END -->
+
+<div class="box300Titolo_fup3">Le ultime novità</div><div class="box300Content_fup3">
+<table class=layoutTableOLD border="0" cellspacing="0" cellpadding="0">
+<tr align="left" valign=center>
+<td>
+<div align="justify" class="testoSmall">
+
+
+<b>TV</b>:
+<a class="filmup" href="/tv/">i programmi ed i film oggi in tv</a><br />
+<b>Schede</b>:
+<a class="filmup" href="/sc_ahappyevent.htm">A Happy Event</a>,
+<a class="filmup" href="/sc_happyfeet2in3d.htm">Happy Feet 2 in 3D</a>,
+<a class="filmup" href="/sc_ancheseeamorenonsivede.htm">Anche se è amore non si vede</a>,
+<a class="filmup" href="/sc_ilmioangolodiparadiso.htm">Il mio angolo di paradiso</a>,
+<a class="filmup" href="/sc_ilbuonoilmattoilcattivo.htm">Il buono, il matto, il cattivo</a>,
+<a class="filmup" href="/sc_laviadimiopadre.htm">La via di mio padre</a>,
+<a class="filmup" href="/sc_turnmeongoddammit.htm">Turn Me On, Goddammit</a>,
+<a class="filmup" href="/sc_ostende.htm">Ostende</a>,
+<a class="filmup" href="/sc_nuitblanche.htm">Nuit Blanche</a>,
+<a class="filmup" href="/sc_locos.htm">Locos </a>,
+<a class="filmup" href="/sc_circumstance.htm">Circumstance</a>,
+<a class="filmup" href="/sc_projectnim.htm">Project Nim</a>,
+<a class="filmup" href="/sc_butter.htm">Butter</a>,
+<a class="filmup" href="/sc_internogiorno.htm">Interno giorno</a>,
+<a class="filmup" href="/sc_esternosera.htm">Esterno sera</a>,
+<a class="filmup" href="/sc_laterranegliocchi.htm">La terra negli occhi</a>,
+<a class="filmup" href="/sc_appartamentoadatene.htm">Appartamento ad Atene</a>,
+<a class="filmup" href="/sc_langelodialfredo.htm">L’Angelo di Alfredo</a>,
+<a class="filmup" href="/sc_silvercase.htm">Silver Case</a>,
+<a class="filmup" href="/sc_lastradaversocasa_2011.htm">La strada verso casa</a>,
+<a class="filmup" href="/sc_dudamelletthechildrenplay.htm">Dudamel: Let the Children Play</a>,
+<a class="filmup" href="/sc_lillazione.htm">L'illazione</a>,
+<a class="filmup" href="/sc_littleglory.htm">Little Glory</a>,
+<a class="filmup" href="/sc_david.htm">David</a>,
+<a class="filmup" href="/sc_deathofasuperhero.htm">Death of a Superhero</a>,
+<a class="filmup" href="/sc_noetmoi.htm">No et moi</a>,
+<a class="filmup" href="/sc_icannibali.htm">I cannibali</a>,
+<a class="filmup" href="/sc_rotaie.htm">Rotaie</a>
+<br>
+<b>Recensioni</b>:
+<a class="filmup" href="/ilmiodomani.htm">Il mio domani</a>,
+<a class="filmup" href="/warrior.htm">Warrior</a>,
+<a class="filmup" href="/isolitiidioti.htm">I soliti idioti</a>,
+<a class="filmup" href="/toobigtofail.htm">Too Big to Fail - Il Crollo dei Giganti</a>,
+<a class="filmup" href="/trishna.htm">Trishna</a>,
+<a class="filmup" href="/babycall.htm">Babycall</a>,
+<a class="filmup" href="/projectnim.htm">Project Nim</a>,
+<a class="filmup" href="/fromuponpoppyhill.htm">From up on Poppy Hill</a>,
+<a class="filmup" href="/lakryptonitenellaborsa.htm">La kryptonite nella borsa</a>,
+<a class="filmup" href="/poongsan.htm">Poongsan</a>,
+<a class="filmup" href="/iprimidellalista.htm">I primi della lista</a>,
+<a class="filmup" href="/ilcuoregrandedelleragazze.htm">Il cuore grande delle ragazze</a>,
+<a class="filmup" href="/magicvalley.htm">Magic Valley</a>,
+<a class="filmup" href="/thedeepbluesea.htm">The Deep Blue Sea</a>,
+<a class="filmup" href="/theeyeofthestorm.htm">The Eye of the Storm</a>,
+<a class="filmup" href="/likecrazy.htm">Like Crazy</a>,
+<a class="filmup" href="/hotellux.htm">Hotel Lux</a>,
+<a class="filmup" href="/hysteria.htm">Hysteria</a>,
+<a class="filmup" href="/leavventureditintinilsegretodellunicorno.htm">Le avventure di Tintin: il segreto dell'unicorno</a>,
+<a class="filmup" href="/thelady.htm">The Lady</a>
+<br>
+<b>Personaggi</b>:
+<a class="filmup" href="/personaggi/damianorusso/index.htm">Damiano Russo (filmografia)</a>,
+<a class="filmup" href="/personaggi/rosiehuntingtonwhiteley/index.htm">Rosie Huntington-Whiteley (filmografia, photogallery)</a>,
+<a class="filmup" href="/personaggi/peterfalk/index.htm">Peter Falk (filmografia)</a>,
+<a class="filmup" href="/personaggi/sidneylumet/index.htm">Sidney Lumet (filmografia)</a>,
+<a class="filmup" href="/personaggi/elizabethtaylor/index.htm">Elizabeth Taylor (filmografia, photogallery)</a>,
+<a class="filmup" href="/personaggi/janerussell/index.htm">Jane Russell (filmografia, photogallery)</a>,
+<a class="filmup" href="/personaggi/johnhawkes/index.htm">John Hawkes (filmografia, photogallery)</a>,
+<a class="filmup" href="/personaggi/justinbieber/index.htm">Justin Bieber (filmografia, photogallery)</a>
+<br>
+<b>Posters</b>:
+<a class="filmup" href="/posters/locx/midnightinparis.htm">Midnight in Paris</a>,
+<a class="filmup" href="/posters/locx/happyfeet2in3d_au.htm">Happy Feet 2 in 3D (AU)</a>,
+<a class="filmup" href="/posters/locx/ancheseeamorenonsivede.htm">Anche se è amore non si vede</a>,
+<a class="filmup" href="/posters/locx/ilmioangolodiparadiso.htm">Il mio angolo di paradiso</a>,
+<a class="filmup" href="/posters/locx/isolitiidioti.htm">I soliti idioti</a>,
+<a class="filmup" href="/posters/locx/ivendicatori.htm">I vendicatori</a>,
+<a class="filmup" href="/posters/locx/ilbuonoilmattoilcattivo.htm">Il buono, il matto, il cattivo</a>,
+<a class="filmup" href="/posters/locx/missionimpossibleprotocollofantasma.htm">Mission: Impossible - Protocollo Fantasma</a>,
+<a class="filmup" href="/posters/locx/thetwilightsagabreakingdawn_parteprima.htm">The Twilight Saga: Breaking Dawn - Parte Prima</a>,
+<a class="filmup" href="/posters/locx/ilpaesedellesposeinfelici.htm">Il paese delle spose infelici</a>,
+<a class="filmup" href="/posters/locx/immortalsin3d.htm">Immortals in 3D</a>,
+<a class="filmup" href="/posters/locx/whatsyournumber.htm">Sex list</a>,
+<a class="filmup" href="/posters/locx/leavventureditintinilsegretodellunicorno.htm">Le Avventure di Tintin: Il Segreto dell'Unicorno</a>,
+<a class="filmup" href="/posters/locx/anonymous.htm">Anonymous</a>,
+<a class="filmup" href="/posters/locx/likecrazy_us.htm">Like Crazy (US)</a>,
+<a class="filmup" href="/posters/locx/afewbestmen_uk.htm">A Few Best Men (UK)</a>,
+<a class="filmup" href="/posters/locx/missionedipace.htm">Missione di pace</a>,
+<a class="filmup" href="/posters/locx/paranormalactivity3.htm">Paranormal Activity 3</a>,
+<a class="filmup" href="/posters/locx/voyezcommeilsdansent_fr.htm">Voyez comme ils dansent (FR)</a>
+<br>
+<b>Trailers</b>:
+<a class="filmup" href="/trailers/amygeorge.shtml">Amy George</a>,
+<a class="filmup" href="/trailers/northseatexas.shtml">North Sea Texas</a>,
+<a class="filmup" href="/trailers/lanouvelleguerredesboutons.shtml">La nouvelle guerre des boutons</a>,
+<a class="filmup" href="/trailers/thelady.shtml">The Lady</a>,
+<a class="filmup" href="/trailers/afewbestmen.shtml">A Few Best Men</a>,
+<a class="filmup" href="/trailers/poongsan.shtml">Poongsan</a>,
+<a class="filmup" href="/trailers/ilpaesedellesposeinfelici.shtml">Il paese delle spose infelici</a>,
+<a class="filmup" href="/trailers/ilmiodomani.shtml">Il mio domani</a>,
+<a class="filmup" href="/trailers/hysteria.shtml">Hysteria</a>,
+<a class="filmup" href="/trailers/theeyeofthestorm.shtml">The Eye of the Storm</a>,
+<a class="filmup" href="/trailers/ilcuoregrandedelleragazze.shtml">Il cuore grande delle ragazze</a>,
+<a class="filmup" href="/trailers/uncuentochino.shtml">Un cuento chino</a>,
+<a class="filmup" href="/trailers/babycall.shtml">Babycall</a>,
+<a class="filmup" href="/trailers/lakryptonitenellaborsa.shtml">La kryptonite nella borsa</a>,
+<a class="filmup" href="/trailers/faust_2011.shtml">Faust</a>,
+<a class="filmup" href="/trailers/leavventureditintinilsegretodellunicorno.shtml">Le avventure di Tintin: il segreto dell'unicorno</a>,
+<a class="filmup" href="/trailers/falene.shtml">Falene</a>,
+<a class="filmup" href="/trailers/insidious.shtml">Insidious</a>,
+<a class="filmup" href="/trailers/missionedipace.shtml">Missione di pace</a>,
+<a class="filmup" href="/trailers/lincredibilestoriadiwinterildelfino.shtml">L'incredibile storia di Winter il delfino</a>,
+<a class="filmup" href="/trailers/ilreleone.shtml">Il Re Leone</a>,
+<a class="filmup" href="/trailers/parkinglot3d.shtml">Parking Lot</a>,
+<a class="filmup" href="/trailers/super.shtml">Super</a>,
+<a class="filmup" href="/trailers/jodaeiyenaderazsimin.shtml">Una separazione - Nader and Simin: A Separation</a>,
+<a class="filmup" href="/trailers/unpoliziottodahappyhour.shtml">Un poliziotto da happy hour</a>,
+<a class="filmup" href="/trailers/paranormalactivity3.shtml">Paranormal Activity 3</a>
+<br>
+<b>Soundtrack</b>:
+<a class="filmup" href="/soundtrack/sc/mostricontroalieni.htm">Mostri contro Alieni</a>,
+<a class="filmup" href="/soundtrack/sc/postgrad.htm">Post Grad</a>,
+<a class="filmup" href="/soundtrack/sc/augustrush.htm">La musica nel cuore</a>,
+<a class="filmup" href="/soundtrack/sc/pomodoriverdifritti.htm">Pomodori verdi fritti</a>
+<br>
+<b>Opinioni</b>:
+<a class="filmup" href="/opinioni/">scopri e leggi l'elenco completo delle nuove opinioni arrivate...</a><br>
+<b>Interviste:</b>
+<a class="filmup" href="/speciale/thelady/int01.htm">The Lady</a>,
+<a class="filmup" href="/speciale/matrimonioaparigi/int01.htm">Matrimonio a Parigi</a>,
+<a class="filmup" href="/speciale/lapielquehabito/int01.htm">La pelle che abito</a>,
+<a class="filmup" href="/speciale/tormented/int01.htm">Tormented</a>,
+<a class="filmup" href="/speciale/bellocchio/int01.htm">Intervista al regista Marco Bellocchio</a>,
+<a class="filmup" href="/speciale/quandolanotte/int01.htm">Quando la notte</a>,
+<a class="filmup" href="/speciale/pouletauxprunes/int01.htm">Poulet aux prunes</a>,
+<a class="filmup" href="/speciale/lultimoterrestre/int01.htm">L'ultimo terrestre</a>,
+<a class="filmup" href="/speciale/ilvillaggiodicartone/int01.htm">Il villaggio di cartone</a>,
+<a class="filmup" href="/speciale/wildesalome/int01.htm">Wilde Salome</a>,
+<a class="filmup" href="/speciale/unetebrulant/int01.htm">Un Été Brulant</a>,
+<a class="filmup" href="/speciale/sal/int01.htm">Sal</a>,
+<a class="filmup" href="/speciale/adangerousmethod/int01.htm">A Dangerous Method</a>
+<a class="filmup" href="/speciale/">e altri...</a>
+<br>
+<b>Speciali:</b>
+<b><a class="filmup" href="/speciale/roma2011/">Festival di Roma 2011</a></b>,
+<a class="filmup" href="/speciale/venezia68/">Festival di Venezia 2011</a>,
+<a class="filmup" href="/speciale/cannes2011/">Festival di Cannes 2011</a>,
+<a class="filmup" href="/speciale/oscar2011/">Oscar - 2011</a>,
+<a class="filmup" href="/speciale/goldenglobes2011/">Golden Globe Awards - 2011</a>,
+<a class="filmup" href="/speciale/">e altri...</ > 
+</DIV>
+						</td></tr></table>
+</div><div class="box300Close_fup3"></div>
+
+<!-- ### INIZIO ANNUNCI GOOGLE 3 ### -->
+
+<style>
+.leogoo_byshort
+{
+	font-family:Verdana;
+	font-size:9px;
+	font-weight:bold;
+	color:#CA0003;
+	padding:5px 0px 0px 0px;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:-moz-use-text-color;
+}
+
+.leogoo_titleshort
+{
+	font-family:Verdana;
+	font-size:11px;
+	font-weight:bold;
+	color:#000000;
+	padding:0px 2px 0px 5px;
+}
+
+.leogoo_descriptionshort
+{
+	font-family:Verdana;
+	font-size:10px;
+	color: #000000;
+	padding:0px 2px 0px 5px;
+	line-height:15px;
+}
+
+.leogoo_urlshort
+{
+	font-family:Verdana;
+	font-size:10px;
+	font-style:italic;
+	color:#CA0003;
+	padding:0px 2px 0px 5px;
+}
+
+.leogoo_linkshort:hover
+{
+	background-color:#FFFFFF;
+}
+</style>
+
+<script language="JavaScript">
+<!--
+	var google_adnum = typeof(google_adnum) == 'undefined' ? 0 : google_adnum;			
+  function google_ad_request_done(google_ads) {
+    var s = '';
+    var i;
+    if (google_ads.length == 0)
+      return;
+		if (google_ads[0].type == "text") {
+      s += '<div class="box300TitoloGOOGLE_fup3"></div><div class="box300ContentGOOGLE_fup3">';
+			for(i=0; i < google_ads.length; ++i) {
+				s += '<a class="leogoo_linkshort" target="_blank" href="' + google_ads[i].url + '" ' +
+				'onmouseout="window.status=\'\'" ' +
+				'onmouseover="window.status=\'' +
+				google_ads[i].visible_url + '\';return true;" ' +
+				'style="text-decoration:none">' +
+				'<span class="leogoo_titleshort">' +
+				google_ads[i].line1 + '<br></span></a>' +
+				//description
+				'<span class="leogoo_descriptionshort">' +
+				google_ads[i].line2 + '</span><br>' +
+				'<span class="leogoo_descriptionshort">' +
+				google_ads[i].line3 + '<br></span>' +
+				//url
+				'<a class="leogoo_linkshort" target="_blank" href="' + google_ads[i].url + '" ' +
+				'onmouseout="window.status=\'\'" ' +
+				'onmouseover="window.status=\'' +
+				google_ads[i].visible_url + '\';return true;" ' +
+				'style="text-decoration:none"><span class="leogoo_urlshort">' +
+				google_ads[i].visible_url + '</span></a><br><img src=/img/null.gif width=1 height=10><br>';
+			}
+			if (google_ads[0].bidtype == "CPC")
+			{
+				google_adnum = google_adnum + google_ads.length;
+			}
+			s += '<div style="float: right; font-size: 8px; margin-top: -10px;"><a target="_blank" href="' + google_info.feedback_url + '"><img src="/img3/annunci-google.png" alt="Annunci Google" width="84" height="9" border="0"></a></div></div><div class="box300Close_fup3"></div>';
+		}
+    document.write(s);
+    return;
+  }
+  google_ad_client = 'ca-leonardo_js';
+  google_ad_channel = 'filmup';
+  google_ad_output = 'js';
+  google_max_num_ads = '3';
+  google_ad_type = 'text';
+  google_language = 'it';
+  google_encoding = 'utf8';
+  google_skip = google_adnum;
+// -->
+</script>
+<script language="JavaScript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+
+<!-- ### FINE ANNUNCI GOOGLE 3 ### -->
+</td>
+</TR></TABLE>
+
+<!-- START // click background -->
+</div>
+<!-- END // click background -->
+
+<br />
+<div align="center" style="background-color: #e7e7e7; width: 996px; margin-right:auto; margin-left:auto;">
+<br><br />
+
+<table width="980" align="center" cellspacing="0" cellpadding="0" border="0">
+<tr valign="top" align="left">
+	<td width="120" height="50" align="left"><img src="/img3/logo-footer_filmup_com.png" width="105" height="50" alt="" border="0" /></td>
+	<td width="10"><img src="/img/null.gif" alt="" width="10" height="1" border="0"></td>
+	<td width="616">© 1999-2011 <a href="http://filmup.leonardo.it" class="menu"><font class="stilemenu">Film</font><strong>UP</strong>.com S.r.l.</a> Tutti i diritti riservati<BR>
+	<a href="http://filmup.leonardo.it" class="menu"><font class="stilemenu">Film</font><strong>UP</strong>.com S.r.l.</a> non è responsabile ad alcun titolo dei contenuti dei siti linkati, pubblicati o recensiti.<br>
+Testata giornalistica registrata al Tribunale di Cagliari n.30 del 12/09/2001.</td>
+	<td width="60"><img src="/img/null.gif" alt="" width="10" height="1" border="0"></td>
+	<td width="150"><A class="menu" href="http://filmup.leonardo.it/contatti/index.php"><font class="stilemenu">C</font>ontatti</A><br>
+	<A class="menu" href="http://www.leonardoadv.it/" target=_blank><font class="stilemenu">P</font>ubblicità su FilmUP.com</A> </td>
+</tr>
+</table>
+
+<br />
+</div>
+
+<!-- START Nielsen//NetRatings SiteCensus V5.2 -->
+<!-- COPYRIGHT 2006 Nielsen//NetRatings -->
+<script type="text/javascript">
+	var _rsCI="intelia-it";
+	var _rsCG="0";
+	var _rsDN="//secure-it.imrworldwide.com/";
+	var _rsCC=0;
+	var _rsIP=1;
+</script>
+<script type="text/javascript" src="//secure-it.imrworldwide.com/v52.js"></script>
+<noscript>
+	<img src="//secure-it.imrworldwide.com/cgi-bin/m?ci=intelia-it&amp;cg=0" style="display:none" alt=""/>
+</noscript>
+<!-- END Nielsen//NetRatings SiteCensus V5.2 -->
+
+</BODY></HTML>    

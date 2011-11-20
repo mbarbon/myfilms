@@ -1,0 +1,2129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <meta name="verify-v1" content="V9srg8vqoXukYEWF3JlSaUuxAJWKI+YUIuvu4I4o5UI=" />        
+        <meta name="description" content="La programmazione di tutti i film nelle sale dei cinema a Firenze. A Dangerous Method, Amici di letto, Arrietty - Il mondo segreto sotto il pavimento, Bar Sport, Carnage, Cowboys & Aliens, Drive, Ex: Amici come prima!, ... "/>
+		<meta name="keywords" content="firenze, cinema, cinema firenze, programmazione cinema, programmazione sale, orari, orario, sale, film, telefono, provincia, città, sale cinematografiche, uscite"/>        
+
+        <title>Cinema Firenze - Programmazione film  - Trovacinema</title>
+		
+		<base href="http://trovacinema.repubblica.it/programmazione-cinema/citta/firenze/fi/film/../../../../../" />
+        <style type="text/css" media="screen">@import "http://www.repubblica.it/sharedfiles/header2lev_v5.css";</style>
+	<link href="http://trovacinema.repubblica.it/css/tc/common.css" rel="stylesheet" type="text/css" />
+	<link href="http://trovacinema.repubblica.it/css/tc/manzoni.css" rel="stylesheet" type="text/css" />
+	<link href="http://trovacinema.repubblica.it/css/tc/stile.css" rel="stylesheet" type="text/css" />	    
+	<script type="text/javascript" src="http://trovacinema.repubblica.it/js/baseLib.js"></script>
+	<script type="text/javascript" src="http://trovacinema.repubblica.it/js/ajax.js"></script>
+	<script type="text/javascript" src="http://trovacinema.repubblica.it/js/club.js"></script>
+
+    <script type="text/javascript" src="http://trovacinema.repubblica.it/js/tc/oas_ricerca.js"></script>
+
+	<script type="text/javascript" src="http://oasjs.kataweb.it/repubblica/mjx.js"></script>
+	<script type="text/javascript" language="JavaScript1.1" src="http://www.repubblica.it/sharedfiles/js/lib_v1.js"></script>
+	<script type="text/javascript" language="JavaScript1.1" src="http://www.repubblica.it/sharedfiles/js/header2lev_v5.js"></script>
+	<script type="text/javascript" src="http://trovacinema.repubblica.it/js/jquery.js"></script>
+	<script type="text/javascript" src="http://trovacinema.repubblica.it/js/jquery.dimensions.min.js"></script>
+	<script type="text/javascript" src="http://adagiojs.repubblica.it/uploads/js/repubblicaad.js"></script></head>
+   
+    <body><!-- overlay full screen -->
+	<script type="text/javascript">
+		<!--
+		OAS_RICH('Position3');
+		//-->
+	</script>
+
+    <div id="container" align="left">
+		<div id="bgspot">	
+	<div id="topheader">
+		<div id="advtop"><script type="text/javascript">OAS_RICH('Top');</script></div>
+		<div id="ge-network"><script type="text/javascript">ge_network();</script></div>
+	</div>
+	<div id="header"><script type="text/javascript">rph_brand();rph_multisearch_fast();</script></div>
+</div>	
+	
+<script type="text/javascript"> var pageName_js = '0.23'</script>
+
+<div id="tcmenu">
+	<div id="bgspot2">
+		<div id="topmenuv2">
+			<ul id="topmenuAv2" class="menuhome">
+				<li><a href="trame" id="insala" class="">Oggi in sala</a></li><!--onclick="showMenuTab(this.id);"-->
+				<li><a href="prossimamente" id="prossimamente" class="">Prossimamente</a></li>					
+				<li><a href="homevideo/vendita" id="homevideo" class="">Homevideo</a></li>		
+				<li><a href="multimedia/copertina" id="m_multimedia" class="">Multimedia</a></li>		
+				<li><a href="news" id="notizie" class="">Notizie</a></li>
+				<li><a href="classifica/box_office_italia" id="classifiche" class="">Classifiche</a></li>
+				<li><a onclick="showMenuTab(this.id);" id="festivalpremi" class="">Festival e premi</a></li>		
+				<li><a href="sondaggi" id="community" class="">Sondaggi</a></li>		
+			</ul>
+			<ul id="topmenuBv2">
+				<li><a href="mailto:trovacinema@capital.it">Scrivici</a></li>
+				<li><a href="club"><b>TrovaCinema Club</b></a></li>
+				<li><a href="http://m.trovacinema.it">Mobile</a></li>
+				<li><a href="speciali">Speciali</a></li>
+				
+			</ul>
+		</div>
+		<div class="menuv2" id="menuv2">
+			<ul id="t_insala">
+				<li><a href="trame">Trame</a></li>
+				<li><a href="pagelle">Pagella</a></li>					
+				<li><a href="critica">Critica</a></li>
+				<li><a href="recensioni">Recensioni pubblico</a></li>
+				<li><a href="uscite-weekend">Le uscite</a></li>
+				<li><a href="locandine">Locandine</a></li>
+				<li><a href="fotogallery">Fotogallerie</a></li>
+				<li><a href="trailer">Trailer</a></li>					
+			</ul>
+			<ul id="t_prossimamente"></ul>
+			<ul id="t_homevideo" style="margin-left:50px;">
+				<li><a href="homevideo/vendita">In vendita</a></li>
+				<li><a href="homevideo/vendita/prossimamente">Prossimamente in vendita</a></li>
+				<li><a href="homevideo/noleggio">Noleggio</a></li>
+				<li><a href="homevideo/noleggio/prossimamente">Prossimamente a noleggio</a></li>
+				</ul>
+			<ul id="t_m_multimedia" style="margin-left:75px;">
+				<li><a href="multimedia/copertina">Copertina</a></li>
+				<li><a href="multimedia/film">Film</a></li>
+				<li><a href="multimedia/divi">Divi</a></li>
+				<li><a href="multimedia/curiosita">Curiosit&agrave;</a></li>
+				<li><a href="multimedia/dagostini">Videorecensioni di Paolo D'Agostini</a></li>
+				<li><a href="multimedia/darkroom">Darkroom</a></li>
+				<li><a href="multimedia/cult">Cult</a></li>
+				<li><a href="multimedia/venezia">Venezia</a></li>
+			</ul>
+			<ul id="t_notizie" style="margin-left:120px;">
+				<li><a href="news">Articoli e interviste</a></li>
+				<li><a href="http://newscontrol.repubblica.it/tag/cinema">NewsControlCinema</a></li>
+				<li><a href="http://starcontrol.repubblica.it/?kat=Cinema">StarControl</a></li>
+				<li><a href="http://www.repubblica.it/spettacoli_e_cultura/index.html">Spettacoli &amp; Cultura</a></li>
+				<li><a href="http://www.repubblica.it/persone/index.html">Persone</a></li>
+				<li><a href="http://dagostini.blogautore.repubblica.it">Il blog di Paolo D'Agostini</a></li>
+			</ul>
+			<ul id="t_classifiche" style="margin-left:150px;">
+				<li><a href="classifica/box_office_italia">Box Office Italia</a></li>
+				<li><a href="classifica/box_office_usa">Box Office Usa</a></li>
+				<li><a href="classifica/film_sala">I film in sala</a></li>
+				<li><a href="classifica/attesi">I pi&ugrave; attesi</a></li>
+				<li><a href="classifica/film">Tutti i film</a></li>
+				<li><a href="classifica/homevideo">Homevideo</a></li>
+				<li><a href="classifica/superstar">Superstar</a></li>
+			</ul>
+			<ul id="t_festivalpremi" style="margin-left:390px;">
+				<li><a href="festival-e-premi/venezia/multimedia?speciale=venezia2011">Venezia</a></li>
+				<li><a href="festival-e-premi/roma">Roma</a></li>
+				<li><a id="0173" href="festival-e-premi/cannes">Cannes</a></li>
+				<!--http://www.kataweb.it/spec/home_speciale_tc.jsp?speciale=cannes2007&amp;ids=2221731-->
+				<li><a href="festival-e-premi/oscar">Oscar</a></li>
+				
+			</ul>
+			<ul id="t_community" style="margin-left:400px;">
+				</ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">	
+	$('#menuv2 ul').css("display", "none");														
+	var url_listPages = new Array();
+	
+	url_listPages[0] = ["trame","pagelle","recensioni", "critica","uscite-weekend","locandine","fotogallery","trailer"];
+	url_listPages[1] = [];
+	url_listPages[2] = ["homevideo/vendita", "homevideo/vendita/prossimamente", "homevideo/noleggio", "homevideo/noleggio/prossimamente"];
+	url_listPages[3] = ["multimedia/copertina", "multimedia/film", "multimedia/divi", "multimedia/curiosita", "multimedia/dagostini", "multimedia/darkroom", "multimedia/cult", "multimedia/venezia"];
+	url_listPages[4] = ["news", "http://newscontrol.repubblica.it/tag/cinema", "http://starcontrol.repubblica.it/?kat=Cinema", "http://www.repubblica.it/spettacoli_e_cultura/index.html", "http://www.repubblica.it/persone/index.html"];
+	url_listPages[5] = ["classifica/box_office_italia", "classifica/box_office_usa", "classifica/film_sala", "classifica/attesi", "classifica/film", "classifica/homevideo", "classifica/superstar"];
+	url_listPages[6] = ["http://www.kataweb.it/spec/home_speciale_tc.jsp?speciale=venezia", "http://www.kataweb.it/spec/home_speciale_tc.jsp?speciale=roma", "http://www.kataweb.it/spec/home_speciale_tc.jsp?speciale=cannes", "http://www.kataweb.it/spec/home_speciale_tc.jsp?speciale=oscar"];												
+	url_listPages[7] = [];
+	$('#menuv2 ul').css("display", "none");												
+	var labelPages = new Array();
+	labelPages = ["insala", "prossimamente", "homevideo", "m_multimedia", "notizie", "classifiche", "festivalpremi", "community"];
+	var listPages = new Array();
+	
+	listPages[0] = ["0.3","0.4","0.5","0.6","0.30","0.7","0.8","0.9"];
+	listPages[1] = [];
+	listPages[2] = ["0.13,0.13.2", "0.13.2.1", "0.13.1", "0.13.1.1"];
+	listPages[3] = ["0.14.1","0.14.2","0.14.3","0.14.4", "0.14.5","0.14.6","0.14.7","0.14.8"];
+	listPages[4] = ["0.15,0.15.1, 0.16", "http://newscontrol.repubblica.it/tag/cinema", "http://starcontrol.repubblica.it/?kat=Cinema", "http://www.repubblica.it/spettacoli_e_cultura/index.html", "http://www.repubblica.it/persone/index.html"];
+	listPages[5] = ["0.11.4,0.11", "0.11.7", "0.11.3", "0.11.1", "0.11.2", "0.11.5", "0.11.6"];
+	listPages[6] = ["0.17.1,0.17,0.17.1.1", "0.17.2,0.17.2.1", "0.17.3,0.17.3.1", "0.17.4,0.17.4.1"];
+	listPages[7] = [];
+	var strtest = new String();
+	var checkedMenu = new Boolean();
+	checkedMenu = false;
+	for(var a = 0; a < listPages.length; a++) {
+		for(var b = 0; b < listPages[a].length; b ++) {
+			if(listPages[a][b].toString().indexOf(",") != -1) {
+				splittedPage = new Array();
+				splittedPage = listPages[a][b].split(",");
+				for(var c = 0; c < splittedPage.length; c ++) {																
+					if(pageName_js == splittedPage[c]) {
+						// Se sono gli speciali.
+						if(a == 6) {
+							if(pageName_js.split(".").length > 3) {
+								var tempArr = pageName_js.split('.');
+								var tempStr = tempArr[0]+tempArr[1]+tempArr[2];
+								//alert(tempStr);
+								$("#"+tempStr).addClass("activeMenuSubvoice");	
+							} else {																				
+								$("a[href='"+url_listPages[a][b]+"']").addClass("activeMenuSubvoice");
+								//alert(listPages[a][b]);
+							}	
+								if(a == 0) {
+									$('#'+labelPages[a]).addClass("currentmenuhome");
+									$('#t_'+labelPages[a]).css("display", "block");
+								} else {
+									$('#'+labelPages[a]).addClass("currentmenu");
+									$('#t_'+labelPages[a]).css("display", "block");
+								}
+							
+							checkedMenu = true;
+							break;
+						} else {
+							$("a[href='"+url_listPages[a][b]+"']").addClass("activeMenuSubvoice");
+							//alert(listPages[a][b]);
+							if(a == 0) {
+								$('#'+labelPages[a]).addClass("currentmenuhome");
+								$('#t_'+labelPages[a]).css("display", "block");
+							} else {
+								$('#'+labelPages[a]).addClass("currentmenu");
+								$('#t_'+labelPages[a]).css("display", "block");
+							}
+							checkedMenu = true;
+							break;
+							}
+						
+					}	
+				}
+			} else {						
+				if(pageName_js == listPages[a][b]) {
+					$("a[href='"+url_listPages[a][b]+"']").addClass("activeMenuSubvoice");
+					//alert(listPages[a][b]);
+					if(a == 0) {
+						$('#'+labelPages[a]).addClass("currentmenuhome");
+						$('#t_'+labelPages[a]).css("display", "block");
+					} else {
+						$('#'+labelPages[a]).addClass("currentmenu");
+						$('#t_'+labelPages[a]).css("display", "block");
+					}
+					checkedMenu = true;
+					break;
+				}	
+			}
+		}
+	}
+	if(checkedMenu == true) {					
+	} else {					
+		if(pageName_js == "0.10") {
+			$('#menuv2 ul').css("display", "none");
+			$('#prossimamente').addClass("currentmenu");
+			$('#t_prossimamente').css("display", "block");
+		} else if(pageName_js == "0.19") {
+			$('#menuv2 ul').css("display", "none");
+			$('#community').addClass("currentmenu");
+			$('#t_community').css("display", "block");
+		} else {
+			$('#insala').addClass("currentmenuhome");
+			$('#t_insala').css("display", "block");
+		}
+	}
+	
+
+	function showMenuTab(id) {
+		if(id == "insala") {
+			$('.currentmenu').removeClass("currentmenu");				
+			$('#'+id).addClass("currentmenuhome");
+			$('#menuv2 ul').css("display", "none");
+			$('#t_'+id).css("display", "block");
+		} else {
+			$('.currentmenu').removeClass("currentmenu");
+			$('.currentmenuhome').removeClass("currentmenuhome");
+			$('#'+id).addClass("currentmenu");
+			$('#menuv2 ul').css("display", "none");
+			$('#t_'+id).css("display", "block");
+		}			
+		
+		
+	}
+</script>
+<div id="searchCinema">
+	<form action="javascript:dosearch('http://trovacinema.repubblica.it')" name="search_film" method="get" onsubmit="return checkMainSearchForm();">	
+		<h3>DOVE VUOI ANDARE<br /> AL CINEMA?</h3>									
+		<div id="sC-left">
+			<h4>Scegli la citt&agrave; oppure la provincia</h4>								
+			
+			<div class="sF-radioBtn">
+				<input id="searchprv_cit" class="noBorder" type="radio" name="searchprv" value="false" checked="checked"/><span>la citt&agrave;</span>
+				<br />
+				<input id="searchprv_prov" class="noBorder" type="radio" name="searchprv" value="true" /><span>la provincia</span>
+			</div>
+			<select id="prv" class="where" name="prv">
+				<option selected="selected" value="">Scegli</option>
+				<option value="AG" >AGRIGENTO</option>
+				<option value="AL" >ALESSANDRIA</option>
+				<option value="AN" >ANCONA</option>
+				<option value="AO" >AOSTA</option>
+				<option value="AR" >AREZZO</option>
+				<option value="AP" >ASCOLI PICENO</option>
+				<option value="AT" >ASTI</option>
+				<option value="AV" >AVELLINO</option>
+				<option value="BA" >BARI</option>
+				<option value="BT" >BARLETTA-ANDRIA-TRANI</option>
+				<option value="BL" >BELLUNO</option>
+				<option value="BN" >BENEVENTO</option>
+				<option value="BG" >BERGAMO</option>
+				<option value="BI" >BIELLA</option>
+				<option value="BO" >BOLOGNA</option>
+				<option value="BZ" >BOLZANO</option>
+				<option value="BS" >BRESCIA</option>
+				<option value="BR" >BRINDISI</option>
+				<option value="CA" >CAGLIARI</option>
+				<option value="CL" >CALTANISSETTA</option>
+				<option value="CB" >CAMPOBASSO</option>
+				<option value="CI" >CARBONIA-IGLESIAS</option>
+				<option value="CE" >CASERTA</option>
+				<option value="CT" >CATANIA</option>
+				<option value="CZ" >CATANZARO</option>
+				<option value="CH" >CHIETI</option>
+				<option value="CO" >COMO</option>
+				<option value="CS" >COSENZA</option>
+				<option value="CR" >CREMONA</option>
+				<option value="KR" >CROTONE</option>
+				<option value="CN" >CUNEO</option>
+				<option value="EN" >ENNA</option>
+				<option value="FM" >FERMO</option>
+				<option value="FE" >FERRARA</option>
+				<option value="FI" selected="true">FIRENZE</option>
+				<option value="FG" >FOGGIA</option>
+				<option value="FC" >FORLI'-CESENA</option>
+				<option value="FR" >FROSINONE</option>
+				<option value="GE" >GENOVA</option>
+				<option value="GO" >GORIZIA</option>
+				<option value="GR" >GROSSETO</option>
+				<option value="IM" >IMPERIA</option>
+				<option value="IS" >ISERNIA</option>
+				<option value="AQ" >L'AQUILA</option>
+				<option value="SP" >LA SPEZIA</option>
+				<option value="LT" >LATINA</option>
+				<option value="LE" >LECCE</option>
+				<option value="LC" >LECCO</option>
+				<option value="LI" >LIVORNO</option>
+				<option value="LO" >LODI</option>
+				<option value="LU" >LUCCA</option>
+				<option value="MC" >MACERATA</option>
+				<option value="MN" >MANTOVA</option>
+				<option value="MS" >MASSA-CARRARA</option>
+				<option value="MT" >MATERA</option>
+				<option value="MD" >MEDIO CAMPIDANO</option>
+				<option value="ME" >MESSINA</option>
+				<option value="MI" >MILANO</option>
+				<option value="MO" >MODENA</option>
+				<option value="MB" >MONZA E DELLA BRIANZA</option>
+				<option value="NA" >NAPOLI</option>
+				<option value="NO" >NOVARA</option>
+				<option value="NU" >NUORO</option>
+				<option value="OG" >OGLIASTRA</option>
+				<option value="OT" >OLBIA-TEMPIO</option>
+				<option value="OR" >ORISTANO</option>
+				<option value="PD" >PADOVA</option>
+				<option value="PA" >PALERMO</option>
+				<option value="PR" >PARMA</option>
+				<option value="PV" >PAVIA</option>
+				<option value="PG" >PERUGIA</option>
+				<option value="PU" >PESARO E URBINO</option>
+				<option value="PE" >PESCARA</option>
+				<option value="PC" >PIACENZA</option>
+				<option value="PI" >PISA</option>
+				<option value="PT" >PISTOIA</option>
+				<option value="PN" >PORDENONE</option>
+				<option value="PZ" >POTENZA</option>
+				<option value="PO" >PRATO</option>
+				<option value="RG" >RAGUSA</option>
+				<option value="RA" >RAVENNA</option>
+				<option value="RC" >REGGIO CALABRIA</option>
+				<option value="RE" >REGGIO EMILIA</option>
+				<option value="RI" >RIETI</option>
+				<option value="RN" >RIMINI</option>
+				<option value="RM" >ROMA</option>
+				<option value="RO" >ROVIGO</option>
+				<option value="SA" >SALERNO</option>
+				<option value="SS" >SASSARI</option>
+				<option value="SV" >SAVONA</option>
+				<option value="SI" >SIENA</option>
+				<option value="SR" >SIRACUSA</option>
+				<option value="SO" >SONDRIO</option>
+				<option value="TA" >TARANTO</option>
+				<option value="TE" >TERAMO</option>
+				<option value="TR" >TERNI</option>
+				<option value="TO" >TORINO</option>
+				<option value="TP" >TRAPANI</option>
+				<option value="TN" >TRENTO</option>
+				<option value="TV" >TREVISO</option>
+				<option value="TS" >TRIESTE</option>
+				<option value="UD" >UDINE</option>
+				<option value="VA" >VARESE</option>
+				<option value="VE" >VENEZIA</option>
+				<option value="VB" >VERBANO-CUSIO-OSSOLA</option>
+				<option value="VC" >VERCELLI</option>
+				<option value="VR" >VERONA</option>
+				<option value="VV" >VIBO VALENTIA</option>
+				<option value="VI" >VICENZA</option>
+				<option value="VT" >VITERBO</option>
+				</select>																		
+		</div>
+		
+		<div id="sC-right">								
+			<h4>Scegli se cercare per film o per cinema</h4>
+            <div class="sF-radioBtn">
+                <input class="noBorder" id="allFilm" type="radio" value="film" name="type" checked="checked" onchange="javascript:click_allFilm();" onclick="javascript:click_allFilm();" checked="true"/>
+                <span>tutti i film</span>
+                <br />
+                <input class="noBorder" id="allCinema" type="radio" value="cinema" name="type" onchange="click_allCinema();" onclick="click_allCinema();" />
+                <span>tutti i cinema</span>
+            </div>
+            <input type="hidden" id="film_id" name="film_id" value=""/>
+            <input type="hidden" id="kwcinema" name="kwcinema" value=""/>
+            <div id="rightInputSearch">
+                <select class="where" id="film" name="film" onchange="click_singleFilm();" >
+                    <option selected="selected" value="">oppure trova un film</option>
+                        <option value="405468" >A Dangerous Method</option>
+                        <option value="400904" >Amici di letto</option>
+                        <option value="402530" >Arrietty - Il mondo segreto sotto il pavimento</option>
+                        <option value="406159" >Bar Sport</option>
+                        <option value="405148" >Carnage</option>
+                        <option value="397505" >Cars 2</option>
+                        <option value="399761" >Cowboys &amp; Aliens</option>
+                        <option value="401898" >Drive</option>
+                        <option value="406097" >Ex: Amici come prima!</option>
+                        <option value="405739" >Faust</option>
+                        <option value="401856" >I Puffi</option>
+                        <option value="397901" >I Puffi (3D)</option>
+                        <option value="399094" >I pinguini di Mr. Popper</option>
+                        <option value="405970" >I soliti idioti</option>
+                        <option value="404699" >I tre moschettieri</option>
+                        <option value="404695" >I tre moschettieri (3D)</option>
+                        <option value="408417" >Il mio domani</option>
+                        <option value="403674" >Il pezzo mancante</option>
+                        <option value="405705" >Il villaggio di cartone</option>
+                        <option value="401533" >Insidious</option>
+                        <option value="406521" >Io sono Li</option>
+                        <option value="401863" >Johnny English la rinascita</option>
+                        <option value="401858" >Kung Fu Panda 2</option>
+                        <option value="401953" >L&#039;amore all&#039;improvviso - Larry Crowne</option>
+                        <option value="399313" >L&#039;amore che resta</option>
+                        <option value="407581" >La kryptonite nella borsa</option>
+                        <option value="407158" >La peggior settimana della mia vita</option>
+                        <option value="400530" >La pelle che abito</option>
+                        <option value="403245" >Le avventure di Tintin: il segreto dell&#039;Unicorno</option>
+                        <option value="403219" >Le avventure di Tintin: il segreto dell&#039;Unicorno (3D)</option>
+                        <option value="406641" >Maga Martina 2 - Viaggio in India</option>
+                        <option value="406654" >Matrimonio a Parigi</option>
+                        <option value="401897" >Melancholia</option>
+                        <option value="406549" >Missione di pace</option>
+                        <option value="403891" >Paranormal Activity 3</option>
+                        <option value="408981" >Pina</option>
+                        <option value="406661" >Pina 3D</option>
+                        <option value="406665" >Quando la notte</option>
+                        <option value="407205" >Sex list</option>
+                        <option value="405696" >Terraferma</option>
+                        <option value="404467" >The Tomorrow Series: il domani che verrà</option>
+                        <option value="393849" >This Must Be the Place</option>
+                        <option value="405439" >Tomboy</option>
+                        <option value="400076" >Una separazione</option>
+                        <option value="406767" >Warrior</option>
+                        </select>
+                <br />
+                <input class="where" id="singleCinema" type="text" name="cinema" value="oppure inserisci un cinema" onfocus="click_singleCinema(this);" onclick="click_singleCinema(this);" />
+            </div>
+		</div>
+		<div id="sC-btn">		
+			<input id="submitFilmSearch"  class="noBorder" type="submit" value="" />		
+		</div>
+	</form>
+</div>
+
+<script type="text/javascript" >readSearchFormCookies();</SCRIPT>
+<!--<br clear="all" />-->
+<div id="oas-strip">
+	<div id="oas-TopLeft"><script language='JavaScript'> OAS_RICH('TopLeft'); </script></div>
+	<div id="oas-TopRight"></div>
+</div><div id="center">
+
+<div id="col-center">
+				<!--
+Il tag restituisce true se oggi e' un giorno festivo e false altrimenti
+@author: Enrico Micelotta
+@version $Id: giornoFestivo.tag,v 1.7 2009-12-30 10:12:18 enrico Exp $
+-->
+
+<!-- Sun Nov 06 18:33:33 CET 2011  -->
+<div class="box680">
+    <div class="label">
+        <h1 class="inline">Hai cercato TUTTI I FILM nei cinema di Firenze</h1>
+                    <a href="programmazione-cinema/provincia/firenze/fi/film" onclick="setCookieOnSearch('fi', 1)"> (Cerca in provincia) </a> 
+                </div>
+</div>
+
+<br clear="all" />
+<p class="undertitle italic">Si declina ogni responsabilit&agrave; per variazioni di programmazione e orari non comunicati</p>
+
+<script type="text/javascript">
+//-- genera un alert per le programmazioni imprecise --//
+/*var prov = "FI";
+if (prov == "CA" || prov == "CI" || prov == "NU" || prov == "OT" || prov == "OR" || prov == "VS" || prov == "SS" || prov == "OG"){
+	alert("Nei giorni 5 e 6 marzo le programmazioni dei cinema di Firenze potrebbero non essere corrette. Si prega di verificare ulteriormente. Ci scusiamo per il disagio");
+}*/
+</script>
+<script type="text/javascript">OAS_RICH('x61');</script>
+                            <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/bar-sport/406159">Bar Sport</a> <a class="filmTrailer" href="film/trailer/bar-sport/406159">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">PRINCIPE C. G.</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Viale Matteotti&nbsp;&nbsp;&nbsp;Tel: 055/5520984</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/principe-c-g/99833/251452">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/principe+c+g">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">15:45 18:00 20:15 22:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/carnage/405148">Carnage</a> <a class="filmTrailer" href="film/trailer/carnage/405148">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">CASTELLO CINETECA</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via&nbsp;Reginaldo Giuliani&nbsp;374&nbsp;&nbsp;Tel: 055/451480</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/castello-cineteca/99833/251085">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/castello+cineteca">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">17:00 18:30 20:00 21:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                <a href="club"><img class="tcClub" alt="Vai al cinema a prezzo ridotto" src="img/tc/icon_tc_club.jpg"/></a></div>
+                            <div class="div-center">
+                                <p class="cineName">FLORA ATELIER</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Piazza &nbsp;Dalmazia&nbsp; 2r&nbsp;&nbsp;Tel: 055/4220420</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/flora-atelier/99833/251427">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/flora+atelier">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">16:00 17:30 19:10 21:00 22:45</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <script type="text/javascript">OAS_RICH('x62');</script>
+                            <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/dumbo/127783">Dumbo</a> <a class="filmTrailer" href="film/trailer/dumbo/127783">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">SPAZIO 1</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>via del Sole 10&nbsp;&nbsp;&nbsp;Tel: 055/284642</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/spazio-1/99833/253064">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/spazio+1">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">10:00</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/faust/405739">Faust</a> <a class="filmTrailer" href="film/trailer/faust/405739">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">PORTICO</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via&nbsp;Capo di Mondo&nbsp;66/68&nbsp;&nbsp;Tel: 055/669930</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/portico/99833/251451">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/portico">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">16:30 19:00 21:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <script type="text/javascript">OAS_RICH('x63');</script>
+                            <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <span class="filmName">Festival cinematografico</span></div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">ODEON CINEHALL</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Piazza Strozzi&nbsp;&nbsp;&nbsp;Tel: 055/214068</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/odeon-cinehall/99833/251434">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/odeon+cinehall">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">16:00 19:00 21:00</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/i-soliti-idioti/405970">I soliti idioti</a> <a class="filmTrailer" href="film/trailer/i-soliti-idioti/405970">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                <a href="club"><img class="tcClub" alt="Vai al cinema a prezzo ridotto" src="img/tc/icon_tc_club.jpg"/></a></div>
+                            <div class="div-center">
+                                <p class="cineName">FULGOR</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via&nbsp;Maso Finiguerra&nbsp;&nbsp;&nbsp;Tel: 055/2381881</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/fulgor/99833/251453">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/fulgor">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">15:45 18:00 20:15 22:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">MARCONI</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Viale Giannotti&nbsp;&nbsp;&nbsp;Tel: 055/685199</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/marconi/99833/251456">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/marconi">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">15:45 18:00 20:15 22:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">UCI CINEMAS FIRENZE</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via &nbsp;Del Cavallaccio&nbsp;&nbsp;&nbsp;Tel: 892 960</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/uci-cinemas-firenze/99833/253193">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/uci+cinemas+firenze">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">14:00 15:15 16:30 17:45 19:00 20:15 21:45 22:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/insidious/401533">Insidious</a> <a class="filmTrailer" href="film/trailer/insidious/401533">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                <a href="club"><img class="tcClub" alt="Vai al cinema a prezzo ridotto" src="img/tc/icon_tc_club.jpg"/></a></div>
+                            <div class="div-center">
+                                <p class="cineName">FULGOR</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via&nbsp;Maso Finiguerra&nbsp;&nbsp;&nbsp;Tel: 055/2381881</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/fulgor/99833/251453">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/fulgor">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">22:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">UCI CINEMAS FIRENZE</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via &nbsp;Del Cavallaccio&nbsp;&nbsp;&nbsp;Tel: 892 960</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/uci-cinemas-firenze/99833/253193">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/uci+cinemas+firenze">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">11:30 15:30 17:55 20:15 22:40</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/johnny-english-la-rinascita/401863">Johnny English la rinascita</a> <a class="filmTrailer" href="film/trailer/johnny-english-la-rinascita/401863">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">FIAMMA</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via &nbsp;Pacinotti&nbsp;&nbsp;&nbsp;Tel: 055/576687</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/fiamma/99833/251450">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/fiamma">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">15:30 17:45 20:30 22:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">MARCONI</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Viale Giannotti&nbsp;&nbsp;&nbsp;Tel: 055/685199</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/marconi/99833/251456">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/marconi">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">15:30 17:45 20:00 22:15</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">UCI CINEMAS FIRENZE</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via &nbsp;Del Cavallaccio&nbsp;&nbsp;&nbsp;Tel: 892 960</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/uci-cinemas-firenze/99833/253193">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/uci+cinemas+firenze">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">15:30 17:00 19:40 22:10</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/l-amore-all-improvviso-larry-crowne/401953">L&#039;amore all&#039;improvviso - Larry Crowne</a> <a class="filmTrailer" href="film/trailer/l-amore-all-improvviso-larry-crowne/401953">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">FIAMMA</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via &nbsp;Pacinotti&nbsp;&nbsp;&nbsp;Tel: 055/576687</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/fiamma/99833/251450">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/fiamma">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">15:45 18:00 20:15 22:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/l-illusionista/394872">L&#039;illusionista</a> <a class="filmTrailer" href="film/trailer/l-illusionista/394872">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">ISTITUTO STENSEN</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Viale Don Minzoni, 25/a&nbsp;&nbsp;&nbsp;Tel: 055/576551</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/istituto-stensen/99833/251228">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/istituto+stensen">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">20:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/la-kryptonite-nella-borsa/407581">La kryptonite nella borsa</a> <a class="filmTrailer" href="film/trailer/la-kryptonite-nella-borsa/407581">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">PRINCIPE C. G.</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Viale Matteotti&nbsp;&nbsp;&nbsp;Tel: 055/5520984</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/principe-c-g/99833/251452">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/principe+c+g">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">16:00 18:10 20:20 22:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">UCI CINEMAS FIRENZE</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via &nbsp;Del Cavallaccio&nbsp;&nbsp;&nbsp;Tel: 892 960</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/uci-cinemas-firenze/99833/253193">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/uci+cinemas+firenze">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">15:20 17:45 20:20 22:40</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/la-peggior-settimana-della-mia-vita/407158">La peggior settimana della mia vita</a> <a class="filmTrailer" href="film/trailer/la-peggior-settimana-della-mia-vita/407158">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                <a href="club"><img class="tcClub" alt="Vai al cinema a prezzo ridotto" src="img/tc/icon_tc_club.jpg"/></a></div>
+                            <div class="div-center">
+                                <p class="cineName">ADRIANO</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via&nbsp;Romagnosi&nbsp;46&nbsp;&nbsp;Tel: 055/483607</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/adriano/99833/251429">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/adriano">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">15:40 17:30 20:40 22:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                <a href="club"><img class="tcClub" alt="Vai al cinema a prezzo ridotto" src="img/tc/icon_tc_club.jpg"/></a></div>
+                            <div class="div-center">
+                                <p class="cineName">FULGOR</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via&nbsp;Maso Finiguerra&nbsp;&nbsp;&nbsp;Tel: 055/2381881</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/fulgor/99833/251453">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/fulgor">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">15:30 17:20 19:10 21:00 22:45</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">MARCONI</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Viale Giannotti&nbsp;&nbsp;&nbsp;Tel: 055/685199</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/marconi/99833/251456">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/marconi">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">15:30 17:20 19:10 21:00 22:45</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">UCI CINEMAS FIRENZE</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via &nbsp;Del Cavallaccio&nbsp;&nbsp;&nbsp;Tel: 892 960</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/uci-cinemas-firenze/99833/253193">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/uci+cinemas+firenze">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">11:30 15:10 17:30 20:00 22:15</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/le-avventure-di-tintin-il-segreto-dell-unicorno-3d/403219">Le avventure di Tintin: il segreto dell&#039;Unicorno (3D)</a> <a class="filmTrailer" href="film/trailer/le-avventure-di-tintin-il-segreto-dell-unicorno-3d/403219">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                <a href="club"><img class="tcClub" alt="Vai al cinema a prezzo ridotto" src="img/tc/icon_tc_club.jpg"/></a></div>
+                            <div class="div-center">
+                                <p class="cineName">FULGOR</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via&nbsp;Maso Finiguerra&nbsp;&nbsp;&nbsp;Tel: 055/2381881</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/fulgor/99833/251453">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/fulgor">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">15:45 18:00 20:15</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">PORTICO</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via&nbsp;Capo di Mondo&nbsp;66/68&nbsp;&nbsp;Tel: 055/669930</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/portico/99833/251451">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/portico">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">15:45 18:05 20:10 22:15</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">UCI CINEMAS FIRENZE</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via &nbsp;Del Cavallaccio&nbsp;&nbsp;&nbsp;Tel: 892 960</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/uci-cinemas-firenze/99833/253193">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/uci+cinemas+firenze">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">11:30 15:00 17:30 20:00 22:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/maga-martina-2-viaggio-in-india/406641">Maga Martina 2 - Viaggio in India</a> <a class="filmTrailer" href="film/trailer/maga-martina-2-viaggio-in-india/406641">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">UCI CINEMAS FIRENZE</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via &nbsp;Del Cavallaccio&nbsp;&nbsp;&nbsp;Tel: 892 960</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/uci-cinemas-firenze/99833/253193">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/uci+cinemas+firenze">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">14:10</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/matrimonio-a-parigi/406654">Matrimonio a Parigi</a> <a class="filmTrailer" href="film/trailer/matrimonio-a-parigi/406654">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">UCI CINEMAS FIRENZE</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via &nbsp;Del Cavallaccio&nbsp;&nbsp;&nbsp;Tel: 892 960</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/uci-cinemas-firenze/99833/253193">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/uci+cinemas+firenze">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">11:30 14:50 17:10 19:50 22:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/melancholia/401897">Melancholia</a> <a class="filmTrailer" href="film/trailer/melancholia/401897">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                <a href="club"><img class="tcClub" alt="Vai al cinema a prezzo ridotto" src="img/tc/icon_tc_club.jpg"/></a></div>
+                            <div class="div-center">
+                                <p class="cineName">FIORELLA ATELIER</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via &nbsp;Gabriele D&#039;Annunzio&nbsp;&nbsp;&nbsp;Tel: 055/678123</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/fiorella-atelier/99833/251304">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/fiorella+atelier">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">15:30 17:55 20:20 22:45</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/missione-di-pace/406549">Missione di pace</a> <a class="filmTrailer" href="film/trailer/missione-di-pace/406549">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">COLONNA ATELIER</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Lungarno&nbsp;F. Ferrucci &nbsp;23&nbsp;&nbsp;Tel: 055/680990</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/colonna-atelier/99833/251448">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/colonna+atelier">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">16:30 18:30 20:30 22:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/paranormal-activity-3/403891">Paranormal Activity 3</a> <a class="filmTrailer" href="film/trailer/paranormal-activity-3/403891">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">UCI CINEMAS FIRENZE</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via &nbsp;Del Cavallaccio&nbsp;&nbsp;&nbsp;Tel: 892 960</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/uci-cinemas-firenze/99833/253193">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/uci+cinemas+firenze">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">22:40</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/pina-3d/406661">Pina 3D</a> <a class="filmTrailer" href="film/trailer/pina-3d/406661">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                <a href="club"><img class="tcClub" alt="Vai al cinema a prezzo ridotto" src="img/tc/icon_tc_club.jpg"/></a></div>
+                            <div class="div-center">
+                                <p class="cineName">ADRIANO</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via&nbsp;Romagnosi&nbsp;46&nbsp;&nbsp;Tel: 055/483607</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/adriano/99833/251429">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/adriano">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">15:30 17:30 20:30 22:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/quando-la-notte/406665">Quando la notte</a> <a class="filmTrailer" href="film/trailer/quando-la-notte/406665">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                <a href="club"><img class="tcClub" alt="Vai al cinema a prezzo ridotto" src="img/tc/icon_tc_club.jpg"/></a></div>
+                            <div class="div-center">
+                                <p class="cineName">FIORELLA ATELIER</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via &nbsp;Gabriele D&#039;Annunzio&nbsp;&nbsp;&nbsp;Tel: 055/678123</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/fiorella-atelier/99833/251304">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/fiorella+atelier">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">16:00 18:15 20:30 22:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/terraferma/405696">Terraferma</a> <a class="filmTrailer" href="film/trailer/terraferma/405696">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">CINECITTA&#039;</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via &nbsp;Pisana &nbsp;576&nbsp;&nbsp;Tel: 055/7324510</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/cinecitta/99833/251461">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/cinecitta">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">21:00 22:45</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">SPAZIO 1</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>via del Sole 10&nbsp;&nbsp;&nbsp;Tel: 055/284642</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/spazio-1/99833/253064">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/spazio+1">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">18:30 20:45</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/the-tomorrow-series-il-domani-che-verra/404467">The Tomorrow Series: il domani che verrà</a> <a class="filmTrailer" href="film/trailer/the-tomorrow-series-il-domani-che-verra/404467">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                <a href="club"><img class="tcClub" alt="Vai al cinema a prezzo ridotto" src="img/tc/icon_tc_club.jpg"/></a></div>
+                            <div class="div-center">
+                                <p class="cineName">FULGOR</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via&nbsp;Maso Finiguerra&nbsp;&nbsp;&nbsp;Tel: 055/2381881</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/fulgor/99833/251453">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/fulgor">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">15:45 18:00 20:15 22:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">UCI CINEMAS FIRENZE</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via &nbsp;Del Cavallaccio&nbsp;&nbsp;&nbsp;Tel: 892 960</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/uci-cinemas-firenze/99833/253193">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/uci+cinemas+firenze">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">14:10 16:45 19:30 22:10</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/this-must-be-the-place/393849">This Must Be the Place</a> <a class="filmTrailer" href="film/trailer/this-must-be-the-place/393849">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">ASTRA DUE CINEHALL</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Piazza Beccaria&nbsp;&nbsp;&nbsp;Tel: 055/2343666</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/astra-due-cinehall/99833/251439">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/astra+due+cinehall">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">15:30 17:50 20:10 22:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                <a href="club"><img class="tcClub" alt="Vai al cinema a prezzo ridotto" src="img/tc/icon_tc_club.jpg"/></a></div>
+                            <div class="div-center">
+                                <p class="cineName">FLORA ATELIER</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Piazza &nbsp;Dalmazia&nbsp; 2r&nbsp;&nbsp;Tel: 055/4220420</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/flora-atelier/99833/251427">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/flora+atelier">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">16:00 18:15 20:30 22:45</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                <a href="club"><img class="tcClub" alt="Vai al cinema a prezzo ridotto" src="img/tc/icon_tc_club.jpg"/></a></div>
+                            <div class="div-center">
+                                <p class="cineName">FULGOR</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via&nbsp;Maso Finiguerra&nbsp;&nbsp;&nbsp;Tel: 055/2381881</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/fulgor/99833/251453">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/fulgor">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">15:30 17:55 20:20 22:40</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">UCI CINEMAS FIRENZE</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via &nbsp;Del Cavallaccio&nbsp;&nbsp;&nbsp;Tel: 892 960</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/uci-cinemas-firenze/99833/253193">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/uci+cinemas+firenze">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">14:45 17:20 20:00</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/tomboy/405439">Tomboy</a> <a class="filmTrailer" href="film/trailer/tomboy/405439">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                <a href="club"><img class="tcClub" alt="Vai al cinema a prezzo ridotto" src="img/tc/icon_tc_club.jpg"/></a></div>
+                            <div class="div-center">
+                                <p class="cineName">SALA ESSE</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via &nbsp;del Ghirlandaio &nbsp;38&nbsp;&nbsp;Tel: 055/666643</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/sala-esse/99833/251459">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/sala+esse">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">17:00 19:00 21:15</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/una-separazione/400076">Una separazione</a> <a class="filmTrailer" href="film/trailer/una-separazione/400076">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">SPAZIO 1</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>via del Sole 10&nbsp;&nbsp;&nbsp;Tel: 055/284642</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/spazio-1/99833/253064">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/spazio+1">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">16:00 20:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+                <div class="searchRes-group">
+                    <div class="labelSearchFilm">
+                        <a class="filmName" href="film/warrior/406767">Warrior</a> <a class="filmTrailer" href="film/trailer/warrior/406767">Trailer</a>
+                                </div>
+                <div class="resultLineFilm">
+                            <div class="div-left">
+                                </div>
+                            <div class="div-center">
+                                <p class="cineName">UCI CINEMAS FIRENZE</p><span> (FIRENZE)</span>
+                                                               	
+                                <p>Via &nbsp;Del Cavallaccio&nbsp;&nbsp;&nbsp;Tel: 892 960</p>
+                                
+								<div class="cineLink"><a class="linkProgrammazCineFl" style="color: #000000; margin-left:0px;padding-right: 30px;" href="cinema/uci-cinemas-firenze/99833/253193">La scheda del cinema</a> <a class="linkProgrammazCineFl" style="color: #333333" href="programmazione-cinema/citta/firenze/fi/cinema/uci+cinemas+firenze">Tutta la programmazione</a> <br clear="all" /></div>
+                                    </div>
+                            <div class="div-right">
+                    <span class="res-hours">16:30 19:30 22:30</span>
+                    </div>
+                    <br clear="all" />
+                    </div>
+                </div>
+        <br clear="all"  />
+				<div id="formInvito">
+    <div id="formInvito">
+        <div id="rec-top">
+			<h3>Invita un amico al cinema</h3>
+		</div>
+        <div id="rec-body">            
+			<span>Nome Mittente&nbsp;&nbsp;&nbsp;</span><input id="invita_mittente" type="text" name="invita_mittente" value="" />
+			<span>Nome Destinatario</span><input id="invita_destinatario" type="text" name="invita_destinatario" value="" />
+			<br clear="all" />
+			<span>Mail Destinatario</span><input id="invita_mailDest" type="text" name="invita_mailDest" value="" />
+			<span>Seleziona un film&nbsp;</span>
+			
+			<select id="invita_film" name="invita_film">
+			<option selected="selected" value="">Seleziona un film</option>
+				<option value="A Dangerous Method" >A Dangerous Method</option>
+                <option value="Amici di letto" >Amici di letto</option>
+                <option value="Arrietty - Il mondo segreto sotto il pavimento" >Arrietty - Il mondo segreto sotto il pavimento</option>
+                <option value="Bar Sport" >Bar Sport</option>
+                <option value="Carnage" >Carnage</option>
+                <option value="Cars 2" >Cars 2</option>
+                <option value="Cowboys &amp; Aliens" >Cowboys &amp; Aliens</option>
+                <option value="Drive" >Drive</option>
+                <option value="Ex: Amici come prima!" >Ex: Amici come prima!</option>
+                <option value="Faust" >Faust</option>
+                <option value="I Puffi" >I Puffi</option>
+                <option value="I Puffi (3D)" >I Puffi (3D)</option>
+                <option value="I pinguini di Mr. Popper" >I pinguini di Mr. Popper</option>
+                <option value="I soliti idioti" >I soliti idioti</option>
+                <option value="I tre moschettieri" >I tre moschettieri</option>
+                <option value="I tre moschettieri (3D)" >I tre moschettieri (3D)</option>
+                <option value="Il mio domani" >Il mio domani</option>
+                <option value="Il pezzo mancante" >Il pezzo mancante</option>
+                <option value="Il villaggio di cartone" >Il villaggio di cartone</option>
+                <option value="Insidious" >Insidious</option>
+                <option value="Io sono Li" >Io sono Li</option>
+                <option value="Johnny English la rinascita" >Johnny English la rinascita</option>
+                <option value="Kung Fu Panda 2" >Kung Fu Panda 2</option>
+                <option value="L&#039;amore all&#039;improvviso - Larry Crowne" >L&#039;amore all&#039;improvviso - Larry Crowne</option>
+                <option value="L&#039;amore che resta" >L&#039;amore che resta</option>
+                <option value="La kryptonite nella borsa" >La kryptonite nella borsa</option>
+                <option value="La peggior settimana della mia vita" >La peggior settimana della mia vita</option>
+                <option value="La pelle che abito" >La pelle che abito</option>
+                <option value="Le avventure di Tintin: il segreto dell&#039;Unicorno" >Le avventure di Tintin: il segreto dell&#039;Unicorno</option>
+                <option value="Le avventure di Tintin: il segreto dell&#039;Unicorno (3D)" >Le avventure di Tintin: il segreto dell&#039;Unicorno (3D)</option>
+                <option value="Maga Martina 2 - Viaggio in India" >Maga Martina 2 - Viaggio in India</option>
+                <option value="Matrimonio a Parigi" >Matrimonio a Parigi</option>
+                <option value="Melancholia" >Melancholia</option>
+                <option value="Missione di pace" >Missione di pace</option>
+                <option value="Paranormal Activity 3" >Paranormal Activity 3</option>
+                <option value="Pina" >Pina</option>
+                <option value="Pina 3D" >Pina 3D</option>
+                <option value="Quando la notte" >Quando la notte</option>
+                <option value="Sex list" >Sex list</option>
+                <option value="Terraferma" >Terraferma</option>
+                <option value="The Tomorrow Series: il domani che verrà" >The Tomorrow Series: il domani che verrà</option>
+                <option value="This Must Be the Place" >This Must Be the Place</option>
+                <option value="Tomboy" >Tomboy</option>
+                <option value="Una separazione" >Una separazione</option>
+                <option value="Warrior" >Warrior</option>
+                </select>
+			
+			<br clear="all" /><br clear="all" />
+			<span>Scrivi un messaggio</span><br clear="all" />
+			<textarea rows="10" cols="5" id="invita_msg" name="invita_msg"></textarea>						
+        </div>
+        <div id="rec-bottom">
+			<a id="rec-invia" href="javascript:composeMail()"></a>
+		</div>								
+    </div>
+</div></div><div id="col-right">
+		<div id="oas-Middle1">
+					<script language='JavaScript'>
+					<!--
+						OAS_RICH('Middle1');
+					//-->
+					</script>
+				</div>
+<script type="text/javascript" >
+				function control_search() {	
+					
+					if(document.forms['form_search'].elements['searchString'].value.length > 2)	return true;
+					
+					else 
+					{
+						alert("Inserisci il contenuto della ricerca (almeno 3 lettere)");
+						return false;
+					}
+				}				
+				</script>		 		
+				
+				<div class="box300 searchArchivio ">
+					<div class="label "><h3>Ricerca in archivio</h3></div>
+					<div class="text searchArchivioText  ">
+						<form action="search" method="get" onSubmit="javascript:return control_search();" name="form_search">							
+							<div class="aSearch-option1"><span>Chi, Cosa </span><input class="aSearch-input" type="text" name="searchString" value="" /></div>														
+							<br clear="all" />
+							<div class="h10"></div>
+							<div class="aSearch-option2"><span>Dove </span>
+							<select class="aSearch-select" name="category">
+								<option selected="selected" value="Film">Film</option>
+								<option value="Homevideo">Homevideo</option>
+								<option value="Persone">Attori, registi</option>
+								<option value="Multimedia">Multimedia</option>
+								</select>
+							<input style="background-color: none" class="aSearch-submit" type="submit" onmouseout="upMouse(this, 'cerca_normal.png')" onmouseover="overMouse(this, 'cerca_press.png');" value=""/>					
+							</div>
+							</form>
+						<br clear="all" />
+					</div>
+				</div>
+				
+					<div id="OAS-spallaDx" style="margin-bottom:10px;">
+	<script language="javascript" type="text/javascript">
+		OAS_RICH('x40');
+	</script>
+</div>
+
+<script>
+			var cPage = new String();
+			var pageRight = new String();
+			var section = new String();
+			var sectionURL = new String();
+            var linkSpec = new String();
+            cPage = "other";
+			pageRight = "news_right";
+            section = "home";
+			sectionURL = "copertina";
+            linkSpec = "";
+        </script>
+		<div id="newsOas"></div>
+                <div id="oas-Right">
+                    <!--<img src="img/tc/fake/fake_banner600.jpg" />-->
+                    <script type="text/javascript">
+                            <!--
+                            OAS_RICH('Right');
+                            //-->
+                    </script>
+                </div>
+
+				<script>
+					// Gestore evento onLoad della pagina
+					$(document).ready(function(){
+						// Test Posizioni pubblicitarie a seconda della pagina in cui ci si trova
+						// HOMEPAGE
+						if(cPage == "home") {
+							//alert("home");
+							var adDivList = ['oas-Middle1'];//'oas-Right','oas-Left','oas-Left1','oas-Left2','oas-Right1','oas-Right2','oas-Middle1'
+							OAS_VIS_MAIN(adDivList, true, true);												
+						// ALTRE PAGINE
+						} else if(cPage == "other") {
+							//alert("other");
+							var adDivList = ['oas-Middle1'];//'oas-Right','oas-Middle1'
+							OAS_VIS_MAIN(adDivList, false, true);												
+						}
+						// Condizione per verifica dimensioni immagini fotogallery
+						if($("img.fotogal").length > 0) {
+							checkImageDims();
+						}
+					 });					
+					function checkImageDims() {
+						//alert($("img.fotogal").height()+" - "+$("img.fotogal").width()+" -- LIMITS: h 600 W 670");
+						if($("img.fotogal").height() > 600) {	
+							rapporto = $("img.fotogal").width()/$("img.fotogal").height();		
+							$("img.fotogal").css("height", "600px");		
+							$("img.fotogal").css("width", (600*rapporto)+"px");
+							$("img.fotogal").css("visibility", "visible");		
+							//alert(rapporto);
+							return;
+						} else if($("img.fotogal").width() > 600) {
+							rapporto = $("img.fotogal").height()/$("img.fotogal").width();		
+							$("img.fotogal").css("height", (600*rapporto)+"px");		
+							$("img.fotogal").css("width", "600px");
+							$("img.fotogal").css("visibility", "visible");
+							//alert(rapporto);
+							return;
+						} else {
+							$("img.fotogal").css("visibility", "visible");
+						}
+					}
+					//$("img.fotogal").bind("load", function(e) {checkImageDims();})					
+				</script>
+				<br clear="all" />				
+				<div class="box300">
+	<div class="label"><h3>Le programmazioni dei cinema di tutta Italia</h3></div>
+    <div class="text">
+<div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/agrigento/ag/film" onclick="setCookieOnSearch('ag', '0')">
+            	Cinema Agrigento</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/alessandria/al/film" onclick="setCookieOnSearch('al', '0')">
+            	Cinema Alessandria</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/ancona/an/film" onclick="setCookieOnSearch('an', '0')">
+            	Cinema Ancona</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/aosta/ao/film" onclick="setCookieOnSearch('ao', '0')">
+            	Cinema Aosta</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/arezzo/ar/film" onclick="setCookieOnSearch('ar', '0')">
+            	Cinema Arezzo</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/ascoli-piceno/ap/film" onclick="setCookieOnSearch('ap', '0')">
+            	Cinema Ascoli Piceno</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/asti/at/film" onclick="setCookieOnSearch('at', '0')">
+            	Cinema Asti</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/avellino/av/film" onclick="setCookieOnSearch('av', '0')">
+            	Cinema Avellino</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/bari/ba/film" onclick="setCookieOnSearch('ba', '0')">
+            	Cinema Bari</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/barletta/bt/film" onclick="setCookieOnSearch('bt', '0')">
+            	Cinema Barletta</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/belluno/bl/film" onclick="setCookieOnSearch('bl', '0')">
+            	Cinema Belluno</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/benevento/bn/film" onclick="setCookieOnSearch('bn', '0')">
+            	Cinema Benevento</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/bergamo/bg/film" onclick="setCookieOnSearch('bg', '0')">
+            	Cinema Bergamo</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/biella/bi/film" onclick="setCookieOnSearch('bi', '0')">
+            	Cinema Biella</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/bologna/bo/film" onclick="setCookieOnSearch('bo', '0')">
+            	Cinema Bologna</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/bolzano/bz/film" onclick="setCookieOnSearch('bz', '0')">
+            	Cinema Bolzano</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/brescia/bs/film" onclick="setCookieOnSearch('bs', '0')">
+            	Cinema Brescia</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/brindisi/br/film" onclick="setCookieOnSearch('br', '0')">
+            	Cinema Brindisi</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/cagliari/ca/film" onclick="setCookieOnSearch('ca', '0')">
+            	Cinema Cagliari</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/caltanissetta/cl/film" onclick="setCookieOnSearch('cl', '0')">
+            	Cinema Caltanissetta</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/campobasso/cb/film" onclick="setCookieOnSearch('cb', '0')">
+            	Cinema Campobasso</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/carbonia-iglesias/ci/film" onclick="setCookieOnSearch('ci', '0')">
+            	Cinema Carbonia Iglesias</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/caserta/ce/film" onclick="setCookieOnSearch('ce', '0')">
+            	Cinema Caserta</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/catania/ct/film" onclick="setCookieOnSearch('ct', '0')">
+            	Cinema Catania</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/catanzaro/cz/film" onclick="setCookieOnSearch('cz', '0')">
+            	Cinema Catanzaro</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/chieti/ch/film" onclick="setCookieOnSearch('ch', '0')">
+            	Cinema Chieti</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/como/co/film" onclick="setCookieOnSearch('co', '0')">
+            	Cinema Como</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/cosenza/cs/film" onclick="setCookieOnSearch('cs', '0')">
+            	Cinema Cosenza</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/cremona/cr/film" onclick="setCookieOnSearch('cr', '0')">
+            	Cinema Cremona</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/crotone/kr/film" onclick="setCookieOnSearch('kr', '0')">
+            	Cinema Crotone</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/cuneo/cn/film" onclick="setCookieOnSearch('cn', '0')">
+            	Cinema Cuneo</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/enna/en/film" onclick="setCookieOnSearch('en', '0')">
+            	Cinema Enna</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/fermo/fm/film" onclick="setCookieOnSearch('fm', '0')">
+            	Cinema Fermo</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/ferrara/fe/film" onclick="setCookieOnSearch('fe', '0')">
+            	Cinema Ferrara</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/firenze/fi/film" onclick="setCookieOnSearch('fi', '0')">
+            	Cinema Firenze</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/foggia/fg/film" onclick="setCookieOnSearch('fg', '0')">
+            	Cinema Foggia</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/forli-cesena/fc/film" onclick="setCookieOnSearch('fc', '0')">
+            	Cinema Forli Cesena</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/frosinone/fr/film" onclick="setCookieOnSearch('fr', '0')">
+            	Cinema Frosinone</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/genova/ge/film" onclick="setCookieOnSearch('ge', '0')">
+            	Cinema Genova</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/gorizia/go/film" onclick="setCookieOnSearch('go', '0')">
+            	Cinema Gorizia</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/grosseto/gr/film" onclick="setCookieOnSearch('gr', '0')">
+            	Cinema Grosseto</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/imperia/im/film" onclick="setCookieOnSearch('im', '0')">
+            	Cinema Imperia</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/isernia/is/film" onclick="setCookieOnSearch('is', '0')">
+            	Cinema Isernia</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/laquila/aq/film" onclick="setCookieOnSearch('aq', '0')">
+            	Cinema L'aquila</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/la-spezia/sp/film" onclick="setCookieOnSearch('sp', '0')">
+            	Cinema La Spezia</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/latina/lt/film" onclick="setCookieOnSearch('lt', '0')">
+            	Cinema Latina</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/lecce/le/film" onclick="setCookieOnSearch('le', '0')">
+            	Cinema Lecce</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/lecco/lc/film" onclick="setCookieOnSearch('lc', '0')">
+            	Cinema Lecco</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/livorno/li/film" onclick="setCookieOnSearch('li', '0')">
+            	Cinema Livorno</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/lodi/lo/film" onclick="setCookieOnSearch('lo', '0')">
+            	Cinema Lodi</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/lucca/lu/film" onclick="setCookieOnSearch('lu', '0')">
+            	Cinema Lucca</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/macerata/mc/film" onclick="setCookieOnSearch('mc', '0')">
+            	Cinema Macerata</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/mantova/mn/film" onclick="setCookieOnSearch('mn', '0')">
+            	Cinema Mantova</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/massa-carrara/ms/film" onclick="setCookieOnSearch('ms', '0')">
+            	Cinema Massa Carrara</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/matera/mt/film" onclick="setCookieOnSearch('mt', '0')">
+            	Cinema Matera</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/medio-campidano/md/film" onclick="setCookieOnSearch('md', '0')">
+            	Cinema Medio Campidano</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/messina/me/film" onclick="setCookieOnSearch('me', '0')">
+            	Cinema Messina</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/milano/mi/film" onclick="setCookieOnSearch('mi', '0')">
+            	Cinema Milano</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/modena/mo/film" onclick="setCookieOnSearch('mo', '0')">
+            	Cinema Modena</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/monza-e-brianza/mb/film" onclick="setCookieOnSearch('mb', '0')">
+            	Cinema Monza E Brianza</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/napoli/na/film" onclick="setCookieOnSearch('na', '0')">
+            	Cinema Napoli</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/novara/no/film" onclick="setCookieOnSearch('no', '0')">
+            	Cinema Novara</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/nuoro/nu/film" onclick="setCookieOnSearch('nu', '0')">
+            	Cinema Nuoro</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/ogliastra/og/film" onclick="setCookieOnSearch('og', '0')">
+            	Cinema Ogliastra</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/olbia-tempio/ot/film" onclick="setCookieOnSearch('ot', '0')">
+            	Cinema Olbia Tempio</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/oristano/or/film" onclick="setCookieOnSearch('or', '0')">
+            	Cinema Oristano</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/padova/pd/film" onclick="setCookieOnSearch('pd', '0')">
+            	Cinema Padova</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/palermo/pa/film" onclick="setCookieOnSearch('pa', '0')">
+            	Cinema Palermo</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/parma/pr/film" onclick="setCookieOnSearch('pr', '0')">
+            	Cinema Parma</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/pavia/pv/film" onclick="setCookieOnSearch('pv', '0')">
+            	Cinema Pavia</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/perugia/pg/film" onclick="setCookieOnSearch('pg', '0')">
+            	Cinema Perugia</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/pesaro-urbino/pu/film" onclick="setCookieOnSearch('pu', '0')">
+            	Cinema Pesaro Urbino</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/pescara/pe/film" onclick="setCookieOnSearch('pe', '0')">
+            	Cinema Pescara</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/piacenza/pc/film" onclick="setCookieOnSearch('pc', '0')">
+            	Cinema Piacenza</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/pisa/pi/film" onclick="setCookieOnSearch('pi', '0')">
+            	Cinema Pisa</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/pistoia/pt/film" onclick="setCookieOnSearch('pt', '0')">
+            	Cinema Pistoia</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/pordenone/pn/film" onclick="setCookieOnSearch('pn', '0')">
+            	Cinema Pordenone</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/potenza/pz/film" onclick="setCookieOnSearch('pz', '0')">
+            	Cinema Potenza</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/prato/po/film" onclick="setCookieOnSearch('po', '0')">
+            	Cinema Prato</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/ragusa/rg/film" onclick="setCookieOnSearch('rg', '0')">
+            	Cinema Ragusa</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/ravenna/ra/film" onclick="setCookieOnSearch('ra', '0')">
+            	Cinema Ravenna</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/reggio-calabria/rc/film" onclick="setCookieOnSearch('rc', '0')">
+            	Cinema Reggio Calabria</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/reggio-emilia/re/film" onclick="setCookieOnSearch('re', '0')">
+            	Cinema Reggio Emilia</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/rieti/ri/film" onclick="setCookieOnSearch('ri', '0')">
+            	Cinema Rieti</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/rimini/rn/film" onclick="setCookieOnSearch('rn', '0')">
+            	Cinema Rimini</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/roma/rm/film" onclick="setCookieOnSearch('rm', '0')">
+            	Cinema Roma</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/rovigo/ro/film" onclick="setCookieOnSearch('ro', '0')">
+            	Cinema Rovigo</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/salerno/sa/film" onclick="setCookieOnSearch('sa', '0')">
+            	Cinema Salerno</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/sassari/ss/film" onclick="setCookieOnSearch('ss', '0')">
+            	Cinema Sassari</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/savona/sv/film" onclick="setCookieOnSearch('sv', '0')">
+            	Cinema Savona</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/siena/si/film" onclick="setCookieOnSearch('si', '0')">
+            	Cinema Siena</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/siracusa/sr/film" onclick="setCookieOnSearch('sr', '0')">
+            	Cinema Siracusa</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/sondrio/so/film" onclick="setCookieOnSearch('so', '0')">
+            	Cinema Sondrio</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/taranto/ta/film" onclick="setCookieOnSearch('ta', '0')">
+            	Cinema Taranto</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/teramo/te/film" onclick="setCookieOnSearch('te', '0')">
+            	Cinema Teramo</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/terni/tr/film" onclick="setCookieOnSearch('tr', '0')">
+            	Cinema Terni</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/torino/to/film" onclick="setCookieOnSearch('to', '0')">
+            	Cinema Torino</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/trapani/tp/film" onclick="setCookieOnSearch('tp', '0')">
+            	Cinema Trapani</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/trento/tn/film" onclick="setCookieOnSearch('tn', '0')">
+            	Cinema Trento</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/treviso/tv/film" onclick="setCookieOnSearch('tv', '0')">
+            	Cinema Treviso</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/trieste/ts/film" onclick="setCookieOnSearch('ts', '0')">
+            	Cinema Trieste</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/udine/ud/film" onclick="setCookieOnSearch('ud', '0')">
+            	Cinema Udine</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/varese/va/film" onclick="setCookieOnSearch('va', '0')">
+            	Cinema Varese</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/venezia/ve/film" onclick="setCookieOnSearch('ve', '0')">
+            	Cinema Venezia</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/verbano-c-ossola/vb/film" onclick="setCookieOnSearch('vb', '0')">
+            	Cinema Verbano C. Ossola</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/vercelli/vc/film" onclick="setCookieOnSearch('vc', '0')">
+            	Cinema Vercelli</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/verona/vr/film" onclick="setCookieOnSearch('vr', '0')">
+            	Cinema Verona</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/vibo-valentia/vv/film" onclick="setCookieOnSearch('vv', '0')">
+            	Cinema Vibo Valentia</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    <div class="lineCineElem">
+    <div class="lightElem">
+		<a href="programmazione-cinema/citta/vicenza/vi/film" onclick="setCookieOnSearch('vi', '0')">
+            	Cinema Vicenza</a>
+        </div>   
+    <div class="darkElem">
+		<a href="programmazione-cinema/citta/viterbo/vt/film" onclick="setCookieOnSearch('vt', '0')">
+            	Cinema Viterbo</a>
+        </div>   
+    <br clear="all" />
+	    </div>   
+    </div>
+<script>
+if($.browser.mozilla == true) {
+	//alert("ok");
+	$(".darkElem a").css("position", "relative");
+	$(".darkElem a").css("top", "4px");
+	$(".lightElem a").css("position", "relative");
+	$(".lightElem a").css("top", "4px");
+}
+</script>
+</div>
+<div id="oas-Vetrine">
+					<div id="OAS-titolo-vetrina" class="shared-content-vetrina"><p>PUBBLICIT&Agrave;</p>
+						<script language="javascript" type="text/javascript">
+							OAS_RICH('x41');
+							OAS_RICH('x42');
+							OAS_RICH('x43');
+							OAS_RICH('x44');
+							OAS_RICH('x45');
+							OAS_RICH('x46');
+						</script>
+					</div>
+            	</div>	
+				<br clear="all" />
+				<script language="javascript" src="http://scripts.kataweb.it/zbanner_consorzio.js" type="text/javascript" charset="iso-8859-1"></script>
+				<br clear="all" />
+<br clear="all" />
+			<div id="carousel"><!----></div>
+		    </div>
+
+        <br clear="all" />
+		</div> <br clear="all" />
+		<br clear="all" />
+		
+		<br clear="all" />
+		
+        <div id="footer">
+			<div class="centerFooter">
+				<div class="quotRight"><a class="cred" href="javascript:window.print()">Stampa</a><span>|</span><a class="cred1" href="mailto:?subject=Pagina da Trovacinema &body=http://trovacinema.repubblica.it/programmazione-cinema/citta/firenze/fi/film?kwuri=http://trovacinema.repubblica.it/programmazione-cinema/citta/firenze/fi/film">Invia questa pagina a un amico</a><span>|</span><a class="cred2" href="http://www.manzoniadvertising.it">Pubblicit&agrave;</a><span>|</span><a class="cred3" href="credits">Note legali e crediti</a></div>
+				<div class="h3"></div>
+				<div class="blackRule"></div>
+				<div class="quotRight"><blockquote class="notelegali">Tutti i diritti riservati. E' vietata la riproduzione anche parziale.
+	Elemedia S.p.A. non &egrave; collegato ai siti recensiti e non &egrave; responsabile del loro contenuto.
+	&copy; 1999-2010 Elemedia S.p.A. P.IVA: 05703731009 Gruppo Editoriale L'Espresso Spa</blockquote>
+			    </div>
+		    </div>
+            <br clear="all" />
+		</div>
+		<div id="oas-Position1">					
+			<script type="text/javascript">
+				<!--
+				OAS_RICH('Position1');
+				//-->
+			</script>
+		</div>
+    </div> <script type="text/javascript"src="http://adagiojs.repubblica.it/uploads/js/repubblica.js"></script>
+		<!-- overlay non full screen -->
+		<script type="text/javascript">
+			<!--
+			OAS_RICH('Position2');
+			//-->
+		</script>
+		<script type="text/javascript">
+			adagioDrawBoxCorrelati();
+		</script>
+
+		<!-- red sheriff  -->
+<!-- START Nielsen//NetRatings SiteCensus V5.2 -->
+<!-- COPYRIGHT 2006 Nielsen//NetRatings -->
+<script type="text/javascript">
+	var _rsCI="kataweb-it";
+	var _rsCG="0";
+	var _rsDN="//secure-it.imrworldwide.com/";
+	var _rsCC=0;
+	var _rsIP=1;
+</script>
+<script type="text/javascript" src="//secure-it.imrworldwide.com/v52.js"></script>
+<noscript>
+	<img src="//secure-it.imrworldwide.com/cgi-bin/m?ci=kataweb-it&amp;cg=0" style="display:none" alt=""/>
+</noscript>
+<!-- END Nielsen//NetRatings SiteCensus V5.2 -->
+<!-- red sheriff  --></body>
+	</html>
+
+	
