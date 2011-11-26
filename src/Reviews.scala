@@ -166,10 +166,8 @@ class SearchReviews extends ListActivity with ActivityHelper {
                     view = inflater.inflate(R.layout.movie_item, null);
                 }
 
-                val text = view.findViewById(R.id.movie_title)
-                     .asInstanceOf[TextView];
-
-                text.setText(results(position)._1);
+                view.findTextView(R.id.movie_title)
+                    .setText(results(position)._1);
 
                 return view;
             }
