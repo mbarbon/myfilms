@@ -2,15 +2,15 @@ package org.barbon.myfilms.scrape;
 
 import _root_.android.net.http.AndroidHttpClient;
 
-import _root_.java.io.InputStream;
-import _root_.java.io.ByteArrayOutputStream;
-
-import _root_.java.lang.{Boolean => JBoolean};
+import _root_.java.io.{InputStream, ByteArrayInputStream,
+                       ByteArrayOutputStream}
+import _root_.java.lang.{Boolean => JBoolean, Long => JLong};
 
 import _root_.org.apache.http.util.EntityUtils;
 import _root_.org.apache.http.client.methods.HttpGet;
 
 import _root_.org.jsoup.Jsoup;
+import _root_.org.jsoup.nodes.Document;
 
 import org.barbon.myfilms.Movies;
 
@@ -20,8 +20,9 @@ import scala.collection.JavaConversions._;
 
 abstract class ScraperTask extends ScraperTaskHelper {
     type CompletionCallback = Boolean => Unit;
+    type SearchCallback = (Boolean, Seq[(String, String)]) => Unit;
 
-    protected def downloadUrl(url : String) : (String, String, String) = {
+    protected def downloadUrl(url : String) : (String, String, Document) = {
         val client = AndroidHttpClient.newInstance("MyFilms/1.0");
         var encoding : String = null;
         var totalSize : Long = 0;
@@ -74,7 +75,10 @@ abstract class ScraperTask extends ScraperTaskHelper {
             client.close;
         }
 
-        return (url, encoding, out.toString(encoding));
+        val doc = Jsoup.parse(new ByteArrayInputStream(out.toByteArray),
+                              encoding, url);
+
+        return (url, encoding, doc);
     }
 }
 
@@ -94,12 +98,10 @@ class ListFetchTask(private val callback : ScraperTask#CompletionCallback,
     }
 
     private def updateMovieList(url : String) : Boolean = {
-        val (baseUrl, encoding, content) = downloadUrl(url);
+        val (baseUrl, encoding, doc) = downloadUrl(url);
 
-        if (content == null)
+        if (doc == null)
             return false;
-
-        val doc = Jsoup.parse(content, baseUrl);
 
         movies.deleteProjections;
 
