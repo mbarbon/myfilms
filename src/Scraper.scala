@@ -21,7 +21,6 @@ import scala.collection.JavaConversions._;
 
 abstract class ScraperTask extends ScraperTaskHelper {
     type CompletionCallback = Boolean => Unit;
-    type SearchCallback = (Boolean, Seq[(String, String)]) => Unit;
 
     protected def downloadUrl(url : String) : (String, String, Document) = {
         val client = AndroidHttpClient.newInstance("MyFilms/1.0");
@@ -134,8 +133,10 @@ class ListFetchTask(private val callback : ScraperTask#CompletionCallback,
     }
 }
 
-class SearchTask(private val callback : ScraperTask#SearchCallback)
+class SearchTask(private val callback : SearchTask#SearchCallback)
         extends ScraperTask {
+    type SearchCallback = (Boolean, Seq[(String, String)]) => Unit;
+
     val cards = new ArrayBuffer[(String, String)](0);
 
     protected override def doInBackground(url : String) : JBoolean = {
@@ -292,7 +293,7 @@ object FilmUp {
 class FilmUp(private val movies : Movies) {
     // public interface
 
-    def search(title : String, callback : ScraperTask#SearchCallback) {
+    def search(title : String, callback : SearchTask#SearchCallback) {
         val task = new SearchTask(callback);
 
         task.execute(searchUrl(title));
