@@ -14,7 +14,7 @@ import _root_.org.apache.http.client.methods.HttpGet;
 import _root_.org.jsoup.Jsoup;
 import _root_.org.jsoup.nodes.{Document, Element};
 
-import org.barbon.myfilms.Movies;
+import org.barbon.myfilms.{Movies, MovieProjection};
 
 import scala.collection.mutable.{MutableList, ArrayBuffer};
 import scala.collection.JavaConversions._;
@@ -112,12 +112,12 @@ class ListFetchTask(private val callback : ScraperTask#CompletionCallback,
                 val title = link.text;
                 val url = link.attr("abs:href");
                 val movieId = movies.getOrCreateMovie(title, url);
-                val projections = new MutableList[(String, String)];
+                val projections = new MutableList[MovieProjection];
 
                 for (projection <- movie.select("div.resultLineFilm")) {
                     val theater = projection.select("p.cineName").first.text;
                     val hours = projection.select("span.res-hours").first.text;
-                    projections += ((theater, hours));
+                    projections += MovieProjection(theater, hours);
                 }
 
                 movies.setProjections(movieId, projections);
@@ -135,9 +135,9 @@ class ListFetchTask(private val callback : ScraperTask#CompletionCallback,
 
 class SearchTask(private val callback : SearchTask#SearchCallback)
         extends ScraperTask {
-    type SearchCallback = (Boolean, Seq[(String, String)]) => Unit;
+    type SearchCallback = (Boolean, Seq[FilmUp.SearchItem]) => Unit;
 
-    val cards = new ArrayBuffer[(String, String)](0);
+    val cards = new ArrayBuffer[FilmUp.SearchItem](0);
 
     protected override def doInBackground(url : String) : JBoolean = {
         try {
@@ -159,13 +159,17 @@ class SearchTask(private val callback : SearchTask#SearchCallback)
 
         val pattern = Pattern.compile("^.*\\sscheda:\\s+(.*?)\\s*$",
                                       Pattern.CASE_INSENSITIVE);
+        val title = Pattern.compile("\\sscheda:\\s+(.*?)\\s*$",
+                                    Pattern.CASE_INSENSITIVE);
+        val year = Pattern.compile("anno:\\s+(\\d+)\\s+genere:",
+                                   Pattern.CASE_INSENSITIVE);
 
         for (item <- doc.select("dl dt a.filmup")) {
             val url = item.attr("abs:href");
             val matcher = pattern.matcher(item.text);
 
             if (matcher.matches)
-                cards += ((matcher.group(1), url));
+                cards += FilmUp.SearchItem(matcher.group(1), url);
         }
 
         return true;
@@ -288,6 +292,8 @@ class Trovacinema(private val movies : Movies) {
 object FilmUp {
     val URL : String = "http://filmup.leonardo.it/cgi-bin/search.cgi"
     val SearchParams : String = "?ps=10&fmt=long&ul=%25%2Fsc_%25&x=29&y=6&m=all&wf=0020&wm=sub&sy=0";
+
+    case class SearchItem(title : String, url : String);
 }
 
 class FilmUp(private val movies : Movies) {

@@ -99,7 +99,7 @@ class MyReview extends Activity with ActivityHelper {
 class SearchReviews extends ListActivity with ActivityHelper {
     import helpers._
 
-    type Item = (String, String);
+    type SearchItem = FilmUp.SearchItem;
 
     var movieId : JLong = -1;
 
@@ -131,10 +131,10 @@ class SearchReviews extends ListActivity with ActivityHelper {
 
     override def onListItemClick(l : ListView, v : View,
                                  position : Int, id : Long) {
-        val item = getListView.getAdapter.getItem(position).asInstanceOf[Item];
+        val item = getListView.getAdapter.getItem(position).asInstanceOf[SearchItem];
         val movies = Movies.getInstance(this);
 
-        movies.setFilmUpCardUrl(movieId, item._2);
+        movies.setFilmUpCardUrl(movieId, item.url);
         movies.setFilmUpReview(movieId, null);
 
         // got back to review page
@@ -150,7 +150,7 @@ class SearchReviews extends ListActivity with ActivityHelper {
 
     // implementation
 
-    private def gotCardList(success : Boolean, results : Seq[Item]) {
+    private def gotCardList(success : Boolean, results : Seq[SearchItem]) {
         val adapter = new BaseAdapter {
             override def getCount() : Int = results.length;
             override def getItem(position : Int) = results(position);
@@ -167,7 +167,7 @@ class SearchReviews extends ListActivity with ActivityHelper {
                 }
 
                 view.findTextView(R.id.movie_title)
-                    .setText(results(position)._1);
+                    .setText(results(position).title);
 
                 return view;
             }

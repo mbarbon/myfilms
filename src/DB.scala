@@ -73,6 +73,8 @@ object Movies {
     }
 }
 
+case class MovieProjection(theater : String, hours : String);
+
 class Movies (context : Context, name : String) {
     private val openHelper = new MoviesOpenHelper(context, name);
 
@@ -119,14 +121,14 @@ class Movies (context : Context, name : String) {
         return id;
     }
 
-    def setProjections(movieId : JLong, projections : LinearSeq[(String, String)]) {
+    def setProjections(movieId : JLong, projections : Seq[MovieProjection]) {
         val db = getDatabase;
         val projection = new ContentValues;
 
         db.delete("tc_projection", "movie_id = ?",
                   Array(movieId.toString));
 
-        for ((theater, hours) <- projections) {
+        for (MovieProjection(theater, hours) <- projections) {
             projection.put("movie_id", movieId);
             projection.put("theater", theater);
             projection.put("times", hours);
