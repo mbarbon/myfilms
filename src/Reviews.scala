@@ -12,7 +12,7 @@ import _root_.java.lang.{Long => JLong};
 import scrape.FilmUp;
 
 class MyReview extends Activity with ActivityHelper {
-    import ActivityHelper._
+    import helpers._
 
     var movieId : JLong = -1;
 
@@ -97,7 +97,7 @@ class MyReview extends Activity with ActivityHelper {
 }
 
 class SearchReviews extends ListActivity with ActivityHelper {
-    import ActivityHelper._
+    import helpers._
 
     type Item = (String, String);
 
