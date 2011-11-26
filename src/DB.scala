@@ -1,12 +1,8 @@
 package org.barbon.myfilms;
 
-import _root_.android.content.Context;
-import _root_.android.content.ContentValues;
-
+import _root_.android.content.{Context, ContentValues};
 import _root_.android.database.Cursor;
-
-import _root_.android.database.sqlite.SQLiteDatabase;
-import _root_.android.database.sqlite.SQLiteOpenHelper;
+import _root_.android.database.sqlite.{SQLiteDatabase, SQLiteOpenHelper};
 
 import _root_.java.lang.{Long => JLong};
 
@@ -60,6 +56,8 @@ object Movies {
     val MOVIE_TITLE = "title";
     val PROJECTION_THEATER = "theater";
     val PROJECTION_HOURS = "times";
+    val FILMUP_CARD_URL = "url";
+    val FILMUP_REVIEW_URL = "review_url";
 
     // singleton handling
 
@@ -80,6 +78,23 @@ class Movies (context : Context, name : String) {
 
     private def getDatabase() : SQLiteDatabase =
         openHelper.getWritableDatabase;
+
+    def getMovie(movieId : JLong) : ContentValues = {
+        val db = getDatabase;
+        val cursor = db.rawQuery("SELECT url, title FROM movie WHERE id = ?",
+                                 Array(movieId.toString));
+
+        if (!cursor.moveToNext)
+            return null;
+
+        val values = new ContentValues;
+
+        values.put("id", movieId);
+        values.put("url", cursor.getString(0));
+        values.put("title", cursor.getString(1));
+
+        return values;
+    }
 
     def getOrCreateMovie(title : String, url : String) : JLong = {
         val db = getDatabase;
@@ -136,6 +151,46 @@ class Movies (context : Context, name : String) {
         db.delete("tc_projection", null, null);
     }
 
+    def setFilmUpCardUrl(movieId : JLong, cardUrl : String) {
+        val db = getDatabase;
+        val card = new ContentValues;
+
+        db.delete("fu_card", "movie_id = ?",
+                  Array(movieId.toString));
+
+        card.put("url", cardUrl);
+        card.put("movie_id", movieId);
+
+        db.insert("fu_card", null, card);
+    }
+
+    def setFilmUpReviewUrl(movieId : JLong, reviewUrl : String) {
+        val db = getDatabase;
+        val review = new ContentValues;
+
+        review.put("review_url", reviewUrl);
+
+        db.update("fu_card", review, "movie_id = ?",
+                  Array(movieId.toString));
+    }
+
+    def setFilmUpReview(movieId : JLong, reviewText : String) {
+        val db = getDatabase;
+
+        db.delete("fu_review", "movie_id = ?",
+                  Array(movieId.toString));
+
+        if (reviewText == null)
+            return;
+
+        val review = new ContentValues;
+
+        review.put("text", reviewText);
+        review.put("movie_id", movieId);
+
+        db.insert("fu_review", null, review);
+    }
+
     def getMovies() : Cursor = {
         val db = getDatabase;
 
@@ -150,6 +205,46 @@ class Movies (context : Context, name : String) {
             "    FROM tc_projection" +
             "    WHERE movie_id = ?",
             Array(movieId.toString));
+    }
+
+
+    def getFilmUpReview(movieId : JLong) : String = {
+        val db = getDatabase;
+        val cursor = db.rawQuery(
+            "SELECT id AS _id, text" +
+            "    FROM fu_review" +
+            "    WHERE movie_id = ?",
+            Array(movieId.toString));
+        var review : String = null;
+
+        if (cursor.moveToNext)
+            review = cursor.getString(1);
+
+        cursor.close;
+
+        return if (review == "") null else review;
+    }
+
+    def getFilmUpCard(movieId : JLong) : ContentValues = {
+        val db = getDatabase;
+        val cursor = db.rawQuery(
+            "SELECT id AS _id, url, review_url" +
+            "    FROM fu_card" +
+            "    WHERE movie_id = ?",
+            Array(movieId.toString));
+        var card : ContentValues = null;
+
+        if (cursor.moveToNext) {
+            card = new ContentValues;
+
+            card.put("movie_id", movieId);
+            card.put("url", cursor.getString(1));
+            card.put("review_url", cursor.getString(2));
+        }
+
+        cursor.close;
+
+        return card;
     }
 
     private class MoviesOpenHelper(context : Context, name : String)

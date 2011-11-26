@@ -5,17 +5,18 @@ import _root_.android.net.http.AndroidHttpClient;
 import _root_.java.io.{InputStream, ByteArrayInputStream,
                        ByteArrayOutputStream}
 import _root_.java.lang.{Boolean => JBoolean, Long => JLong};
+import _root_.java.net.URLEncoder;
+import _root_.java.util.regex.Pattern;
 
 import _root_.org.apache.http.util.EntityUtils;
 import _root_.org.apache.http.client.methods.HttpGet;
 
 import _root_.org.jsoup.Jsoup;
-import _root_.org.jsoup.nodes.Document;
+import _root_.org.jsoup.nodes.{Document, Element};
 
 import org.barbon.myfilms.Movies;
 
-import scala.collection.mutable.MutableList;
-
+import scala.collection.mutable.{MutableList, ArrayBuffer};
 import scala.collection.JavaConversions._;
 
 abstract class ScraperTask extends ScraperTaskHelper {
@@ -133,6 +134,143 @@ class ListFetchTask(private val callback : ScraperTask#CompletionCallback,
     }
 }
 
+class SearchTask(private val callback : ScraperTask#SearchCallback)
+        extends ScraperTask {
+    val cards = new ArrayBuffer[(String, String)](0);
+
+    protected override def doInBackground(url : String) : JBoolean = {
+        try {
+            return getMovieList(url);
+        } catch {
+            case e => {
+                e.printStackTrace;
+
+                return false;
+            }
+        }
+    }
+
+    private def getMovieList(url : String) : Boolean = {
+        val (baseUrl, encoding, doc) = downloadUrl(url);
+
+        if (doc == null)
+            return false;
+
+        val pattern = Pattern.compile("^.*\\sscheda:\\s+(.*?)\\s*$",
+                                      Pattern.CASE_INSENSITIVE);
+
+        for (item <- doc.select("dl dt a.filmup")) {
+            val url = item.attr("abs:href");
+            val matcher = pattern.matcher(item.text);
+
+            if (matcher.matches)
+                cards += ((matcher.group(1), url));
+        }
+
+        return true;
+    }
+
+    protected override def onPostExecute(res : JBoolean) {
+        if (callback != null)
+            callback(res == true, cards);
+    }
+}
+
+class CardTask(private val callback : ScraperTask#CompletionCallback,
+               private val movies : Movies,
+               private val movieId : JLong)
+        extends ScraperTask {
+    protected override def doInBackground(url : String) : JBoolean = {
+        try {
+            return getCardData(url);
+        } catch {
+            case e => {
+                e.printStackTrace;
+
+                return false;
+            }
+        }
+    }
+
+    private def getCardData(url : String) : Boolean = {
+        val (baseUrl, encoding, doc) = downloadUrl(url);
+
+        if (doc == null)
+            return false;
+
+        val reviewUrl = doc.select("a.filmup:matchesOwn(^Recensione$)") match {
+            case null => null;
+            case link => link.attr("abs:href");
+        }
+
+        movies.setFilmUpReviewUrl(movieId, reviewUrl);
+
+        return reviewUrl != null;
+    }
+
+    protected override def onPostExecute(res : JBoolean) {
+        if (callback != null)
+            callback(res == true);
+    }
+}
+
+class ReviewTask(private val callback : ScraperTask#CompletionCallback,
+                 private val movies : Movies,
+                 private val movieId : JLong)
+        extends ScraperTask {
+    protected override def doInBackground(url : String) : JBoolean = {
+        try {
+            return getReviewData(url);
+        } catch {
+            case e => {
+                e.printStackTrace;
+
+                return false;
+            }
+        }
+    }
+
+    private def getReviewData(url : String) : Boolean = {
+        val (baseUrl, encoding, doc) = downloadUrl(url);
+
+        if (doc == null)
+            return false;
+
+        val review = doc.select("td font[size=2]").first match {
+            case null => null;
+            case font => cleanupReview(font);
+        }
+
+        movies.setFilmUpReview(movieId, review);
+
+        return review != null;
+    }
+
+    private def cleanupReview(html : Element) : String = {
+        for (node <- html.select("a.filmup, a.filmup ~ *"))
+            node.remove;
+
+        val matcher = Pattern.compile("[\u007f-\uffff]").matcher(html.html);
+        val res = new StringBuffer;
+
+        while (matcher.find) {
+            val char = matcher.group(0)(0);
+            val hex = char toHexString;
+
+            matcher.appendReplacement(res, "&#x" + hex + ";");
+        }
+
+        matcher.appendTail(res);
+
+        return res.toString;
+    }
+
+    protected override def onPostExecute(res : JBoolean) {
+        if (callback != null)
+            callback(res == true);
+    }
+}
+
 object Trovacinema {
     val URL : String = "http://trovacinema.repubblica.it/" +
         "programmazione-cinema/citta/firenze/fi/film";
@@ -143,5 +281,44 @@ class Trovacinema(private val movies : Movies) {
         val task = new ListFetchTask(callback, movies);
 
         task.execute(Trovacinema.URL);
+    }
+}
+
+object FilmUp {
+    val URL : String = "http://filmup.leonardo.it/cgi-bin/search.cgi"
+    val SearchParams : String = "?ps=10&fmt=long&ul=%25%2Fsc_%25&x=29&y=6&m=all&wf=0020&wm=sub&sy=0";
+}
+
+class FilmUp(private val movies : Movies) {
+    // public interface
+
+    def search(title : String, callback : ScraperTask#SearchCallback) {
+        val task = new SearchTask(callback);
+
+        task.execute(searchUrl(title));
+    }
+
+    def loadCard(movieId : JLong, callback : ScraperTask#CompletionCallback) {
+        val task = new CardTask(callback, movies, movieId);
+        val url = movies.getFilmUpCard(movieId)
+                      .getAsString(Movies.FILMUP_CARD_URL);
+
+        task.execute(url);
+    }
+
+    def loadReview(movieId : JLong, callback : ScraperTask#CompletionCallback) {
+        val task = new ReviewTask(callback, movies, movieId);
+        val url = movies.getFilmUpCard(movieId)
+                      .getAsString(Movies.FILMUP_REVIEW_URL);
+
+        task.execute(url);
+    }
+
+    // implementation
+
+    private def searchUrl(title : String) : String = {
+        val url = FilmUp.URL + FilmUp.SearchParams + "&q=" + URLEncoder.encode(title, "UTF-8");
+
+        return url;
     }
 }

@@ -1,18 +1,10 @@
 package org.barbon.myfilms;
 
 import _root_.android.app.ListActivity;
-
 import _root_.android.content.Intent;
-
 import _root_.android.os.Bundle;
-
-import _root_.android.view.Menu;
-import _root_.android.view.MenuItem;
-import _root_.android.view.View;
-
-import _root_.android.widget.ListView;
-import _root_.android.widget.SimpleCursorAdapter;
-import _root_.android.widget.Toast;
+import _root_.android.view.{Menu, MenuItem, View};
+import _root_.android.widget.{ListView, SimpleCursorAdapter, Toast};
 
 import scrape.Trovacinema;
 
