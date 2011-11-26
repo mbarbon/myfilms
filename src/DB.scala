@@ -41,6 +41,7 @@ object Movies {
             id INTEGER PRIMARY KEY,
             movie_id INTEGER NOT NULL,
             url TEXT NOT NULL,
+            review_url TEXT,
             FOREIGN KEY (movie_id) REFERENCES movie(id)
                 ON DELETE CASCADE
         )
@@ -50,6 +51,7 @@ object Movies {
         CREATE TABLE fu_review (
             id INTEGER PRIMARY KEY,
             movie_id INTEGER NOT NULL,
+            text TEXT NOT NULL,
             FOREIGN KEY (movie_id) REFERENCES movie(id)
                 ON DELETE CASCADE
         )
