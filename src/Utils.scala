@@ -16,12 +16,7 @@ trait ActivityHelper { self : Activity =>
     def findView[T <: View](id : Int) : T =
         self.findViewById(id).asInstanceOf[T];
 
-    def findButton(id : Int) =
-        findView[Button](id);
-
-    def findTextView(id : Int) =
-        findView[TextView](id);
-
-    def findEditText(id : Int) =
-        findView[EditText](id);
+    def findButton(id : Int) = findView[Button](id);
+    def findTextView(id : Int) = findView[TextView](id);
+    def findEditText(id : Int) = findView[EditText](id);
 }
