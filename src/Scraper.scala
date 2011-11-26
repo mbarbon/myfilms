@@ -18,8 +18,7 @@ import scala.collection.mutable.MutableList;
 
 import scala.collection.JavaConversions._;
 
-abstract class ScraperTask(val callback : ScraperTask#CompletionCallback)
-        extends ScraperTaskHelper {
+abstract class ScraperTask extends ScraperTaskHelper {
     type CompletionCallback = Boolean => Unit;
 
     protected def downloadUrl(url : String) : (String, String, String) = {
@@ -77,16 +76,11 @@ abstract class ScraperTask(val callback : ScraperTask#CompletionCallback)
 
         return (url, encoding, out.toString(encoding));
     }
-
-    protected override def onPostExecute(res : JBoolean) {
-        if (callback != null)
-            callback(res == true);
-    }
 }
 
-class ListFetchTask(callback : ScraperTask#CompletionCallback,
+class ListFetchTask(private val callback : ScraperTask#CompletionCallback,
                     private val movies : Movies)
-        extends ScraperTask(callback) {
+        extends ScraperTask {
     protected override def doInBackground(url : String) : JBoolean = {
         try {
             return updateMovieList(url);
@@ -129,6 +123,11 @@ class ListFetchTask(callback : ScraperTask#CompletionCallback,
         }
 
         return true;
+    }
+
+    protected override def onPostExecute(res : JBoolean) {
+        if (callback != null)
+            callback(res == true);
     }
 }
 
