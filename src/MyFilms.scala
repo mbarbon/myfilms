@@ -82,7 +82,7 @@ class MyFilms extends ListActivity {
     // implementation
 
     private def movieListUpdated(success : Boolean) {
-        var id = if (success)
+        val id = if (success)
                      R.string.update_film_list_success
                  else
                      R.string.update_film_list_failure;

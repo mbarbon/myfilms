@@ -106,17 +106,17 @@ class ListFetchTask(private val callback : ScraperTask#CompletionCallback,
         movies.deleteProjections;
 
         for (movie <- doc.select("div.searchRes-group")) {
-            var link = movie.select("a.filmName").first;
+            val link = movie.select("a.filmName").first;
 
             if (link != null) {
-                var title = link.text;
-                var url = link.attr("abs:href");
-                var movieId = movies.getOrCreateMovie(title, url);
-                var projections = new MutableList[(String, String)];
+                val title = link.text;
+                val url = link.attr("abs:href");
+                val movieId = movies.getOrCreateMovie(title, url);
+                val projections = new MutableList[(String, String)];
 
                 for (projection <- movie.select("div.resultLineFilm")) {
-                    var theater = projection.select("p.cineName").first.text;
-                    var hours = projection.select("span.res-hours").first.text;
+                    val theater = projection.select("p.cineName").first.text;
+                    val hours = projection.select("span.res-hours").first.text;
                     projections += ((theater, hours));
                 }
 
@@ -140,7 +140,7 @@ object Trovacinema {
 
 class Trovacinema(private val movies : Movies) {
     def fetchList(callback : ScraperTask#CompletionCallback) {
-        var task = new ListFetchTask(callback, movies);
+        val task = new ListFetchTask(callback, movies);
 
         task.execute(Trovacinema.URL);
     }
