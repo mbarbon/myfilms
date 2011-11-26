@@ -157,19 +157,21 @@ class SearchTask(private val callback : SearchTask#SearchCallback)
         if (doc == null)
             return false;
 
-        val pattern = Pattern.compile("^.*\\sscheda:\\s+(.*?)\\s*$",
-                                      Pattern.CASE_INSENSITIVE);
         val title = Pattern.compile("\\sscheda:\\s+(.*?)\\s*$",
                                     Pattern.CASE_INSENSITIVE);
         val year = Pattern.compile("anno:\\s+(\\d+)\\s+genere:",
                                    Pattern.CASE_INSENSITIVE);
 
-        for (item <- doc.select("dl dt a.filmup")) {
-            val url = item.attr("abs:href");
-            val matcher = pattern.matcher(item.text);
+        for (item <- doc.select("dl")) {
+            val link = item.select("dt a.filmup").first;
+            val details = item.select("dd table small").first;
+            val titleMatcher = title.matcher(link.text);
+            val yearMatcher = year.matcher(details.text);
 
-            if (matcher.matches)
-                cards += FilmUp.SearchItem(matcher.group(1), url);
+            if (titleMatcher.find && yearMatcher.find)
+                cards += FilmUp.SearchItem(titleMatcher.group(1),
+                                           link.attr("abs:href"),
+                                           yearMatcher.group(1));
         }
 
         return true;
@@ -293,7 +295,7 @@ object FilmUp {
     val URL : String = "http://filmup.leonardo.it/cgi-bin/search.cgi"
     val SearchParams : String = "?ps=10&fmt=long&ul=%25%2Fsc_%25&x=29&y=6&m=all&wf=0020&wm=sub&sy=0";
 
-    case class SearchItem(title : String, url : String);
+    case class SearchItem(title : String, url : String, year : String);
 }
 
 class FilmUp(private val movies : Movies) {

@@ -163,11 +163,13 @@ class SearchReviews extends ListActivity with ActivityHelper {
                 if (view == null) {
                     val inflater = getLayoutInflater;
 
-                    view = inflater.inflate(R.layout.movie_item, null);
+                    view = inflater.inflate(R.layout.movie_search_item, null);
                 }
 
                 view.findTextView(R.id.movie_title)
                     .setText(results(position).title);
+                view.findTextView(R.id.movie_year)
+                    .setText(results(position).year);
 
                 return view;
             }
