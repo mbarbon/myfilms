@@ -261,7 +261,7 @@ class ReviewTask(private val callback : ScraperTask#CompletionCallback,
         val res = new StringBuffer;
 
         while (matcher.find) {
-            val char = matcher.group(0)(0);
+            val char = matcher.group(0)(0) toInt;
             val hex = char toHexString;
 
             matcher.appendReplacement(res, "&#x" + hex + ";");
