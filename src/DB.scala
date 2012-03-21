@@ -196,7 +196,10 @@ class Movies (context : Context, name : String) {
     def getMovies() : Cursor = {
         val db = getDatabase;
 
-        return db.rawQuery("SELECT id AS _id, title, url FROM movie", null);
+        return db.rawQuery(
+            "SELECT id AS _id, title, url" +
+            "    FROM movie" +
+            "    WHERE has_projections = 1", null);
     }
 
     def getProjections(movieId : JLong) : Cursor = {
