@@ -293,7 +293,7 @@ class Trovacinema(private val movies : Movies) {
 
 object FilmUp {
     val URL : String = "http://filmup.leonardo.it/cgi-bin/search.cgi"
-    val SearchParams : String = "?ps=10&fmt=long&ul=%25%2Fsc_%25&x=29&y=6&m=all&wf=0020&wm=sub&sy=0";
+    val SearchParams : String = "?ps=10&fmt=long&ul=%25%2Fsc_%25&x=29&y=6&m=all&wf=0020&wm=wrd&sy=0";
 
     case class SearchItem(title : String, url : String, year : String);
 }
