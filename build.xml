@@ -87,6 +87,10 @@
         <path location="${scala.dir}/lib/scala-compiler.jar" />
     </path>
 
+    <path id="jar.libs.ref">
+        <fileset dir="${jar.libs.absolute.dir}" includes="*.jar" />
+    </path>
+
     <property name="scala.library.jars"
               location="${scala.dir}/lib/scala-library.jar" />
 
@@ -96,7 +100,7 @@
 
         <scalac force="false" deprecation="on"
                 srcdir="${source.absolute.dir}" includes="**/*.scala"
-                classpathref="android.target.classpath"
+                classpathref="project.target.class.path"
                 destdir="${out.classes.absolute.dir}">
             <classpath>
                 <path refid="scala.jars" />
@@ -114,10 +118,21 @@
         <xpath input="AndroidManifest.xml" expression="/manifest/@package"
                 output="manifest.package" />
 
+        <!-- Set the android classpath Path object into a single property. It'll be
+             all the jar files separated by a platform path-separator.
+             Each path must be quoted if it contains spaces.
+        -->
+        <pathconvert property="project.target.classpath.value" refid="project.target.class.path">
+            <firstmatchmapper>
+                <regexpmapper from='^([^ ]*)( .*)$$' to='"\1\2"'/>
+                <identitymapper/>
+            </firstmatchmapper>
+        </pathconvert>
+
         <proguard configuration="proguard.cfg">
             -injars ${out.classes.absolute.dir}:${scala.library.jars}(!META-INF/MANIFEST.MF,!library.properties)
             -outjars ${out.absolute.dir}/classes.min.jar
-            -libraryjars ${android.jar}:${jar.libs.absolute.dir}
+            -libraryjars ${project.target.classpath.value}:${jar.libs.absolute.dir}
             -dontnote
             -dontwarn
             -dontoptimize
