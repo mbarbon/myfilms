@@ -9,7 +9,7 @@ import _root_.java.lang.{Long => JLong};
 import scala.collection.LinearSeq;
 
 object Movies {
-    val VERSION : Int = 1;
+    val VERSION : Int = 2;
 
     val CREATE_MOVIES_TABLE : String = """
         CREATE TABLE movie (
@@ -17,6 +17,7 @@ object Movies {
             title TEXT NOT NULL,
             url TEXT NOT NULL,
             has_projections INTEGER NOT NULL,
+            hidden INTEGER NOT NULL,
             UNIQUE (url)
         )
     """;
@@ -83,7 +84,8 @@ class Movies (context : Context, name : String) {
 
     def getMovie(movieId : JLong) : ContentValues = {
         val db = getDatabase;
-        val cursor = db.rawQuery("SELECT url, title FROM movie WHERE id = ?",
+        val cursor = db.rawQuery("SELECT url, title, hidden" +
+                                 "    FROM movie WHERE id = ?",
                                  Array(movieId.toString));
 
         if (!cursor.moveToNext)
@@ -94,6 +96,7 @@ class Movies (context : Context, name : String) {
         values.put("id", movieId);
         values.put("url", cursor.getString(0));
         values.put("title", cursor.getString(1));
+        values.put("hidden", cursor.getInt(2) != 0);
 
         return values;
     }
@@ -197,9 +200,10 @@ class Movies (context : Context, name : String) {
         val db = getDatabase;
 
         return db.rawQuery(
-            "SELECT id AS _id, title, url" +
+            "SELECT id AS _id, title, url, hidden" +
             "    FROM movie" +
-            "    WHERE has_projections = 1", null);
+            "    WHERE has_projections = 1" +
+            "    ORDER BY hidden ASC", null);
     }
 
     def getProjections(movieId : JLong) : Cursor = {
@@ -270,7 +274,21 @@ class Movies (context : Context, name : String) {
         }
 
         override def onUpgrade(db : SQLiteDatabase, from : Int, to : Int) {
-            throw new _root_.java.lang.UnsupportedOperationException;
+            if (from < 2 && 2 <= to)
+                upgrade1To2(db);
+        }
+
+        private def upgrade1To2(db : SQLiteDatabase) {
+            db.beginTransaction();
+
+            try {
+                db.execSQL(
+                    "ALTER TABLE movie" +
+                    "    ADD COLUMN hidden INTEGER NOT NULL DEFAULT 0");
+                db.setTransactionSuccessful();
+            } finally {
+                db.endTransaction();
+            }
         }
     }
 }
