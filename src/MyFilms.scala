@@ -1,12 +1,39 @@
 package org.barbon.myfilms;
 
 import _root_.android.app.ListActivity;
-import _root_.android.content.Intent;
+import _root_.android.database.Cursor;
+import _root_.android.content.{Context, Intent};
 import _root_.android.os.Bundle;
-import _root_.android.view.{Menu, MenuItem, View};
+import _root_.android.view.{LayoutInflater, Menu, MenuItem, View, ViewGroup};
 import _root_.android.widget.{ListView, SimpleCursorAdapter, Toast};
 
 import scrape.Trovacinema;
+
+class MyFilmsCursorAdapter(context : Context, layout : Int, c : Cursor,
+                           from : Array[String], to : Array[Int])
+        extends SimpleCursorAdapter(context, layout, c, from, to) {
+    val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE).asInstanceOf[LayoutInflater];
+
+    override def getItemViewType(position : Int) : Int = {
+        val item = getItem(position).asInstanceOf[Cursor];
+        println("getItemViewType", position, item.getInt(3) == 0);
+        return if (item.getInt(3) == 0) 0 else 1;
+    }
+
+    override def newView(context : Context, cursor : Cursor, parent : ViewGroup) : View = {
+        val layout = if (cursor.getInt(3) == 0)
+                         R.layout.movie_item
+                     else
+                         R.layout.movie_item_hidden;
+        println("newView", layout);
+        return inflater.inflate(layout, parent, false);
+    }
+
+    override def getViewTypeCount() : Int = {
+        println("getViewTypeCount");
+        return 2;
+    }
+}
 
 class MyFilms extends ListActivity {
     var trovacinema : Trovacinema = null;
@@ -21,7 +48,7 @@ class MyFilms extends ListActivity {
         movies = Movies.getInstance(this);
         trovacinema = new Trovacinema(movies);
 
-        adapter = new SimpleCursorAdapter(
+        adapter = new MyFilmsCursorAdapter(
             this, R.layout.movie_item, null,
             Array(Movies.MOVIE_TITLE),
             Array(R.id.movie_title));
