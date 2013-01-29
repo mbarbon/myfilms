@@ -115,9 +115,11 @@ class ListFetchTask(private val callback : ScraperTask#CompletionCallback,
                 val projections = new MutableList[MovieProjection];
 
                 for (projection <- movie.select("div.resultLineFilm")) {
-                    val theater = projection.select("p.cineName").first.text;
-                    val hours = projection.select("span.res-hours").first.text;
-                    projections += MovieProjection(theater, hours);
+                    val theater = projection.select("p.cineName").first;
+                    val hours = projection.select("span.res-hours").first;
+
+                    if (theater != null && hours != null)
+                        projections += MovieProjection(theater.text, hours.text);
                 }
 
                 movies.setProjections(movieId, projections);
