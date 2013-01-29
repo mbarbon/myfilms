@@ -124,6 +124,16 @@ class Movies (context : Context, name : String) {
         return id;
     }
 
+    def setMovieHidden(movieId : JLong, hidden : Boolean) {
+        val db = getDatabase;
+        val movie = new ContentValues;
+
+        movie.put("hidden", hidden);
+
+        db.update("movie", movie, "id = ?",
+                  Array(movieId.toString));
+    }
+
     def setProjections(movieId : JLong, projections : Seq[MovieProjection]) {
         val db = getDatabase;
         val projection = new ContentValues;

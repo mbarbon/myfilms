@@ -10,8 +10,10 @@
     <string name="update_film_list_failure">Update failed</string>
 
     <!-- movie details -->
-    <string name="display_review">Display review</string>
+    <string name="display_review">Review</string>
 
     <!-- search review -->
     <string name="search_review">Search</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
 </resources>

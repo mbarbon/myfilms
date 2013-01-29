@@ -8,12 +8,33 @@
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       >
-    <Button
-        android:id="@+id/display_review"
-        android:layout_height="wrap_content"
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:text="@string/display_review"
-        />
+        android:layout_height="wrap_content"
+      >
+      <Button
+          android:id="@+id/display_review"
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:layout_weight="1.0"
+          android:text="@string/display_review"
+          />
+      <Button
+          android:id="@+id/hide"
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:layout_weight="1.0"
+          android:text="@string/hide"
+          />
+      <Button
+          android:id="@+id/show"
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:layout_weight="1.0"
+          android:text="@string/show"
+          />
+    </LinearLayout>
     <ListView
         android:id="@android:id/list"
         android:layout_width="match_parent"
