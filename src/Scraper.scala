@@ -251,31 +251,12 @@ class ReviewTask(private val callback : ScraperTask#CompletionCallback,
 
         val review = doc.select("td font[size=2]").first match {
             case null => null;
-            case font => cleanupReview(font);
+            case font => FilmUp.cleanupHtml(font);
         }
 
         movies.setFilmUpReview(movieId, review);
 
         return review != null;
-    }
-
-    private def cleanupReview(html : Element) : String = {
-        for (node <- html.select("a.filmup, a.filmup ~ *"))
-            node.remove;
-
-        val matcher = Pattern.compile("[\u007f-\uffff]").matcher(html.html);
-        val res = new StringBuffer;
-
-        while (matcher.find) {
-            val char = matcher.group(0)(0) toInt;
-            val hex = char toHexString;
-
-            matcher.appendReplacement(res, "&#x" + hex + ";");
-        }
-
-        matcher.appendTail(res);
-
-        return res.toString;
     }
 
     protected override def onPostExecute(res : JBoolean) {
@@ -302,6 +283,25 @@ object FilmUp {
     val SearchParams : String = "?ps=10&fmt=long&ul=%25%2Fsc_%25&x=29&y=6&m=all&wf=0020&wm=wrd&sy=0";
 
     case class SearchItem(title : String, url : String, year : String);
+
+    def cleanupHtml(html : Element) : String = {
+        for (node <- html.select("a.filmup, a.filmup ~ *"))
+            node.remove;
+
+        val matcher = Pattern.compile("[\u007f-\uffff]").matcher(html.html);
+        val res = new StringBuffer;
+
+        while (matcher.find) {
+            val char = matcher.group(0)(0) toInt;
+            val hex = char toHexString;
+
+            matcher.appendReplacement(res, "&#x" + hex + ";");
+        }
+
+        matcher.appendTail(res);
+
+        return res.toString;
+    }
 }
 
 class FilmUp(private val movies : Movies) {
