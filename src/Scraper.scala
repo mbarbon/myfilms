@@ -22,7 +22,8 @@ import scala.collection.JavaConversions._;
 abstract class ScraperTask extends ScraperTaskHelper {
     type CompletionCallback = Boolean => Unit;
 
-    protected def downloadUrl(url : String) : (String, String, Document) = {
+    protected def downloadUrl(url : String, defaultEncoding : String = null)
+            : (String, String, Document) = {
         val client = AndroidHttpClient.newInstance("MyFilms/1.0");
         var encoding : String = null;
         var totalSize : Long = 0;
@@ -34,7 +35,10 @@ abstract class ScraperTask extends ScraperTaskHelper {
 
             content = entity.getContent;
             totalSize = entity.getContentLength;
-            encoding = EntityUtils.getContentCharSet(entity);
+            encoding = EntityUtils.getContentCharSet(entity) match {
+                case null => defaultEncoding
+                case e    => e
+            };
 
             // TODO handle redirects
             // http://stackoverflow.com/questions/1456987/httpclient-4-how-to-capture-last-redirect-url/1457173#1457173
@@ -202,7 +206,7 @@ class CardTask(private val callback : ScraperTask#CompletionCallback,
     }
 
     private def getCardData(url : String) : Boolean = {
-        val (baseUrl, encoding, doc) = downloadUrl(url);
+        val (baseUrl, encoding, doc) = downloadUrl(url, "ISO-8859-1");
 
         if (doc == null)
             return false;
