@@ -113,6 +113,7 @@ class Movies (context : Context, name : String) {
             values.put("title", title);
             values.put("url", url);
             values.put("has_projections", false);
+            values.put("hidden", false);
 
             id = db.insert("movie", null, values);
         }
