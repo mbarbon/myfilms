@@ -32,6 +32,7 @@ class MyProjections extends ListActivity with ActivityHelper {
         var movie = movies.getMovie(movieId);
 
         findButton(R.id.display_review).setOnClickListener(showReview _);
+        findButton(R.id.display_plot).setOnClickListener(showPlot _);
         findButton(R.id.hide).setOnClickListener(hideMovie _);
         findButton(R.id.show).setOnClickListener(showMovie _);
 
@@ -58,6 +59,14 @@ class MyProjections extends ListActivity with ActivityHelper {
 
     private def showReview() {
         val intent = new Intent(this, classOf[MyReview]);
+
+        intent.putExtra("movieId", movieId);
+
+        startActivity(intent);
+    }
+
+    private def showPlot() {
+        val intent = new Intent(this, classOf[MyPlot]);
 
         intent.putExtra("movieId", movieId);
 

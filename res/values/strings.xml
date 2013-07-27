@@ -11,6 +11,7 @@
 
     <!-- movie details -->
     <string name="display_review">Review</string>
+    <string name="display_plot">Plot</string>
 
     <!-- search review -->
     <string name="search_review">Search</string>

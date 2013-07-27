@@ -9,7 +9,7 @@ import _root_.java.lang.{Long => JLong};
 import scala.collection.LinearSeq;
 
 object Movies {
-    val VERSION : Int = 2;
+    val VERSION : Int = 3;
 
     val CREATE_MOVIES_TABLE : String = """
         CREATE TABLE movie (
@@ -39,6 +39,7 @@ object Movies {
             movie_id INTEGER NOT NULL,
             url TEXT NOT NULL,
             review_url TEXT,
+            plot TEXT,
             FOREIGN KEY (movie_id) REFERENCES movie(id)
                 ON DELETE CASCADE
         )
@@ -190,6 +191,16 @@ class Movies (context : Context, name : String) {
                   Array(movieId.toString));
     }
 
+    def setFilmUpPlot(movieId : JLong, plotText : String) {
+        val db = getDatabase;
+        val plot = new ContentValues;
+
+        plot.put("plot", plotText);
+
+        db.update("fu_card", plot, "movie_id = ?",
+                  Array(movieId.toString));
+    }
+
     def setFilmUpReview(movieId : JLong, reviewText : String) {
         val db = getDatabase;
 
@@ -248,7 +259,7 @@ class Movies (context : Context, name : String) {
     def getFilmUpCard(movieId : JLong) : ContentValues = {
         val db = getDatabase;
         val cursor = db.rawQuery(
-            "SELECT id AS _id, url, review_url" +
+            "SELECT id AS _id, url, review_url, plot" +
             "    FROM fu_card" +
             "    WHERE movie_id = ?",
             Array(movieId.toString));
@@ -260,6 +271,7 @@ class Movies (context : Context, name : String) {
             card.put("movie_id", movieId);
             card.put("url", cursor.getString(1));
             card.put("review_url", cursor.getString(2));
+            card.put("plot", cursor.getString(3));
         }
 
         cursor.close;
@@ -287,6 +299,8 @@ class Movies (context : Context, name : String) {
         override def onUpgrade(db : SQLiteDatabase, from : Int, to : Int) {
             if (from < 2 && 2 <= to)
                 upgrade1To2(db);
+            if (from < 3 && 3 <= to)
+                upgrade2To3(db);
         }
 
         private def upgrade1To2(db : SQLiteDatabase) {
@@ -296,6 +310,19 @@ class Movies (context : Context, name : String) {
                 db.execSQL(
                     "ALTER TABLE movie" +
                     "    ADD COLUMN hidden INTEGER NOT NULL DEFAULT 0");
+                db.setTransactionSuccessful();
+            } finally {
+                db.endTransaction();
+            }
+        }
+
+        private def upgrade2To3(db : SQLiteDatabase) {
+            db.beginTransaction();
+
+            try {
+                db.execSQL(
+                    "ALTER TABLE fu_card" +
+                    "    ADD COLUMN plot TEXT");
                 db.setTransactionSuccessful();
             } finally {
                 db.endTransaction();

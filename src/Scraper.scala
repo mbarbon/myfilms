@@ -205,6 +205,18 @@ class CardTask(private val callback : ScraperTask#CompletionCallback,
         }
     }
 
+    private def findPlot(doc : Document) : String = {
+        for (block <- doc.select("font[size=2]")) {
+            if (block.text.startsWith("Trama:")) {
+                val text = FilmUp.cleanupHtml(block);
+
+                return text.substring(text.indexOf(">") + 1);
+            }
+        }
+
+        return "";
+    }
+
     private def getCardData(url : String) : Boolean = {
         val (baseUrl, encoding, doc) = downloadUrl(url, "ISO-8859-1");
 
@@ -217,6 +229,7 @@ class CardTask(private val callback : ScraperTask#CompletionCallback,
         }
 
         movies.setFilmUpReviewUrl(movieId, reviewUrl);
+        movies.setFilmUpPlot(movieId, findPlot(doc));
 
         return reviewUrl != null;
     }

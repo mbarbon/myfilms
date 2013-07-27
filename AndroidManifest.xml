@@ -20,5 +20,9 @@
               android:label="@string/app_name" />
     <activity android:name=".SearchReviews"
               android:label="@string/app_name" />
+    <activity android:name=".MyPlot"
+              android:label="@string/app_name" />
+    <activity android:name=".SearchPlots"
+              android:label="@string/app_name" />
   </application>
 </manifest>
