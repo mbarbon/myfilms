@@ -85,6 +85,7 @@
     <path id="scala.jars">
         <path location="${scala.dir}/lib/scala-library.jar" />
         <path location="${scala.dir}/lib/scala-compiler.jar" />
+        <path location="${scala.dir}/lib/scala-reflect.jar" />
     </path>
 
     <path id="jar.libs.ref">

@@ -39,7 +39,7 @@ abstract class ScraperTask extends ScraperTaskHelper {
             // TODO handle redirects
             // http://stackoverflow.com/questions/1456987/httpclient-4-how-to-capture-last-redirect-url/1457173#1457173
         } catch {
-            case e => {
+            case e : Throwable => {
                 e.printStackTrace;
                 client.close;
 
@@ -65,7 +65,7 @@ abstract class ScraperTask extends ScraperTaskHelper {
                 return (null, null, null);
         }
         catch {
-            case e => {
+            case e : Throwable => {
                 e.printStackTrace;
 
                 return (null, null, null);
@@ -89,7 +89,7 @@ class ListFetchTask(private val callback : ScraperTask#CompletionCallback,
         try {
             return updateMovieList(url);
         } catch {
-            case e => {
+            case e : Throwable => {
                 e.printStackTrace;
 
                 return false;
@@ -145,7 +145,7 @@ class SearchTask(private val callback : SearchTask#SearchCallback)
         try {
             return getMovieList(url);
         } catch {
-            case e => {
+            case e : Throwable => {
                 e.printStackTrace;
 
                 return false;
@@ -193,7 +193,7 @@ class CardTask(private val callback : ScraperTask#CompletionCallback,
         try {
             return getCardData(url);
         } catch {
-            case e => {
+            case e : Throwable => {
                 e.printStackTrace;
 
                 return false;
@@ -231,7 +231,7 @@ class ReviewTask(private val callback : ScraperTask#CompletionCallback,
         try {
             return getReviewData(url);
         } catch {
-            case e => {
+            case e : Throwable => {
                 e.printStackTrace;
 
                 return false;
